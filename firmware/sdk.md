@@ -4,5 +4,5 @@ About SDK
 
 
 
-![](../.gitbook/assets/icon-sdk.png)
+![](icon-sdk.png)
 
