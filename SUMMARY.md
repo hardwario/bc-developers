@@ -2,13 +2,14 @@
 
 * [Introduction](README.md)
 
-## Hardware
-
-* [Overview](hardware/overview.md)
-
 ## Firmware
 
 * [Overview](firmware/overview.md)
+* [SDK](firmware/sdk.md)
+
+## Hardware
+
+* [Overview](hardware/overview.md)
 
 ## Integrations
 
