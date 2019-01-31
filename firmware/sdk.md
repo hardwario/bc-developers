@@ -1,4 +1,6 @@
 # SDK
 
+Comment on logo
 
-![](sdk/bc-logo.png)
+![](../.gitbook/assets/bc-logo.png)
+
