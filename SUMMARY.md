@@ -5,7 +5,7 @@
 ## Firmware
 
 * [Overview](firmware/overview.md)
-* [SDK](firmware/sdk.md)
+* [SDK](firmware/sdk-experiment.md)
 
 ## Hardware
 
