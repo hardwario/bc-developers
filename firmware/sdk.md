@@ -4,5 +4,5 @@ About SDK
 
 
 
-![](icon-sdk.png)
+![](sdk/icon-sdk.png)
 
