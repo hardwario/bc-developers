@@ -14,11 +14,11 @@ BigClown is not just about the hardware but it comes with full documentation, tu
 * Write us an email to [support@bigclown.com](mailto:support@bigclown.com)
 * Use forum at [https://forum.bigclown.com/](https://forum.bigclown.com/)
 
-## Be Inspired
+### Be Inspired
 
 It's always hard to build something without an inspiration. We motivate our makers to share their work with others and you can get ideas for your projects by [subscribing to our Clownsletter](http://eepurl.com/drGLGf).
 
-## Get Ready
+### Get Ready
 
 In our world it means to prepare a center of your IoT system - the Hub. In QUICK START GUIDE we will use your computer as a Hub. Just follow these steps:
 
@@ -68,7 +68,7 @@ If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](
 In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub)or just plug our Radio Dongle to [Raspberry Pi](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) or [any server](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian).
 {% endhint %}
 
-## Build devices
+### Build devices
 
 By building devices we mean putting modules and enclosure together, optionally flashing a new firmware and pairing devices with a Radio Dongle.
 
