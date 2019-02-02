@@ -1,6 +1,0 @@
-# SDK
-
-Comment on logo
-
-
-

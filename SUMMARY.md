@@ -5,7 +5,6 @@
 ## Basics
 
 * [Quick Start Guide](basics/overview.md)
-* [SDK](basics/sdk-experiment.md)
 
 ## Hardware
 
