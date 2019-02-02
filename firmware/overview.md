@@ -51,6 +51,7 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
 {% endtab %}
 {% endtabs %}
 
+
 3. Run the **BigClown Playground**, go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
