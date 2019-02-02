@@ -4,7 +4,7 @@
 
 ## Basics
 
-* [Quick Start Guide](basics/overview.md)
+* [Quick Start Guide](basics/quick-start-guide.md)
 
 ## Hardware
 
