@@ -4,9 +4,8 @@
 
 ## Basics
 
-* [Quick Start Guide](firmware/overview.md)
-* [Quick Start Guide](firmware/quick-start-guide.md)
-* [SDK](firmware/sdk-experiment.md)
+* [Quick Start Guide](basics/overview.md)
+* [SDK](basics/sdk-experiment.md)
 
 ## Hardware
 
