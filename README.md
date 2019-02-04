@@ -2,6 +2,10 @@
 
 Test 3
 
+<script>
+  document.write("Ahoj");
+</script>
+
 ```c
 int main
 ```
