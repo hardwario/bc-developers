@@ -140,11 +140,8 @@ Cannot find the Radio Dongle or Core Module in the device list
 * On Ubuntu you need to be in `dialout` user group. Please use command `sudo usermod -a -G dialout $USER` and restart computer
 * BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](https://www.bigclown.com/doc/hardware/core-module-1-and-2-comparison/)
 
-1. fsdfsdfsdf   
-
-   ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks%20%281%29.png)
-
+1. Něco:
+   1. ![](../.gitbook/assets/_basics_quick-start-guide_playground-topic.png) 
 2. sdfsdfsdf
-3. sdfsdfsdf
-4. sdfsdf
+3. sdfsdf
 
