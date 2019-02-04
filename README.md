@@ -2,11 +2,11 @@
 
 Test 3
 
-<script>
-  document.write("Ahoj");
-</script>
+  
+  document.write\("Ahoj"\);  
 
-Test <strong>HTML</strong>
+
+Test **HTML**
 
 ```c
 int main
@@ -36,7 +36,7 @@ int main
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -51,6 +51,4 @@ int main
 {% hint style="danger" %}
 adadasd
 {% endhint %}
-
-
 
