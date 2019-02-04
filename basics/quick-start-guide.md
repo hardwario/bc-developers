@@ -144,7 +144,7 @@ Cannot find the Radio Dongle or Core Module in the device list
 
 1. fgdfg  
 
-![](../.gitbook/assets/_basics_quick-start-guide_playground-topic.png)
+ ![](../.gitbook/assets/_basics_quick-start-guide_playground-topic.png)
 
 2. dfgdfgd
 3. fgdfg
