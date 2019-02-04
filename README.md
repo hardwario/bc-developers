@@ -6,6 +6,8 @@ Test 3
   document.write("Ahoj");
 </script>
 
+Test <strong>HTML</strong>
+
 ```c
 int main
 ```
