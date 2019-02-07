@@ -39,7 +39,7 @@ In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB 
 {% endtab %}
 
 {% tab title="macOS" %}
-[DMG](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-macos.dmg)
+* [DMG](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-macos.dmg)
 {% endtab %}
 
 {% tab title="Linux" %}
