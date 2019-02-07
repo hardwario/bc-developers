@@ -2,7 +2,7 @@
 
 {{< note "info" >}}
 You can follow this tutorial even without Raspberry Pi. You just have to install [**BigClown Playground**]({{< relref "/doc/basics/quick-start-guide.en.md" >}}) on your desktop. The Raspberry Pi approach is the easiest because you can download bc-rasbian image with pre-installed tools.
-{{< /note >}}
+{% endhint %}
 
 This document is a practical guide of using the **BigClown IoT Kit**. It will guide you how **Raspberry Pi** can read the temperature from **Core Module**, control the LED, measure the relative air humidity from **Humidity Tag**, control small electronic devices using **Relay Module**.
 
@@ -10,7 +10,7 @@ You will also be able to create a wireless network using **Radio Dongle**. Data 
 
 {{< note "info" >}}
 Do you have **Radio Dongle** and **wireless kit**? If you would like to start creating you wireless network, you can later jump directly to the [**Creation of the wireless network chapter**]({{< relref "#creation-of-the-wireless-network" >}}) when you get the basic knowledge of **Gateway**, **`bcf` firmware flashing tool** and **Node-RED** in the chapters below.
-{{< /note >}}
+{% endhint %}
 
 First we will demonstrate basic functionality without a wireless network. We use just a single **Core Module** connected to the **Raspberry Pi** by a USB cable.
 
@@ -53,7 +53,7 @@ You can also download the official **Raspbian** and install necessary packages y
 
 After the **Raspberry Pi** boots up you should be able to find it at address `hub.local`. You can try the command `ping hub.local` and see the response.
 
-{{< note "warning" >}}If the Raspberry Pi is not visible on the network, there's something wrong with your network setup or your system doesn't support **mDNS** and you have to find the IP address of the **Raspberry Pi** in your router's **DHCP** configuration or by using [**Fing**](https://www.fing.io/) which is a simple smartphone application.{{< /note >}}
+{{< note "warning" >}}If the Raspberry Pi is not visible on the network, there's something wrong with your network setup or your system doesn't support **mDNS** and you have to find the IP address of the **Raspberry Pi** in your router's **DHCP** configuration or by using [**Fing**](https://www.fing.io/) which is a simple smartphone application.{% endhint %}
 
 Please log on the Raspberry Pi shell by typing `ssh pi@hub.local` command or use the Windows program **PuTTY**.
 
@@ -104,7 +104,7 @@ After a while you should see a messages from the temperature sensor on the **Cor
 
 {{< note "info" >}}
 For battery saving reasons the temperature is only send when there's a change. For testing purporses it is appropriate make the temperature sensor cooler or warmer.
-{{< /note >}}
+{% endhint %}
 
 ```
 pi@hub:~ $ mosquitto_sub -t "#" -v
@@ -180,7 +180,7 @@ In the next opened dialog again click the pencil symbol at the **Add new ui_tab*
 
 {{< note "info" >}}
 For battery saving reasons the temperature is only send when there's a change. For testing purporses it is appropriate make the temperature sensor cooler or warmer.
-{{< /note >}}
+{% endhint %}
 
 Dashboard can be opened in the right **dashboard** tab by clicking on the arrow symbol or by typing the `hub.local:1880/ui` address to your browser.
 
@@ -200,7 +200,7 @@ Now we try to connect the relative humidity sensor to the **Core Module**. It's 
 
 {{< note "info" >}}
 This procedure can be used also for other conencted sensors or {{< shop "Climate Module" >}}. You only need to change **topic** to the MQTT broker you are subscribing to.
-{{< /note >}}
+{% endhint %}
 
 Then you can use debug nodes in **Node-RED** to get the right MQTT topic and copy and paste it to your new flow.
 
@@ -256,7 +256,7 @@ Connect the **Radio Dongle** to the **Raspberry Pi**. The **Radio Dongle** will 
 ```
 {{< note "info" >}}
 In case you get `Could not lock device /dev/ttyUSB0` error, that means that the `bcg` gateway service is running and uses the same virtual serial port. Yo need to stop bcg temporarily by `pm2 stop bcg-ud`, then do the `bcf flash` and start the service again by `pm2 restart bcg-ud`.
-{{< /note >}}
+{% endhint %}
 
 
 ## Conversion to the battery operated node
@@ -267,7 +267,7 @@ Place two AAA batteries to the {{< shop "Mini Battery Module" >}} and connect th
 
 {{< note "info" >}}
 **Core Module** contains active control circuit which selects the best power source available. So in case you use the **Battery Module** and at the same time you are flashing/debugging the **Core Module** by USB, then the whole is powered by USB to save the battery power.
-{{< /note >}}
+{% endhint %}
 
 
 ## Flashing the remote node
@@ -276,7 +276,7 @@ Upload the `bcf-generic-node` firmware to the remote node unit. This universal f
 
 {{< note "info" >}}
 For longest **battery life** of remote nodes it is best to use firmwares with the **kit** in the name. They are specially tuned for the longest battery life. You can list them with `bcf search kit` command.
-{{< /note >}}
+{% endhint %}
 
 {{% core-module-2 %}}
 
@@ -304,7 +304,7 @@ For **Radio Dongle** or **Core Module** you need to send start pairing MQTT mess
 You can [**import Node-RED pairing flows**](https://github.com/bigclownlabs/bch-gateway/blob/master/README.md#node-red-buttons) which send pairing and many more commands just by clicking the mouse.
 
 <img src="node-red-pairing-flow.png" style="max-width:50%;" />
-{{< /note >}}
+{% endhint %}
 
 In command line you enable pairing by commands below.
 
@@ -327,7 +327,7 @@ When the node is booting it sends pairing command. If you are subscribed to the 
 
 {{< note "info" >}}
 Older firmwares send remote pairing packet by long-press of `B` button. Current firmwares are sending remote pairing packet by **power cycling** or **reseting** the module.
-{{< /note >}}
+{% endhint %}
 
 Now it is possible to pair other **remote** nodes, by power cycling or reset of other **remote** nodes.
 
