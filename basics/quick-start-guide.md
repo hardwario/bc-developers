@@ -102,13 +102,13 @@ Now it's time to give your system a logic and connect it with desired platforms.
 
 In **QUICK START GUIDE** we will create a simple dashboard with a temperature gauge. Again, just follow these steps:
 
-### Messages
+### 1. Messages
 
 Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages%20%281%29.png)
 
-### Function
+### 2. Function
 
 Switch to the **Function** tab and from the color blocks on the left side drag and drop **mqtt** block and **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**. You can use the `filter nodes` text box to find the right block. Connect the two created nodes together.
 
@@ -120,7 +120,7 @@ Double click on the **gauge** node. Change **Label**, **Units** and **Range** to
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-topic.png)
 
-### Dashboard
+### 3. Dashboard
 
 Go to Playground's **Dashboard** tab and you should see a gauge with the temperature of the selected device. The temperature can take a while to appear. You can breathe on the module or reconnect batteries for immediate update.
 
