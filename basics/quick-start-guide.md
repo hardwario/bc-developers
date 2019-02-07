@@ -22,11 +22,11 @@ It's always hard to build something without an inspiration. We motivate our make
 
 In our world it means to prepare a center of your IoT system - the Hub. In QUICK START GUIDE we will use your computer as a Hub. Just follow these steps:
 
-### Delivery
+### 1. Delivery
 
 In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB port of your notebook or PC.
 
-### Download the latest Playground
+### 2. Download the latest Playground
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -52,7 +52,7 @@ In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB 
 {% endtab %}
 {% endtabs %}
 
-### Run the **BigClown Playground**
+### 3. Run the **BigClown Playground**
 
 Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
@@ -62,14 +62,12 @@ Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Co
 If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](https://www.bigclown.com/doc/basics/quick-start-guide/#troubleshooting) chapter.
 {% endhint %}
 
-Test test test
-
-1. Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com/radio-dongle) are already programmed and paired, please check that out in the image below.
+Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com/radio-dongle) are already programmed and paired, please check that out in the image below.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-devices-connected.png)
 
 {% hint style="info" %}
-In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub)or just plug our Radio Dongle to [Raspberry Pi](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) or [any server](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian).
+In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub) or just plug our Radio Dongle to [Raspberry Pi](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) or [any server](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian).
 {% endhint %}
 
 ## Build devices
@@ -78,42 +76,25 @@ By building devices we mean putting modules and enclosure together, optionally f
 
 **QUICK START GUIDE** recommends to follow this steps:
 
-1. Build delivered kits or build devices from modules \(check the [video guides](https://www.youtube.com/playlist?list=PLfRfhTxkuiVyc9P1TWw_DnAeh2INXwpFK) how to do so\). Do not put batteries to the battery modules yet and be careful how to connect [Mini Battery](https://shop.bigclown.com/mini-battery-module) Module from the right side.  
+Build delivered kits or build devices from modules \(check the [video guides](https://www.youtube.com/playlist?list=PLfRfhTxkuiVyc9P1TWw_DnAeh2INXwpFK) how to do so\). Do not put batteries to the battery modules yet and be careful how to connect [Mini Battery](https://shop.bigclown.com/mini-battery-module) Module from the right side.  
 
 ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
 
-1. 1. Test
-2. ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
-
-|  |  |
-| :--- | :--- |
-
-
-|  |  |
-| :--- | :--- |
-
-
-| ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png) | ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png) |
-| :--- | :--- |
-
-
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
 
-### Step \#1: Radio Pairing
-
-sodifjosdifjoijd
-
-#### Step \#1: Neco
-
-dsodifjsodifj
+### 1. Radio Pairing
 
 As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](https://www.bigclown.com/doc/projects/radio-door-sensor/#pair-the-radio-door-sensor).
 
-1. Switch to Playground's **Messages** tab and put batteries to your kit, you should see incoming messages. Every kit sends different messages. Here the **Button kit** sends _temperature, voltage, event-count_ \(everytime you press the button\) and other messages.
+### 2. Playground's Messages
+
+Switch to Playground's **Messages** tab and put batteries to your kit, you should see incoming messages. Every kit sends different messages. Here the **Button kit** sends _temperature, voltage, event-count_ \(everytime you press the button\) and other messages.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages.png)
 
-1. Put modules to the 3D-printed enclosure and fix it with O-rings.
+### 3. 3D-printed enclosure
+
+Put modules to the 3D-printed enclosure and fix it with O-rings.
 
 ## Add function
 
@@ -121,22 +102,27 @@ Now it's time to give your system a logic and connect it with desired platforms.
 
 In **QUICK START GUIDE** we will create a simple dashboard with a temperature gauge. Again, just follow these steps:
 
-1. Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
+### Messages
+
+Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages%20%281%29.png)
 
-1. Switch to the **Function** tab and from the color blocks on the left side drag and drop **mqtt** block and **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**. You can use the `filter nodes` text box to find the right block. Connect the two created nodes together.
+### Function
+
+Switch to the **Function** tab and from the color blocks on the left side drag and drop **mqtt** block and **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**. You can use the `filter nodes` text box to find the right block. Connect the two created nodes together.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks%20%281%29.png)
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-flow.png)
 
-1. Double click on the **gauge** node. Change **Label**, **Units** and **Range** to your needs. Then click **Done**.
-2. Double click on the **mqtt** node and paste the previously copied topic from the clipboard. Make sure there are not any spaces before and after the copied text. Then click **Done** and **Deploy** button. You have to click on the **Deploy** everytime you make changes in your flow.
+Double click on the **gauge** node. Change **Label**, **Units** and **Range** to your needs. Then click **Done**. Double click on the **mqtt** node and paste the previously copied topic from the clipboard. Make sure there are not any spaces before and after the copied text. Then click **Done** and **Deploy** button. You have to click on the **Deploy** everytime you make changes in your flow.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-topic.png)
 
-1. Go to Playground's **Dashboard** tab and you should see a gauge with the temperature of the selected device. The temperature can take a while to appear. You can breathe on the module or reconnect batteries for immediate update.
+### Dashboard
+
+Go to Playground's **Dashboard** tab and you should see a gauge with the temperature of the selected device. The temperature can take a while to appear. You can breathe on the module or reconnect batteries for immediate update.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-dashboard.png)
 
