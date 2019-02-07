@@ -22,9 +22,39 @@ It's always hard to build something without an inspiration. We motivate our make
 
 In our world it means to prepare a center of your IoT system - the Hub. In QUICK START GUIDE we will use your computer as a Hub. Just follow these steps:
 
-1. In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB port of your notebook or PC.
-2. Download the latest Playground: `(https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)`
-3. Run the **BigClown Playground**, go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
+### Delivery
+
+In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB port of your notebook or PC.
+
+### Download the latest Playground
+
+{% tabs %}
+{% tab title="Windows" %}
+* 32-bit:
+  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-32bit.exe)
+  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-32bit.exe)
+* 64-bit:
+  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-64bit.exe)
+  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-64bit.exe)
+{% endtab %}
+
+{% tab title="macOS" %}
+[DMG](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-macos.dmg)
+{% endtab %}
+
+{% tab title="Linux" %}
+* DEB:
+  * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-amd64.deb)
+  * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-i386.deb)
+  * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x64.tar.gz)
+* AppImage:
+  * [x86\\_64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
+{% endtab %}
+{% endtabs %}
+
+### Run the **BigClown Playground**
+
+Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
 
@@ -70,9 +100,11 @@ By building devices we mean putting modules and enclosure together, optionally f
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
 
 ### Step \#1: Radio Pairing
+
 sodifjosdifjoijd
 
 #### Step \#1: Neco
+
 dsodifjsodifj
 
 As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](https://www.bigclown.com/doc/projects/radio-door-sensor/#pair-the-radio-door-sensor).
@@ -114,7 +146,7 @@ Don't be shy and share your projects with others. We will reward you by a **100 
 
 Or just put the red nose on, make a selfie and share it on Facebook or Twitter with a hashtag **\#Clownfie** and you will get a **10 EUR** discount coupon.
 
-## Learn More    <a id="learn-more"></a>
+## Learn More     <a id="learn-more"></a>
 
 The goal of this **QUICK START GUIDE** is to show the basics in a few simple steps. Now you can learn more by browsing the **documentation** or by visiting the **links below**.
 
@@ -126,7 +158,7 @@ The goal of this **QUICK START GUIDE** is to show the basics in a few simple ste
 * [Flash other firmware](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware.en.md) or [write your own firmware](https://www.bigclown.com/doc/firmware/basic-overview/) for the **Core Module**.
 * Check the [Core Module pinouts](https://www.bigclown.com/doc/hardware/header-pinout/) and add your own buttons, relays and sensors.
 
-## Troubleshooting    <a id="troubleshooting"></a>
+## Troubleshooting     <a id="troubleshooting"></a>
 
 Cannot find the Radio Dongle or Core Module in the device list
 
