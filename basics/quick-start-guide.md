@@ -32,6 +32,8 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
 If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](https://www.bigclown.com/doc/basics/quick-start-guide/#troubleshooting) chapter.
 {% endhint %}
 
+Test test test
+
 1. Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com/radio-dongle) are already programmed and paired, please check that out in the image below.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-devices-connected.png)
