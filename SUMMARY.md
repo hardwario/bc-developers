@@ -6,6 +6,7 @@
 
 * [Quick Start Guide](basics/quick-start-guide.md)
 * [About BigClown](basics/about-bigclown.md)
+* [Module Overview](basics/module-overview.md)
 
 ## Hardware
 
