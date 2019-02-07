@@ -47,8 +47,6 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
  * AppImage:
    * [x86\_64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
 
-
-
 3. Run the **BigClown Playground**, go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
