@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
   <title>quick-start-guide-dva</title>
   <style>
       code{white-space: pre-wrap;}
@@ -11,11 +6,6 @@
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
 <h1 id="quick-start-guide">Quick Start Guide</h1>
 <h2 id="thank-you-dear-maker">Thank You, Dear Maker!</h2>
 <p>If you are reading this QUICK START GUIDE you have probably purchased our BigClown IoT Kit. If not, go <a href="https://shop.bigclown.com/">shopping</a> to do so :)</p>
@@ -149,5 +139,3 @@ Run the <strong>BigClown Playground</strong>, go to the <strong>Device</strong> 
 <li>On Ubuntu you need to be in <code>dialout</code> user group. Please use command <code>sudo usermod -a -G dialout $USER</code> and restart computer</li>
 <li>BigClown Playground cannot flash older Core Module Revision 1. Please use the <code>bcf</code>tool. See <a href="https://www.bigclown.com/doc/hardware/core-module-1-and-2-comparison/">version comparison</a></li>
 </ul>
-</body>
-</html>
