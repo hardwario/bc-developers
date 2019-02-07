@@ -132,7 +132,7 @@ As mentioned, kits delivered together with Radio Dongle are already paired and s
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages.png)
 
-1. Put modules to the 3D-printed enclosure and fix it with O-rings.
+2. Put modules to the 3D-printed enclosure and fix it with O-rings.
 
 ## Add function
 
