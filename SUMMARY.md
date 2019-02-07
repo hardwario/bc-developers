@@ -8,11 +8,7 @@
 * [About BigClown](basics/about-bigclown.md)
 * [Module Overview](basics/module-overview.md)
 
-## Hardware
+## Tutorials
 
-* [Overview](hardware/overview.md)
-
-## Integrations
-
-* [Overview](integrations/overview.md)
+* [Quick Tutorial](tutorials/quick-tutorial.md)
 
