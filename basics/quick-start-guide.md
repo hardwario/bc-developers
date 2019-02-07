@@ -22,7 +22,7 @@ It's always hard to build something without an inspiration. We motivate our make
 
 In our world it means to prepare a center of your IoT system - the Hub. In QUICK START GUIDE we will use your computer as a Hub. Just follow these steps:
 
-<ol type="1">
+<ol type="1" style="color: red">
   <li>In delivered box or suitcase find a **Radio Dongle** and plug it to any USB port of your notebook or PC.</li>
   <li>Download the latest Playground:
    * 32 bit:
