@@ -72,7 +72,7 @@ As mentioned, delivered kits are already programmed with a right firmware. If yo
 ### Step \#2: Radio Pairing
 sodifjosdifjoijd
 
-#### Test3
+#### Test3 \#1: Neco
 dsodifjsodifj
 
 As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](https://www.bigclown.com/doc/projects/radio-door-sensor/#pair-the-radio-door-sensor).
