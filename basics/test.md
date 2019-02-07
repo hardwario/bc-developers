@@ -1,11 +1,3 @@
-
-  <title>quick-start-guide-dva</title>
-  <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
 <h1 id="quick-start-guide">Quick Start Guide</h1>
 <h2 id="thank-you-dear-maker">Thank You, Dear Maker!</h2>
 <p>If you are reading this QUICK START GUIDE you have probably purchased our BigClown IoT Kit. If not, go <a href="https://shop.bigclown.com/">shopping</a> to do so :)</p>
