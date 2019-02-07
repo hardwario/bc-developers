@@ -70,6 +70,10 @@ By building devices we mean putting modules and enclosure together, optionally f
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
 
 ### Step \#2: Radio Pairing
+sodifjosdifjoijd
+
+#### Test3
+dsodifjsodifj
 
 As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](https://www.bigclown.com/doc/projects/radio-door-sensor/#pair-the-radio-door-sensor).
 
