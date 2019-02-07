@@ -25,8 +25,6 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
 1. In delivered box or suitcase find a **Radio Dongle** and plug it to any USB port of your notebook or PC.
 2. Download the latest Playground:
 
-
-
 * 32 bit:
   * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-32bit.exe)
   * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-32bit.exe)
@@ -51,7 +49,7 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
 
 
 
-* Run the **BigClown Playground**, go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
+1. Run the **BigClown Playground**, go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
 
