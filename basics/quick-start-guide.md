@@ -84,7 +84,38 @@ By building devices we mean putting modules and enclosure together, optionally f
 4. 
 ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
 
-#### Step \#1: Flash Firmware
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>
+          <img src="../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png"
+          alt/>
+        </p>
+        <p></p>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <p>
+          <img src="../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png"
+          alt/>
+        </p>
+        <p></p>
+      </td>
+    </tr>
+  </tbody>
+</table>#### Step \#1: Flash Firmware
 
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
 
