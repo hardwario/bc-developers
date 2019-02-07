@@ -5,6 +5,7 @@
 ## Basics
 
 * [Quick Start Guide](basics/quick-start-guide.md)
+* [test](basics/test.md)
 
 ## Hardware
 
