@@ -66,12 +66,22 @@ In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https
 
 ## Build devices
 
+
+
 By building devices we mean putting modules and enclosure together, optionally flashing a new firmware and pairing devices with a Radio Dongle.
 
 **QUICK START GUIDE** recommends to follow this steps:
 
-1. Build delivered kits or build devices from modules \(check the [video guides](https://www.youtube.com/playlist?list=PLfRfhTxkuiVyc9P1TWw_DnAeh2INXwpFK) how to do so\). Do not put batteries to the battery modules yet and be careful how to connect [Mini Battery](https://shop.bigclown.com/mini-battery-module) Module from the right side.
+1. Build delivered kits or build devices from modules \(check the [video guides](https://www.youtube.com/playlist?list=PLfRfhTxkuiVyc9P1TWw_DnAeh2INXwpFK) how to do so\). Do not put batteries to the battery modules yet and be careful how to connect [Mini Battery](https://shop.bigclown.com/mini-battery-module) Module from the right side.  
 
+
+   ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
+
+  
+  
+
+2. 3. Test
+4. 
 ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
 
 #### Step \#1: Flash Firmware
