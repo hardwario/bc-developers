@@ -69,7 +69,7 @@ By building devices we mean putting modules and enclosure together, optionally f
 
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
 
-### Step \#2: Radio Pairing
+### Step \#1: Radio Pairing
 sodifjosdifjoijd
 
 #### Step \#1: Neco
