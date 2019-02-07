@@ -4,7 +4,7 @@
 
 If you are reading this QUICK START GUIDE you have probably purchased our BigClown IoT Kit. If not, go [shopping](https://shop.bigclown.com/) to do so :\)
 
-![](../.gitbook/assets/_basics_quick-starter-kit.png)
+![](../.gitbook/assets/_basics_quick-starter-kit.png) 
 
 Once again **THANK YOU** for being our supporter, we really appreciate this.
 
