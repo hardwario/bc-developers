@@ -5,7 +5,7 @@ description: Here is a list of modules and tags.
 # Module Overview
 
 | Name | Look | Description |
-| :---: | :---: | :---: |
+| :---: | :---: | :--- |
 | Radio Dongle | ![](../.gitbook/assets/_basics_module-overview_usb-dongle.png) | The **Radio Dongle** is the main element of the BigClown radio network. This product works as a **gateway for the BigClown nodes**. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for **up to 32 BigClown nodes**. |
 | Core Module | ![](../.gitbook/assets/_basics_module-overview_core-module-2.png) | The **Core Module** is the key element of every **BigClown** node. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip. |
 | Cloony | ![](../.gitbook/assets/_basics_module-overview_cloony.png) | **Cloony** is compact version of the **Core Module**. The size is 23 x 23 mm. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, and security chip. |
