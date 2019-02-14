@@ -1,31 +1,15 @@
 # Introduction
 
-Test 3
+Test 4
 
-  
-document.write\("Ahoj"\);  
+document.write\("Ahoj"\);
 
-<a href="http://qr.cz">test link</a>
-<!-- comment test -->
-quite <strong>test</strong>
+[test link](http://qr.cz)  quite **test**
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
+| Firstname | Lastname | Age |
+| :--- | :--- | :--- |
+| Jill | Smith | 50 |
+| Eve | Jackson | 94 |
 
 Test **HTML**
 
