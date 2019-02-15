@@ -13,7 +13,7 @@ description: Here is a list of modules and tags.
 The **Radio Dongle** is the main element of the BigClown radio network. This product works as a **gateway for the BigClown nodes**. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for **up to 32 BigClown nodes**.
 
 | [E-shop](https://shop.bigclown.com/radio-dongle/) | [Documentation](https://www.bigclown.com/doc/hardware/about-radio-dongle/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Core Module
@@ -23,7 +23,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
  The **Core Module** is the key element of every **BigClown** node. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip.
 
 | [E-shop](https://shop.bigclown.com/core-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-core-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Cloony
@@ -33,7 +33,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
  **Cloony** is compact version of the **Core Module**. The size is 23 x 23 mm. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, and security chip.
 
 | [E-shop](https://shop.bigclown.com/cloony/) | [Documentation](https://www.bigclown.com/doc/hardware/about-cloony/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Mini Battery Module
@@ -43,7 +43,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
  The **Mini Battery Module** is designed as a power supply source for the battery-operated units. The integrated low-power boost converter provides an excellent efficiency from the **two AAA 1.5 V Alkaline** cells. It features a bottom-entry sockets, so the overall profile of the unit you build remains low.
 
 | [E-shop](https://shop.bigclown.com/cloony/) | [Documentation](https://www.bigclown.com/doc/hardware/about-cloony/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Battery Module
@@ -53,7 +53,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
  The **Battery Module** is designed as a power supply source for the battery-operated units. The integrated low-power buck converter provides an excellent efficiency from the **four AAA 1.5 V Alkaline** cells. It also features an extra 5-pin socket where you can connect a BigClown tag.
 
 | [E-shop](https://shop.bigclown.com/battery-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-battery-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Power Module
@@ -63,7 +63,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
  The **Power Module** allows you to connect a 5 V DC power adapter via a standard 2.1 mm power jack socket. It features a **high-current relay** \(230 V AC / 16 A\) to control your appliances. Also you can drive a **digital LED strip** with it \(compatible with WS2812B\).
 
 | [E-shop](https://shop.bigclown.com/power-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-power-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### PIR Module
@@ -73,7 +73,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
 The **PIR Module** works as a **motion detector** operating on a **passive infrared**\(PIR\) principle. A typical usage of the **PIR Module** can be a wireless motion detector located on a wall or ceiling. The module is equipped with an **ultra-low-power digital sensor** from Excelitas' the DigiPyro® family.
 
 | [E-shop](https://shop.bigclown.com/pir-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-pir-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Climate Module
@@ -83,7 +83,7 @@ The **PIR Module** works as a **motion detector** operating on a **passive infra
 The **PIR Module** works as a **motion detector** operating on a **passive infrared**\(PIR\) principle. A typical usage of the **PIR Module** can be a wireless motion detector located on a wall or ceiling. The module is equipped with an **ultra-low-power digital sensor** from Excelitas' the DigiPyro® family.
 
 | [E-shop](https://shop.bigclown.com/climate-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-climate-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### LCD Module
@@ -93,7 +93,7 @@ The **PIR Module** works as a **motion detector** operating on a **passive infra
  The **LCD Module** uses a unique technology - the so-called **memory display** developed by Sharp. It provides a resolution of 128 x 128 pixels in 1.28 inch size. It implements an **ultra-low-power display controller**, so you can have active graphical display with a long service time from batteries.
 
 | [E-shop](https://shop.bigclown.com/lcd-module-bg/) | [Documentation](https://www.bigclown.com/doc/hardware/about-lcd-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Button Module
@@ -103,7 +103,7 @@ The **PIR Module** works as a **motion detector** operating on a **passive infra
 The **Button Module** is as simple as its name speaks. It has one large button that feels good to click. You can use it to trigger various actions, e.g. turn on the light, send a push notification, or control an appliance. It is connected to the BOOT signal on the **Core Module**.
 
 | [E-shop](https://shop.bigclown.com/button-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-button-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Encoder Module
@@ -113,7 +113,7 @@ The **Button Module** is as simple as its name speaks. It has one large button t
  The **Encoder Module** can be useful for controlling your applications. The module is equipped with a high-quality rotary encoder manufactured by Bourns and features high reliability and durability. The rotary encoder is also equipped with a **push-button switch**.
 
 | [E-shop](https://shop.bigclown.com/encoder-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-encoder-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Relay Module
@@ -123,7 +123,7 @@ The **Button Module** is as simple as its name speaks. It has one large button t
 The **Relay Module** is suitable for switching small power appliances - e.g. LED strip, cooling fan, siren, buzzer, garage door opener, etc. It features a **bistable \(or latching\) relay** and that makes it suitable for battery-operated applications - the relay simply remembers its state.
 
 | [E-shop](https://shop.bigclown.com/relay-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-relay-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Sensor Module
@@ -133,7 +133,7 @@ The **Relay Module** is suitable for switching small power appliances - e.g. LED
 The **Sensor Module** features **up-to four universal inputs or outputs** on a pluggable terminal block with **1-Wire bus master** support. The terminals can be used as both analog and digital input/output. For example you can connect various external digital, analog or resistive sensors. Also, you can communicate with other devices on a 1-Wire bus.
 
 | [E-shop](https://shop.bigclown.com/sensor-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-sensor-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Sigfox Module
@@ -143,7 +143,7 @@ The **Sensor Module** features **up-to four universal inputs or outputs** on a p
  The **Sigfox Module** allows you to communicate to the **Sigfox wireless network**, a global network made for the IoT. This technology makes it possible to communicate from a battery-powered device directly to server, even for several years. The **Sigfox Module** uses radio frequency 868 MHz.
 
 | [E-shop](https://shop.bigclown.com/bundle-sigfoxmodule-mysigfoxplatinum3y/) | [Documentation](https://www.bigclown.com/doc/hardware/about-sigfox-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### 1-Wire Module
@@ -153,7 +153,7 @@ The **Sensor Module** features **up-to four universal inputs or outputs** on a p
 The **1-Wire Module** allow you to connect I²C devices over a distance of several meters. The I²C protocol is encapsulated to a 1-Wire protocol. The data are protected using 16-bit CRC. You can use the **Sensor Module** to create a 1-Wire bus master.
 
 | [E-shop](https://shop.bigclown.com/1-wire-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-1-wire-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Cover Module
@@ -163,7 +163,7 @@ The **1-Wire Module** allow you to connect I²C devices over a distance of sever
 The **Cover Module** is a simple mechanical part that helps to cover the front face of the BigClown electronics \(larger format 88 x 55 mm\). It looks great when combined with one of our 3D-printed enclosure. You simple snap it in the BigClown socket header using the bottom pins.
 
 | [E-shop](https://shop.bigclown.com/cover-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-cover-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Tag Module
@@ -173,7 +173,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
  The **Tag Module** makes it possible to **connect up to six BigClow tags**. There are two independent I²C buses \(I2C0 and I2C1\) - one on each side. This allows to connect two tags of the same I²C address to a single BigClown node. It also features pull-up resistors on SDA/SCL signals of I2C1 bus.
 
 | [E-shop](https://shop.bigclown.com/tag-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-tag-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Base Module
@@ -183,7 +183,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
  The **Base Module** works as a mechanical stand for the BigClown units. With the exception of the **Battery Module**, you can plug any other BigClown module into a standardized socket available on the **Base Module**. It also features a **prototyping area** for soldering your own circuits.
 
 | [E-shop](https://shop.bigclown.com/base-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-base-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Breadboard Module
@@ -193,7 +193,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
  The **Breadboard Module** offers an easy way to connect any BigClown module to your breadboard. The narrowed breakout provides more space for wiring and prototyping. The precision pin headers from the bottom side allow smooth insertion to your breadboard and do not stress the breadboard's sockets.
 
 | [E-shop](https://shop.bigclown.com/breadboard-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-breadboard-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Probe Module
@@ -203,7 +203,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
  The **Probe Module** allows you to easily hook up an **oscilloscope** or **logic analyzer** on any signal of the BigClown header. Sometimes during the development you need to analyze the signals and see what's going on. And this module makes the task fast and convenient.
 
 | [E-shop](https://shop.bigclown.com/probe-module/) | [Documentation](https://www.bigclown.com/doc/hardware/about-probe-module/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ## Tags
@@ -215,7 +215,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
  The **Temperature Tag** uses a high-accuracy **temperature sensor** TMP112 with a typical accuracy of ±0.1 °C at 25 °C. This sensor is digital and calibrated. It communicates using an I²C bus and features a very low power operation and shutdown mode.
 
 | [E-shop](https://shop.bigclown.com/temperature-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-temperature-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Humidity Tag
@@ -225,7 +225,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 The **Humidity Tag** uses a high-accuracy **humidity sensor** SHT20 with a typical accuracy of ±3 % from 20 % to 80 %. This sensor is digital and calibrated. It communicates using an I²C bus and features a very low power operation and shutdown mode.
 
 | [E-shop](https://shop.bigclown.com/humidity-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-humidity-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Lux Meter Tag
@@ -235,7 +235,7 @@ The **Humidity Tag** uses a high-accuracy **humidity sensor** SHT20 with a typic
 The **Lux Meter Tag** uses a high dynamic range **light intensity sensor** OPT3001 that can measure illuminance from 0.01 to 83,000 lux. This sensor is digital and calibrated. It communicates using an I²C bus and features a very low power operation and shutdown mode.
 
 | [E-shop](https://shop.bigclown.com/lux-meter-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-lux-meter-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### Barometer Tag
@@ -245,7 +245,7 @@ The **Lux Meter Tag** uses a high dynamic range **light intensity sensor** OPT30
  The **Barometer Tag** allows you to measure absolute pressure in the range from 20 kPa to 110 kPa, or altitude above the sea level in meters. It uses a low-power I²C sensor MPL3115A2 with an absolute accuracy of ±0.4 kPa. It features a very low active and standby current.
 
 | [E-shop](https://shop.bigclown.com/barometer-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-barometer-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### VOC Tag
@@ -255,7 +255,7 @@ The **Lux Meter Tag** uses a high dynamic range **light intensity sensor** OPT30
  The **VOC Tag** is a gas sensor for measuring **volatile organic compounds \(VOC\) concentration**. This is useful for indoor air quality monitoring applications. This module uses a metal-oxide multi pixel sensor SGP30 from Sensirion measuring total VOC level.
 
 | [E-shop](https://shop.bigclown.com/voc-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-voc-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
 ### NFC Tag
@@ -265,6 +265,6 @@ The **Lux Meter Tag** uses a high dynamic range **light intensity sensor** OPT30
 The **NFC Tag** operates as a **dual port memory**. You have the the NFC protocol from one side and the I²C bus interface from the other side. It features a 1 kB EEPROM memory. The chip does not have to be powered when being accessed from the NFC side.
 
 | [E-shop](https://shop.bigclown.com/nfc-tag/) | [Documentation](https://www.bigclown.com/doc/hardware/about-nfc-tag/) |
-| :--- | :--- |
+| :---: | :---: |
 
 
