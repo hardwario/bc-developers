@@ -4,7 +4,7 @@ description: Here is a list of modules and tags.
 
 # Module Overview
 
-## Module Overview
+## Modules
 
 ### Radio Dongle
 
