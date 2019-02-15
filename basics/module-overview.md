@@ -5,7 +5,7 @@ description: Here is a list of modules and tags.
 # Module Overview
 
 <div>
-  <h1 style="text-align:center">Core Module</h1>
+  <h1 style="vertical-align:middle">Core Module</h1>
     <IMG SRC="../.gitbook/assets/_basics_module-overview_usb-dongle.png" ALIGN="vertical-align:middle"/>
     <p>The Radio Dongle is the main element of the BigClown radio network. This product works as a gateway for the BigClown nodes. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for up to 32 BigClown nodes.</p>
 </div>
