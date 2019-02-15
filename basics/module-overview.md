@@ -10,7 +10,7 @@ description: Here is a list of modules and tags.
     <p>The Radio Dongle is the main element of the BigClown radio network. This product works as a gateway for the BigClown nodes. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for up to 32 BigClown nodes.</p>
 <table style="width:100%">
 <tr>
-  <th><IMG height="42" SRC="https://www.bigclown.com/_assets/images/icon-info.png"/><a href="https://shop.bigclown.com/core-module/">E-shop</a></th>
+  <th><IMG height="10%" SRC="https://www.bigclown.com/_assets/images/icon-info.png"/><a href="https://shop.bigclown.com/core-module/">E-shop</a></th>
   <th>Lastname</th> 
 </tr>
 </table>
