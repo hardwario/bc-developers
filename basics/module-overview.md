@@ -18,7 +18,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
 
 ### Core Module
 
-![](../.gitbook/assets/_basics_module-overview_core-module-2.png)
+![](../.gitbook/assets/_basics_module-overview_core-module-2-1.png)
 
  The **Core Module** is the key element of every **BigClown** node. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip.
 
