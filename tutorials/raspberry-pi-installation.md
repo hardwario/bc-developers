@@ -25,7 +25,7 @@ In the following procedure, we will install the **BigClown Raspbian** Linux dist
 * One of the following operating systems:
   * Windows 7, 8.x, 10 \(32-bit or 64-bit\)
   * macOS \(tested on version 10.12.x\)
-  * Ubuntu \(tested on version 16.04 LTS\)
+  * Ubuntu \(tested on version 18.04.2 LTS\)
 
 ## SD Card Preparation
 
