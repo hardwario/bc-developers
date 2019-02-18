@@ -12,4 +12,5 @@
 ## Tutorials
 
 * [Quick Tutorial](tutorials/quick-tutorial.md)
+* [Raspberry Pi Installation](tutorials/raspberry-pi-installation.md)
 
