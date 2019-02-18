@@ -15,4 +15,5 @@
 * [Raspberry Pi Installation](tutorials/raspberry-pi-installation.md)
 * [Raspberry Pi Login](tutorials/raspberry-pi-login.md)
 * [Custom Setup on Ubuntu](tutorials/custom-setup-on-ubuntu.md)
+* [Custom Setup on macOS](tutorials/custom-setup-on-macos.md)
 
