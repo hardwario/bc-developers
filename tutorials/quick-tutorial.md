@@ -30,5 +30,5 @@ First we will demonstrate basic functionality without a wireless network. We use
 
 {% embed url="https://www.youtube.com/watch?v=FRRhleRNstg" %}
 
-
+{% embed url="http://sdk.bigclown.com/" %}
 
