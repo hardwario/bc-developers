@@ -81,3 +81,51 @@ The MQTT command for this operation is described in the document [**MQTT Topics*
 | TX Transmit Power | 11.6 dBm |
 | RX Filter Bandwidth | 100 kHz |
 
+## Using 915 MHz for US, Canada & others
+
+For parts of the world where the ISM band is 915 MHz, you cannot use default 868 MHz communication frequency. During the code compilation you have to pass `BAND` parameter to the `make` like this:
+
+```text
+make BAND=915
+```
+
+Right now it is not possible to use `bcf` tool because all the firmwares are pre-compiled with 868 MHz band. Make sure you also compile **Radio Dongle** firmware with this parameter.
+
+## Packet Structure
+
+| PRE\(4\) | SYN\(4\) | LEN\(1\) | DST\(1\) | DATA\(0..60\) | CRC\(2\) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+Explanation of the fields:
+
+* **PRE\(4\)**
+
+  This part is called **preamble** and consists of alternating sequence of zeroes and ones \(32 bits\).
+
+* **SYN\(4\)**
+
+  This part is called **synchronization word** and has a fixed value of `0x88888888`.
+
+* **LEN\(1\)**
+
+  This part determines the length of the `DATA` plus 1 \(`DST` field is also counted\).
+
+* **DST\(1\)**
+
+  This is destination address \(for logic network addressing\).
+
+* **DATA\(0..60\)**
+
+  Variable length payload data field.
+
+* **CRC\(2\)**
+
+  Checksum calculated over all fields excluding `PRE` and `SYN` fields. The polynomial of the CRC engine is `0x1021`.
+
+## Related Documents
+
+* [**SPIRIT1 Resources**](http://www.st.com/en/wireless-connectivity/spirit1.html)
+* [**MQTT Protocol**](https://www.bigclown.com/doc/interfaces/mqtt-protocol/)
+* [**MQTT Topics**](https://www.bigclown.com/doc/interfaces/mqtt-topics/)
+

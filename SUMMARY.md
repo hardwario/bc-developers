@@ -29,4 +29,7 @@
 * [MQTT topics](interfaces/mqtt-topics.md)
 * [Wireless Network Overview](interfaces/wireless-network-overview.md)
 * [Sub-GHz Radio](interfaces/sub-ghz-radio.md)
+* [SigFox IoT radio](interfaces/sigfox-iot-radio.md)
+* [LoRa IoT radio](interfaces/lora-iot-radio.md)
+* [Serial port JSON](interfaces/serial-port-json.md)
 
