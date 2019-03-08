@@ -18,4 +18,6 @@
 * [Custom Setup on macOS](tutorials/custom-setup-on-macos.md)
 * [Custom Setup on Raspberry Pi](tutorials/custom-setup-on-raspberry-pi.md)
 * [Custom Setup on Synology](tutorials/custom-setup-on-synology.md)
+* [Custom Setup on Turris](tutorials/custom-setup-on-turris.md)
+* [MySigfox.com Service](tutorials/mysigfox.com-service.md)
 
