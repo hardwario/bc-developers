@@ -16,4 +16,6 @@
 * [Raspberry Pi Login](tutorials/raspberry-pi-login.md)
 * [Custom Setup on Ubuntu](tutorials/custom-setup-on-ubuntu.md)
 * [Custom Setup on macOS](tutorials/custom-setup-on-macos.md)
+* [Custom Setup on Raspberry Pi](tutorials/custom-setup-on-raspberry-pi.md)
+* [Custom Setup on Synology](tutorials/custom-setup-on-synology.md)
 
