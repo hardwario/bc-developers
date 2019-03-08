@@ -44,6 +44,7 @@ Repositories with the prefix [**bcf**](https://github.com/bigclownlabs?q=bcf) co
 | [**bc‑hardware**](https://github.com/bigclownlabs/bc-hardware) | Hardware design data - schematic/assembly drawings, etc. |
 | [**bc‑raspbian**](https://github.com/bigclownlabs/bc-raspbian) | Modified Linux distribution Raspbian for Raspberry Pi |
 | [**bc‑website**](https://github.com/bigclownlabs/bc-website) | Source repository for the website, documentation, blog, etc. |
+| \*\*\*\*[**bc-developers**](https://github.com/bigclownlabs/bc-developers)\*\*\*\* | Source repository for developer documentation website |
 
 ## Hub/Host Repositories
 
