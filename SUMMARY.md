@@ -20,4 +20,6 @@
 * [Custom Setup on Synology](tutorials/custom-setup-on-synology.md)
 * [Custom Setup on Turris](tutorials/custom-setup-on-turris.md)
 * [MySigfox.com Service](tutorials/mysigfox.com-service.md)
+* [LoRa AT Commands Configuration](tutorials/lora-at-commands-configuration.md)
+* [GitHub Repositories](tutorials/github-repositories.md)
 
