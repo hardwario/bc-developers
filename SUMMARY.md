@@ -44,4 +44,5 @@
 * [Amazon Alexa](integrations/amazon-alexa.md)
 * [Google Assistant](integrations/google-assistant.md)
 * [Firebase](integrations/firebase.md)
+* [Google Sheets](integrations/google-sheets.md)
 
