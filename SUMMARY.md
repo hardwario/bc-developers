@@ -33,3 +33,7 @@
 * [LoRa IoT radio](interfaces/lora-iot-radio.md)
 * [Serial port JSON](interfaces/serial-port-json.md)
 
+## Integrations
+
+* [Grafana for Visualization](integrations/grafana-for-visualization.md)
+
