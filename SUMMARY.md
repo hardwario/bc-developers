@@ -46,3 +46,9 @@
 * [Firebase](integrations/firebase.md)
 * [Google Sheets](integrations/google-sheets.md)
 
+## Hardware
+
+* [Basic Principles](hardware/basic-principles.md)
+* [Header Pinout](hardware/header-pinout.md)
+* [Core Module R1 and R2 comparison](hardware/core-module-r1-and-r2-comparison.md)
+
