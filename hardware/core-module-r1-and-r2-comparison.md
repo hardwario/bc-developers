@@ -10,9 +10,5 @@ The most significant change is that R2 has only single button. This is the `B` b
 
 | Model | Core R1 | Core R2 |
 | :--- | :--- | :--- |
-| Look |  |  |
-
-![](../.gitbook/assets/_hardware_core-module-1-and-2-comparsion_core-module-1.png)
-
-![](../.gitbook/assets/_hardware_core-module-1-and-2-comparsion_core-module-2.png)
+| Look | ![](../.gitbook/assets/_hardware_core-module-1-and-2-comparsion_core-module-1.png) | ![](../.gitbook/assets/_hardware_core-module-1-and-2-comparsion_core-module-2.png) |
 
