@@ -36,4 +36,12 @@
 ## Integrations
 
 * [Grafana for Visualization](integrations/grafana-for-visualization.md)
+* [Blynk - Mobile App Builder](integrations/blynk-mobile-app-builder.md)
+* [IFTTT If This Then That](integrations/ifttt-if-this-then-that.md)
+* [Anemone Platform](integrations/anemone-platform.md)
+* [Ubidots](integrations/ubidots.md)
+* [HomeKit and Siri](integrations/homekit-and-siri.md)
+* [Amazon Alexa](integrations/amazon-alexa.md)
+* [Google Assistant](integrations/google-assistant.md)
+* [Firebase](integrations/firebase.md)
 
