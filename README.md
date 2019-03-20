@@ -16,5 +16,6 @@
 
 ### BigClown kits
 
-[![](.gitbook/assets/_kits_climate.png)](https://google.com)
+| [![](.gitbook/assets/_kits_climate.png)](https://google.com) | [![](.gitbook/assets/_kits_climate.png)](https://google.com) | [![](.gitbook/assets/_kits_climate.png)](https://google.com) |
+|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
 
