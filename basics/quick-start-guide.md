@@ -59,7 +59,7 @@ Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Co
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
 
 {% hint style="info" %}
-If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](https://www.bigclown.com/doc/basics/quick-start-guide/#troubleshooting) chapter.
+If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](quick-start-guide.md#troubleshooting) chapter.
 {% endhint %}
 
 Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com/radio-dongle) are already programmed and paired, please check that out in the image below.
@@ -67,7 +67,7 @@ Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-devices-connected.png)
 
 {% hint style="info" %}
-In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub) or just plug our Radio Dongle to [Raspberry Pi](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) or [any server](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian).
+In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub) or just plug our Radio Dongle to [Raspberry Pi](../tutorials/raspberry-pi-installation.md) or [any server](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian).
 {% endhint %}
 
 ## Build devices
@@ -80,11 +80,11 @@ Build delivered kits or build devices from modules \(check the [video guides](ht
 
 ![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
 
-As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware).
+As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](../integrations/homekit-and-siri.md#step-1-flash-firmware).
 
 ### 1. Radio Pairing
 
-As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](https://www.bigclown.com/doc/projects/radio-door-sensor/#pair-the-radio-door-sensor).
+As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](../integrations/homekit-and-siri.md#step-2-pair-hardware).
 
 ### 2. Playground's Messages
 
@@ -104,7 +104,7 @@ In **QUICK START GUIDE** we will create a simple dashboard with a temperature ga
 
 ### 1. Messages
 
-Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
+Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](../interfaces/mqtt-topics.md).
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages%20%281%29.png)
 
@@ -136,13 +136,12 @@ Or just put the red nose on, make a selfie and share it on Facebook or Twitter w
 
 The goal of this **QUICK START GUIDE** is to show the basics in a few simple steps. Now you can learn more by browsing the **documentation** or by visiting the **links below**.
 
-* Check out other BigClown [projects](https://www.bigclown.com/doc/projects/radio-door-sensor/).
-* Take a look at the [Module Overview](https://www.bigclown.com/doc/basics/module-overview/).
-* Learn about [MQTT](https://www.bigclown.com/doc/interfaces/mqtt-protocol/) and [BigClown MQTT topics](https://www.bigclown.com/doc/interfaces/mqtt-topics/) to control LEDs and relays.
-* Try other [integrations](https://www.bigclown.com/doc/integrations/grafana-for-visualization/) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
-* Use your [Raspberry PI](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) or other [single board computer \(SBC\)](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian) as a server.
-* [Flash other firmware](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware.en.md) or [write your own firmware](https://www.bigclown.com/doc/firmware/basic-overview/) for the **Core Module**.
-* Check the [Core Module pinouts](https://www.bigclown.com/doc/hardware/header-pinout/) and add your own buttons, relays and sensors.
+* Take a look at the [Module Overview](module-overview.md).
+* Learn about [MQTT](../interfaces/mqtt-topics.md) and [BigClown MQTT topics](../interfaces/mqtt-topics.md) to control LEDs and relays.
+* Try other [integrations](../integrations/grafana-for-visualization.md) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
+* Use your [Raspberry PI](../tutorials/raspberry-pi-installation.md) or other [single board computer \(SBC\)](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian) as a server.
+* [Flash other firmware](../integrations/homekit-and-siri.md#step-1-flash-firmware) or [write your own firmware](../firmware/basic-overview.md) for the **Core Module**.
+* Check the [Core Module pinouts](../hardware/header-pinout.md) and add your own buttons, relays and sensors.
 
 ## Troubleshooting     <a id="troubleshooting"></a>
 
@@ -150,5 +149,5 @@ Cannot find the Radio Dongle or Core Module in the device list
 
 * On Windows 7 and macOS please install the [FTDI VCP drivers](https://www.ftdichip.com/Drivers/VCP.htm)
 * On Ubuntu you need to be in `dialout` user group. Please use command `sudo usermod -a -G dialout $USER` and restart computer
-* BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](https://www.bigclown.com/doc/hardware/core-module-1-and-2-comparison/)
+* BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
 

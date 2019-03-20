@@ -30,7 +30,7 @@ When message with title **Installing 'node-red-contrib-homekit-bridged'** will p
 
 ### Step 1: Flash firmware
 
-We have installed HomeKit plugin to Node-RED. Now open [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases/) on your Computer. Prepair microUSB cable, [Core Module](https://shop.bigclown.com/core-module/)and battery module \([standart](https://shop.bigclown.com/battery-module/) or [mini](https://shop.bigclown.com/mini-battery-module/)\). Connect Core Module to computer via microUSB cable and open BigClown Playground. Click on Firmware option in menu, use bigclownlabs/bcf-radio-push-button and Click Flash. 
+We have installed HomeKit plugin to Node-RED. Now open [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases/) on your Computer. Prepair microUSB cable, [Core Module](https://shop.bigclown.com/core-module/) and battery module \([standart](https://shop.bigclown.com/battery-module/) or [mini](https://shop.bigclown.com/mini-battery-module/)\). Connect Core Module to computer via microUSB cable and open BigClown Playground. Click on Firmware option in menu, use bigclownlabs/bcf-radio-push-button and Click Flash. 
 
 ![](../.gitbook/assets/_integrations_homekit-and-siri_screen-3.PNG)
 

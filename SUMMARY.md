@@ -119,3 +119,9 @@
 * [How to: UART interface](firmware/how-to-uart-interface.md)
 * [How to: USB Console](firmware/how-to-usb-console.md)
 
+## tools
+
+* [BigClown firmware flashing tool](tools/bigclown-firmware-flashing-tool.md)
+* [BigClown gateway](tools/bigclown-gateway.md)
+* [BigClown Host Tool](tools/bigclown-host-tool.md)
+
