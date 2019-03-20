@@ -18,7 +18,5 @@
 
 ### BigClown kits
 
-|  |  |  |
-| :--- | :--- | :--- |
-
+[link](https://google.com)
 
