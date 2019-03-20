@@ -1,7 +1,5 @@
 # Introduction
 
-![](.gitbook/assets/_kits_climate.png)
-
 ## Start!
 
 {% page-ref page="basics/quick-start-guide.md" %}
@@ -18,5 +16,5 @@
 
 ### BigClown kits
 
-[link](https://google.com)
+[![](.gitbook/assets/_kits_climate.png)](https://google.com)
 
