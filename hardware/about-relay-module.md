@@ -25,7 +25,7 @@ The energy is needed only during transition state. Once the new state has been s
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-relay-module/)
+* [**Documentation**](about-relay-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-relay)
 
 ### Firmware Projects <a id="firmware-projects"></a>

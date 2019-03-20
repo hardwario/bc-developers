@@ -37,7 +37,7 @@ For this simple task, we do not even have to declare the `application_task()` fu
 bc_led_init(&led, BC_GPIO_LED, false, false);
 ```
 
-2\) Now we use function that will tell the [Scheduler](https://www.bigclown.com/doc/firmware/timing-and-scheduler/) to plan toggling of LED mode periodically.
+2\) Now we use function that will tell the [Scheduler](timing-and-scheduler.md) to plan toggling of LED mode periodically.
 
 ```c
 bc_led_set_mode(&led, BC_LED_MODE_BLINK);

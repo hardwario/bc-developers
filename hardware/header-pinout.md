@@ -132,5 +132,5 @@ The following table defines signal assignment on **tag** header:
 
 ## Related Documents
 
-* [**Power Management**](https://www.bigclown.com/doc/hardware/power-management/)
+* [**Power Management**](power-management.md)
 

@@ -11,6 +11,6 @@ BigClown has [LoRa Module](https://shop.bigclown.com/lora-module) which you can 
 ## References <a id="references"></a>
 
 * [LoRa Module](https://shop.bigclown.com/lora-module) in the BigClown shop
-* [About LoRa Module](https://www.bigclown.com/doc/hardware/about-lora-module/)
+* [About LoRa Module](../hardware/about-lora-module.md)
 * [LoRa Module in SDK library](https://sdk.bigclown.com/group__bc__cmwx1zzabz.html)
 

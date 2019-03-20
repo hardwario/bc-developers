@@ -26,7 +26,7 @@ Relative humidity is the essential attribute of the environment we live in. The 
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-humidity-tag/)
+* [**Documentation**](about-humidity-tag.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-tag-humidity)
 
 ### Firmware Projects <a id="firmware-projects"></a>

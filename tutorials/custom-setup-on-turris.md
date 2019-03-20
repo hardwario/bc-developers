@@ -67,7 +67,7 @@ pip3 install --upgrade --no-cache-dir bch
 
 Follow these steps if you have [Radio Dongle](https://shop.bigclown.com/radio-dongle) as a gateway.
 
-### Step 1: Finish [installation](https://www.bigclown.com/doc/tutorials/custom-setup-on-turris/#installation) part
+### Step 1: Finish [installation](custom-setup-on-turris.md#installation) part
 
 ### Step 2: Download configuration
 

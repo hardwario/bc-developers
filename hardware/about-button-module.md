@@ -18,7 +18,7 @@ The **Button Module** is as simple as its name speaks. It has one large button t
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-button-module/)
+* [**Documentation**](about-button-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-button)
 
 ### Firmware Projects <a id="firmware-projects"></a>

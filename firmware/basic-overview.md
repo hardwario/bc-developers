@@ -1,8 +1,8 @@
 # Basic Overview
 
-You can compile and flash your own code to the Core Module. To do that you need to install [**BigClown toolchain**](https://www.bigclown.com/doc/firmware/toolchain-setup/) to your computer, or you can compile code also on **Raspberry Pi** with our [**bc-raspbian**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) image and installing the [**GCC package**](https://forum.bigclown.com/t/how-to-compile-bigclown-firmware-on-raspberry-pi/271/10?u=hub.martin)
+You can compile and flash your own code to the Core Module. To do that you need to install [**BigClown toolchain**](toolchain-setup.md) to your computer, or you can compile code also on **Raspberry Pi** with our [**bc-raspbian**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) image and installing the [**GCC package**](https://forum.bigclown.com/t/how-to-compile-bigclown-firmware-on-raspberry-pi/271/10?u=hub.martin)
 
-Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like [**bcf**](https://www.bigclown.com/doc/tools/bcf/) are explained.
+Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like [**bcf**](../tools/bigclown-firmware-flashing-tool.md) are explained.
 
 Every BigClown Module has its own library in the [**BigClown SDK**](https://sdk.bigclown.com/). So you just call **init**function and set the **callback** function.
 
@@ -12,8 +12,8 @@ In this section you will find code examples for **Core Module** and all the othe
 
 With these tools you can flash new firmware. Tools can automatically download pre-compiled firmwares from GitHub and you can also choose your own `*.bin` file to flash.
 
-* [**BigClown Playground**](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware) is a GUI multi-platform tool.
-* [**BigClown Flasher**](https://www.bigclown.com/doc/tools/bcf/) \(`bcf`\) command line tool.
+* [**BigClown Playground**](../integrations/homekit-and-siri.md#step-1-flash-firmware) is a GUI multi-platform tool.
+* [**BigClown Flasher**](../tools/bigclown-firmware-flashing-tool.md) \(`bcf`\) command line tool.
 
 ## Example Code
 
@@ -60,7 +60,7 @@ Firmware is implemented in pure **C language**, which is industrially accepted l
 Effective use of hardware resources is important for developing of low-power devices. This is primary goal of BigClown ecosystem.
 {% endhint %}
 
-You can choose from wide variety of systems and tools. Windows, macOS a Ubuntu \(and other Debian derivatives\) are supported. For information how to install required tools, please see [**Toolchain setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/). You can find more information on how to use them in [**Toolchain guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/).
+You can choose from wide variety of systems and tools. Windows, macOS a Ubuntu \(and other Debian derivatives\) are supported. For information how to install required tools, please see [**Toolchain setup**](toolchain-setup.md). You can find more information on how to use them in [**Toolchain guide**](toolchain-guide.md).
 
 ## Diving Deep to SDK
 

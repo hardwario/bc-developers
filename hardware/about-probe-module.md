@@ -18,6 +18,6 @@ The **Probe Module** allows you to easily hook up an **oscilloscope** or **logic
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-probe-module/)
+* [**Documentation**](about-probe-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-probe)
 

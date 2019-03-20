@@ -80,19 +80,5 @@ Moreover, tied with Git, MQTT client tools, logging mechanism, etc. you will qui
 
 It is important to start somewhere and our aim is to start with simple things. That's why we have prepared several reference IoT projects. Following them will get you on track quickly. You can always explore the parts you are most interested about, tweak them or write your own firmware applications, automation flows or cloud integrations from scratch.
 
-For the very first time, we recommend to walk through the \[**Project Workflow**\]\(\) and \[**Quick Tutorial**\]\(\).
-
-On the other hand, if you want to build something real right away, don't hesitate to start with one of our projects:
-
-* \[**Wireless Push Button**\]\(\)
-* \[**Wireless Climate Monitor**\]\(\)
-* \[**Wireless Motion Detector**\]\(\)
-* \[**Wireless Flood Detector**\]\(\)
-* \[**Wireless LCD Thermostat**\]\(\)
-* \[**Wireless CO2 Monitor**\]\(\)
-
-## Related Documents
-
-* \[**Project Workflow**\]\(\)
-* \[**Quick Tutorial**\]\(\)
+For the very first time, we recommend to walk through the [About BigClown](about-bigclown.md) and [Quick Tutorial](../tutorials/quick-tutorial.md).
 

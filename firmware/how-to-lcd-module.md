@@ -1,6 +1,6 @@
 # How to: LCD Module
 
-Our [LCD Module](https://www.bigclown.com/doc/hardware/about-lcd-module/) provides simple way to show needed information without connecting to computer or any network. It is _ultra-low-power device_ - its using should not bring you much trouble when powered with batteries.
+Our [LCD Module](../hardware/about-lcd-module.md) provides simple way to show needed information without connecting to computer or any network. It is _ultra-low-power device_ - its using should not bring you much trouble when powered with batteries.
 
 It may be a bit hard to get used to draw things or show text at the beginning, but little bit of training \(and reading through this article\) should help you. **Note:** Printing dots, writing strings and drawing lines - everything means `draw` in SDK.
 

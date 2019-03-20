@@ -27,7 +27,7 @@ Monitoring of absolute pressure is useful for weather forecast and it is also an
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-barometer-tag/)
+* [**Documentation**](about-barometer-tag.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-tag-barometer)
 
 ### Firmware Projects <a id="firmware-projects"></a>

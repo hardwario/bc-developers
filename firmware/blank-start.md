@@ -3,7 +3,7 @@
 This document will guide you through a blank firmware creation, explains the structure of the created project and the typical development cycle.
 
 {% hint style="danger" %}
-This document assumes that you have necessary tools installed according to the document [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/).
+This document assumes that you have necessary tools installed according to the document [**Toolchain Setup**](toolchain-setup.md).
 {% endhint %}
 
 ## Hello World
@@ -69,7 +69,7 @@ For differences of flashing older **Core Module 1** and newer **Core Module 2**p
 {% endhint %}
 
 {% hint style="info" %}
-If you need to debug your application, please follow the document [**Debugging**](https://www.bigclown.com/doc/firmware/debugging/).
+If you need to debug your application, please follow the document [**Debugging**](debugging.md).
 {% endhint %}
 
 ## How It Works
@@ -112,7 +112,7 @@ make update
 
 ## Related Documents
 
-* [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/)
-* [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/)
-* [**Debugging**](https://www.bigclown.com/doc/firmware/debugging/)
+* [**Toolchain Setup**](toolchain-setup.md)
+* [**Toolchain Guide**](toolchain-guide.md)
+* [**Debugging**](debugging.md)
 

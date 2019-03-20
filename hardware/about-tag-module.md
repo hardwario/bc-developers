@@ -21,6 +21,6 @@ Some BigClown modules already have one or more extra 5-pin sockets allowing you 
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-tag-module/)
+* [**Documentation**](about-tag-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-tag)
 

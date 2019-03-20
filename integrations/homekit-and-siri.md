@@ -4,7 +4,7 @@ With HomeKit integration you will be able to controll your IoT projects from you
 
 ## Instalation
 
-If you want to use following integration on [BigClown Hub](https://shop.bigclown.com/bigclown-hub/) or on Debian and Ubuntu system, you have to install few dependencies. Connect to command line of BigClown Hub, use arcticle [Rasperry Pi Login](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/). After you login in, copy, paste and run commands. If you need IP adress of BigCwlown Hub, use [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases/) that will show you IP of your BigClown Hub in your network:
+If you want to use following integration on [BigClown Hub](https://shop.bigclown.com/bigclown-hub/) or on Debian and Ubuntu system, you have to install few dependencies. Connect to command line of BigClown Hub, use arcticle [Rasperry Pi Login](../tutorials/raspberry-pi-login.md). After you login in, copy, paste and run commands. If you need IP adress of BigCwlown Hub, use [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases/) that will show you IP of your BigClown Hub in your network:
 
 ```text
 sudo apt-get update

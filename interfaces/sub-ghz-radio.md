@@ -56,7 +56,7 @@ Pairing process is very straightforward procedure:
 ### Step 1: The **gateway device** needs to be in the **pairing mode**
 
 {% hint style="info" %}
-The MQTT command for this operation is described in the document [**MQTT Topics**](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
+The MQTT command for this operation is described in the document [**MQTT Topics**](mqtt-topics.md).
 {% endhint %}
 
 ### **Step 2:** The **node device** has to transmit the **pairing request**
@@ -66,7 +66,7 @@ This is done by cycling the power on the **node device**. On battery-operated no
 ### **Step 3:** Once all **node devices** are enrolled, you have to exit the **pairing mode**
 
 {% hint style="info" %}
-The MQTT command for this operation is described in the document [**MQTT Topics**](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
+The MQTT command for this operation is described in the document [**MQTT Topics**](mqtt-topics.md).
 {% endhint %}
 
 ## Radio Parameters
@@ -126,6 +126,6 @@ Explanation of the fields:
 ## Related Documents
 
 * [**SPIRIT1 Resources**](http://www.st.com/en/wireless-connectivity/spirit1.html)
-* [**MQTT Protocol**](https://www.bigclown.com/doc/interfaces/mqtt-protocol/)
-* [**MQTT Topics**](https://www.bigclown.com/doc/interfaces/mqtt-topics/)
+* [**MQTT Protocol**](mqtt-protocol.md)
+* [**MQTT Topics**](mqtt-topics.md)
 

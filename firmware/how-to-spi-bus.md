@@ -1,6 +1,6 @@
 # How to: SPI bus
 
-Serial Peripheral Bus \(SPI\) is synchronous serial bus. It's used for fast interconnection of the peripherals inside the device. BigClown uses SPI for example in the [LCD Module](https://shop.bigclown.com/lcd-module-bg).
+Serial Peripheral Bus \(SPI\) is synchronous serial bus. It's used for fast interconnection of the peripherals inside the device. BigClown uses SPI for example in the [LCD Module](how-to-lcd-module.md).
 
 The SPI uses these signals:
 

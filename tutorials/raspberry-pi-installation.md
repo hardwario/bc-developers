@@ -3,7 +3,7 @@
 ## Introduction
 
 {% hint style="warning" %}
-If you already have Raspberry Pi with the original Raspbian distribution, go to the section [**Setup on Original Raspbian**](https://www.bigclown.com/doc/tutorials/custom-setup-on-raspberry-pi/#setup-on-original-raspbian). Or if you have OSMC, go to section [**Setup on OSMC**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/#setup-on-osmc)
+If you already have Raspberry Pi with the original Raspbian distribution, go to the section [**Setup on Original Raspbian**](custom-setup-on-raspberry-pi.md#setup-on-original-raspbian). Or if you have OSMC, go to section [**Setup on OSMC**](raspberry-pi-installation.md#instructions-for-installing)
 {% endhint %}
 
 This document will guide you through installing Raspberry Pi. The tutorial is tested for Raspberry Pi 3 \(Model B\) but should also work for older Raspberry Pi 2.

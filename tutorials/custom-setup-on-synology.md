@@ -33,7 +33,7 @@ All the services will be installed inside the virtual machine. The advantage is 
 
 ![](../.gitbook/assets/_tutorials_custom-setup-on-synology_vmm-install.png)
 
-### Step 2: Download newest [Ubuntu Server](https://www.ubuntu.com/download/server). The 64 bit is important because Grafana do not release 32 bit versions anymore.
+### Step 2: Download latest [Ubuntu Server](https://www.ubuntu.com/download/server). The 64 bit is important because Grafana do not release 32 bit versions anymore.
 
 ### Step 3: Open **Virtual Machine Manager** and create a new virtual machine. The parameters below are the minimal which were tested
 
@@ -52,12 +52,12 @@ All the services will be installed inside the virtual machine. The advantage is 
 ### Step 5: If you did not already inserted [Radio Dongle](https://shop.bigclown.com/radio-dongle), do it now. Open virtual machine configuration on the **Other** tab and in the **USB device** list select **Future Technology Devices International**.
 
 {% hint style="warning" %}
-If you disconnect **Radio Dongle** from the USB then this **USB device**configuration **must be set again!**
+If you disconnect **Radio Dongle** from the USB then this **USB device** configuration **must be set again!**
 {% endhint %}
 
 ![](../.gitbook/assets/_tutorials_custom-setup-on-synology_vmm-usb.png)
 
-### Step 6: Follow steps [\*\*Custom Setup on Ubuntu](https://www.bigclown.com/doc/tutorials/custom-setup-on-ubuntu/) to install all the tools and services.
+### Step 6: Follow steps [Custom Setup on Ubuntu](custom-setup-on-ubuntu.md) to install all the tools and services.
 
 ### Step 7: Now you have Node-RED, Grafana and all the tools running on your Synology NAS.
 

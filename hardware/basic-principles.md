@@ -22,5 +22,5 @@ You can view and download ready-to-print models \(in STL format\) from our GitHu
 
 ## Related Documents
 
-* [**Headers and Signals**](https://www.bigclown.com/doc/hardware/header-pinout/)
+* [**Headers and Signals**](header-pinout.md)
 

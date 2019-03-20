@@ -40,7 +40,7 @@ What will we need at minimum:
 Detailed instructions can be found in the document [**Raspberry Pi Installation**](raspberry-pi-installation.md).
 {% endhint %}
 
-The easiest way to start is to download the [**BigClown Raspbian**](https://github.com/bigclownlabs/bc-raspbian/releases) image. This image has already pre-installed necessary components. It contains [**BigClown Gateway**](https://www.bigclown.com/doc/tools/bcg/) `bcg`, **Mosquitto** MQTT broker, **Node-RED** and [**BigClown Firmware Tool**](https://www.bigclown.com/doc/tools/bcf/) `bcf`.
+The easiest way to start is to download the [**BigClown Raspbian**](https://github.com/bigclownlabs/bc-raspbian/releases) image. This image has already pre-installed necessary components. It contains [**BigClown Gateway**](../tools/bigclown-gateway.md) `bcg`, **Mosquitto** MQTT broker, **Node-RED** and [**BigClown Firmware Tool**](../tools/bigclown-firmware-flashing-tool.md) `bcf`.
 
 The downloaded **Raspberry Pi** image has to be written to a MicroSD card using the multi-platform **GUI tool** [**balenaEtcher**](https://www.balena.io/etcher/), [**Win32DiskImager**](https://sourceforge.net/projects/win32diskimager/) or command line `dd` tool.
 
@@ -49,7 +49,7 @@ You can also download the official **Raspbian** and install necessary packages y
 ### Raspberry Pi Login <a id="raspberry-pi-login"></a>
 
 {% hint style="warning" %}
-Detailed instructions can be found in the document [**Raspberry Pi Login**](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/).
+Detailed instructions can be found in the document [**Raspberry Pi Login**](raspberry-pi-login.md).
 {% endhint %}
 
 1. Insert the MicroSD card with the **Raspbian** image to the **Raspberry Pi**.
@@ -76,7 +76,7 @@ Download the latest BigClown Playground from [Quick Start Guide](../basics/quick
 ### Command-line tool
 
 {% hint style="warning" %}
- Detailed instructions can be found in the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/).
+ Detailed instructions can be found in the document [**Toolchain Guide**](../firmware/toolchain-guide.md).
 {% endhint %}
 
 For quick start we've create a Python command-line utility **bcf**, which automatically downloads latest released firmwares from **GitHub** and will flash the modules. On the Raspberry Pi you need first to update the list of releases by typing `bcf update`. Then by typing `bcf list` you get the list of pre-compiled firmwares.
@@ -104,7 +104,7 @@ After the firmware flashing the **Core Module** will automatically restart and t
 
 ## Radio Dongle to MQTT communication gateway
 
-**Radio Dongle** or **Core Module** with the **gateway** firmware is using virtual serial port over USB to exchange the data. This communication is then redirected on the **Raspberry Pi** to the **MQTT** messages thanks to the [**bch-gateway**](https://www.bigclown.com/doc/tools/bcg/) `bcg` service.
+**Radio Dongle** or **Core Module** with the **gateway** firmware is using virtual serial port over USB to exchange the data. This communication is then redirected on the **Raspberry Pi** to the **MQTT** messages thanks to the [**bch-gateway**](../tools/bigclown-gateway.md) `bcg` service.
 
 All the messages from modules go through the gateway to the MQTT broker. The MQTT is an open standard and also our back-bone system for passing the messages both ways. In the middle of this communication system is the MQTT broker. Which is a server that accepts client connections. Between the broker and clients are flowing MQTT messages. Each of them contains **topic** and **payload**. Topic is a text string and has directory-like structure with the `/` delimeter \(eg. `node/core-module:0/thermometer/0:1/temperature`\). Payload isn't defined by a MQTT standard and BigClown is sending these data types: numbers, strings, boolean values and JSONs.
 
@@ -112,8 +112,8 @@ Other services can easily connect to the MQTT broker and extend the functionalit
 
 Another option is to enaable port-formwarding of the MQTT port \(1883\) on you NAT/network router. Then you can connect to your broker from anywhere in the world. It is also possible to set-up a **bridge** with other Mosquitto MQTT brokers. All the brokers then share the same messages between each other. Both of these described methods needs proper security settings. For example by TLS connection.
 
-* [MQTT explanation article](https://www.bigclown.com/doc/interfaces/mqtt-protocol/)
-* [MQTT topics short summary](https://www.bigclown.com/doc/interfaces/mqtt-topics/)
+* [MQTT explanation article](../interfaces/mqtt-protocol.md)
+* [MQTT topics short summary](../interfaces/mqtt-topics.md)
 
 ## Subscribing and publishing MQTT messages
 
@@ -166,7 +166,7 @@ On the right side of the screen there are tabs **info** and very important tab *
 
 When you create any change in the flow or configuration, you have to apply the changes by pressing the **deploy** button at the top right corner of the screen.
 
-More information is in the [Node-RED for Automation](https://www.bigclown.com/doc/integrations/node-red-for-automation/).
+More information is in the Node-RED for Automation.
 
 ### Subscribing MQTT messages
 
@@ -219,7 +219,7 @@ Double click on the **gauge** block for configuration. First create the new dash
 
 ### Extending to relative humidity measurement <a id="extending-to-relative-humidity-measurement"></a>
 
- Now we try to connect the relative humidity sensor to the **Core Module**. It's possible to connect the [Humidity Tag](https://shop.bigclown.com/humidity-tag) directly to the **Core Module** as displayed in the picture or you can use also [Tag Module](https://shop.bigclown.com/tag-module) which can hold many more sensor tags. Also the [Battery Module](https://shop.bigclown.com/battery-module)contains spare connector for sensor tag.
+ Now we try to connect the relative humidity sensor to the **Core Module**. It's possible to connect the [Humidity Tag](https://shop.bigclown.com/humidity-tag) directly to the **Core Module** as displayed in the picture or you can use also [Tag Module](https://shop.bigclown.com/tag-module) which can hold many more sensor tags. Also the [Battery Module](https://shop.bigclown.com/battery-module) contains spare connector for sensor tag.
 
 ![](../.gitbook/assets/_tutorials_quick-tutorial_humidity-added.jpg)
 
@@ -314,7 +314,7 @@ In case you would power the remote note with a power adapter, you can flash `pow
 
  [List of bcf-generic-node released firmwares](https://github.com/bigclownlabs/bcf-generic-node/releases)
 
- [Detailed flashing instructions](https://www.bigclown.com/doc/firmware/toolchain-guide/)
+ [Detailed flashing instructions](../firmware/toolchain-guide.md)
 
 ## Pairing process
 
@@ -351,7 +351,7 @@ mosquitto_pub -t 'gateway/core-module/pairing-mode/start' -n
  Older firmwares send remote pairing packet by long-press of `B` button. Current firmwares are sending remote pairing packet by **power cycling** or **reseting** the module.
 {% endhint %}
 
-Now it is possible to pair other **remote** nodes, by power cycling or reset of other **remote**nodes.
+Now it is possible to pair other **remote** nodes, by power cycling or reset of other **remote** nodes.
 
 After the pairing of the remotes is completed, stop the pairing process on the **gateway** by command:
 
@@ -373,7 +373,7 @@ Remote nodes which has **power module** in the firmware name are powered by powe
 * LCD Module - display text on the display on any position with different font sizes
 * Control red LED on the **Core Module**
 
-[List of all MQTT topics](https://www.bigclown.com/doc/interfaces/mqtt-topics/).
+[List of all MQTT topics](../interfaces/mqtt-topics.md).
 
 ## Conclusion and further steps
 

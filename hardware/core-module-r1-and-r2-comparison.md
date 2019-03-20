@@ -26,7 +26,7 @@ The new **Core Module 2** is not using DFU mode anymore. We have added new flash
 
 ### Step 1: Connect the Micro USB cable to the Core Module and your computer.
 
-### Step 2: You have to switch to [Core Module to the DFU mode](https://www.bigclown.com/doc/firmware/toolchain-guide/#switching-core-module-into-dfu-mode).
+### Step 2: You have to switch to [Core Module to the DFU mode](../firmware/toolchain-guide.md#switching-core-module-into-dfu-mode).
 
 ### Step 3: Upload firmware with following command
 
@@ -101,6 +101,6 @@ bcf flash --device /dev/ttyUSB0 bigclownlabs/bcf-radio-motion-detector:latest
 
 ## References
 
-* [**`bcf` tool**](https://www.bigclown.com/doc/tools/bcf/)
+* \*\*\*\*[**bcf tool**](../firmware/toolchain-guide.md)\*\*\*\*
 * [**About Core Module**](https://www.bigclown.com/doc/hardware/about-core-module/)
 

@@ -32,7 +32,7 @@ Another useful feature is a **prototyping area** for soldering your own circuits
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-battery-module/)
+* [**Documentation**](about-battery-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-battery)
 
 ### Firmware Projects <a id="firmware-projects"></a>

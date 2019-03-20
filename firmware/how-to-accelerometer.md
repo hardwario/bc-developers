@@ -1,6 +1,6 @@
 # How to: Accelerometer
 
-Core module comes with three-axis ultra-low-power linear accelerometer connected via [I2C bus](https://www.bigclown.com/doc/hardware/i2c-address-space/). It is capable of motion detection and a free-fall based on interrupts. Basically you have **two options how to use the accelerometer - continuous measurement of acceleration or as an alarm**, which triggers event handler if defined conditions occurs.
+Core module comes with three-axis ultra-low-power linear accelerometer connected via [I2C bus](../hardware/i-c-address-space.md). It is capable of motion detection and a free-fall based on interrupts. Basically you have **two options how to use the accelerometer - continuous measurement of acceleration or as an alarm**, which triggers event handler if defined conditions occurs.
 
 {% hint style="info" %}
 **As always...**  

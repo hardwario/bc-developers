@@ -1,6 +1,6 @@
 # How to: Battery Module
 
-[Battery module](https://www.bigclown.com/doc/hardware/about-battery-module/) and [Mini Battery module](https://www.bigclown.com/doc/hardware/about-mini-battery-module/) allows you to power your product with four or two **AAA** batteries. It automatically recognizes if external power is applied \(AC module, USB, ...\) and disconnects batteries from the circuit. With this module you can check battery voltage \(manually or periodically with Scheduler\) and schedule appropriate actions for certain voltage levels.
+[Battery module](../hardware/about-battery-module.md) and [Mini Battery module](../hardware/about-mini-battery-module.md) allows you to power your product with four or two **AAA** batteries. It automatically recognizes if external power is applied \(AC module, USB, ...\) and disconnects batteries from the circuit. With this module you can check battery voltage \(manually or periodically with Scheduler\) and schedule appropriate actions for certain voltage levels.
 
 {% hint style="info" %}
 **As always...**  
@@ -21,7 +21,7 @@ SDK provides function to
 
 ## Battery Module Types
 
-There are two types of modules - [Standard](https://www.bigclown.com/doc/hardware/about-battery-module/) and [Mini](https://www.bigclown.com/doc/hardware/about-mini-battery-module/).
+There are two types of modules - [Standard](../hardware/about-battery-module.md) and [Mini](../hardware/about-mini-battery-module.md).
 
 The type of the connected module is detected automatically. In your `application_init()` function you have to init the module by calling:
 

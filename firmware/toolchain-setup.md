@@ -18,17 +18,17 @@ At the end of the article, we'll show how to develop and compile firmware with p
 
 To install, go to one of the supported platforms:
 
-* [**Setup on Windows**](https://www.bigclown.com/doc/firmware/toolchain-setup/#setup-on-windows)
-* [**Setup on macOS**](https://www.bigclown.com/doc/firmware/toolchain-setup/#setup-on-macos)
-* [**Setup on Ubuntu**](https://www.bigclown.com/doc/firmware/toolchain-setup/#setup-on-ubuntu)
-* [**Setup on Generic Linux**](https://www.bigclown.com/doc/firmware/toolchain-setup/#setup-on-generic-linux)
+* [**Setup on Windows**](toolchain-setup.md#setup-on-windows)
+* [**Setup on macOS**](toolchain-setup.md#setup-on-macos)
+* [**Setup on Ubuntu**](toolchain-setup.md#setup-on-ubuntu)
+* [**Setup on Generic Linux**](toolchain-setup.md#setup-on-generic-linux)
 
 To upgrade an existing installation, go to one of the supported platforms:
 
-* [**Update on Windows**](https://www.bigclown.com/doc/firmware/toolchain-setup/#update-on-windows)
-* [**Update on macOS**](https://www.bigclown.com/doc/firmware/toolchain-setup/#update-on-macos)
-* [**Update on Ubuntu**](https://www.bigclown.com/doc/firmware/toolchain-setup/#update-on-ubuntu)
-* [**Update on Generic Linux**](https://www.bigclown.com/doc/firmware/toolchain-setup/#update-on-generic-linux)
+* [**Update on Windows**](toolchain-setup.md#update-on-windows)
+* [**Update on macOS**](toolchain-setup.md#update-on-macos)
+* [**Update on Ubuntu**](toolchain-setup.md#update-on-ubuntu)
+* [**Update on Generic Linux**](toolchain-setup.md#update-on-generic-linux)
 
 ## Setup on Windows
 
@@ -64,14 +64,13 @@ The advantage of the context menu is to open the **BigClown Toolchain** directly
 
 ![](../.gitbook/assets/_firmware_toolchain-setup_windows-toolchain.png)
 
-### Step 6: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try
+### Step 6: Continue on the document [**Toolchain Guide**](toolchain-guide.md). You may also try
 
-* [**Integration with Atom**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-atom) or
-* [**Integration with Visual Studio Code**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-visual-studio-code)
+* [**Integration with Visual Studio Code**](toolchain-setup.md#integration-with-visual-studio-code)
 
 ## Update on Windows
 
-* Download and install the new version according to the chapter [**Setup on Windows**](https://www.bigclown.com/doc/firmware/toolchain-setup/#setup-on-windows).
+* Download and install the new version according to the chapter [**Setup on Windows**](toolchain-setup.md#setup-on-windows).
 
 ## Uninstall on Windows
 
@@ -131,7 +130,6 @@ sudo pip3 install --upgrade --no-cache-dir bcf
 
 ### **Step 9:** Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try
 
-* [**Integration with Atom**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-atom) or
 * [**Integration with Visual Studio Code**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-visual-studio-code)
 
 ## Update on macOS
@@ -224,8 +222,7 @@ whoami
 
 ### Step 11: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try:
 
-* [**Integration with Atom**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-atom) or
-* [**Integration with Visual Studio Code**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-visual-studio-code)
+* [**Integration with Visual Studio Code**](toolchain-setup.md#integration-with-visual-studio-code)
 
 ## Update on Ubuntu
 
@@ -318,11 +315,9 @@ export PATH="$PATH:~/.local/opt/gcc-arm-none-eabi-6/bin"
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-### Step 7: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try
+### Step 7: Continue on the document [**Toolchain Guide**](toolchain-guide.md). You may also try
 
-* [**Integration with Atom**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-atom) or
-* [**Integration with Visual Studio Code**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-visual-studio-code)
-* [**Integration with KDevelop**](https://www.bigclown.com/doc/firmware/toolchain-setup/#integration-with-kdevelop)
+* [**Integration with Visual Studio Code**](toolchain-setup.md#integration-with-visual-studio-code)
 
 ## Update on Generic Linux
 
@@ -387,5 +382,5 @@ How to start debugging the project:
 
 ## Related Documents
 
-* [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/)
+* [**Toolchain Guide**](toolchain-guide.md)
 

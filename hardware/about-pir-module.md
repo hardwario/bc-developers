@@ -24,7 +24,7 @@ The **PIR Module** works as a **motion detector** operating on a **passive infra
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-pir-module/)
+* [**Documentation**](about-pir-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-pir)
 
 ### Firmware Projects <a id="firmware-projects"></a>

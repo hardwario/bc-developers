@@ -2,7 +2,7 @@
 
 Pulse Width Modulation \(PWM\) is a method to create analog-like signal from the microcontroller digital output. It will achieve that by fast toggling of the pin with different ration of logic **HIGH** and **LOW**. This ratio is called **duty cycle**.
 
-Please check the [**Core Module pinout**](https://www.bigclown.com/doc/hardware/header-pinout/) to see which pins allows PWM.
+Please check the [**Core Module pinout**](../hardware/header-pinout.md) to see which pins allows PWM.
 
 ## SDK PWM functions
 

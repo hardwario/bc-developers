@@ -34,7 +34,7 @@ The **LCD Module** can also function as a unique status display for the Turris O
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-lcd-module/)
+* [**Documentation**](about-lcd-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-lcd)
 
 ### Firmware Projects <a id="firmware-projects"></a>

@@ -24,6 +24,6 @@ NFC \(or Near Field Communication\) is a great technology for transferring data 
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-nfc-tag/)
+* [**Documentation**](about-nfc-tag.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-tag-nfc)
 

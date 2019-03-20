@@ -33,7 +33,7 @@ Note \(1\): Maximum allowed current is 6 A.
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-power-module/)
+* [**Documentation**](about-power-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-power)
 
 ### Firmware Projects <a id="firmware-projects"></a>

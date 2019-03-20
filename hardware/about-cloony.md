@@ -26,6 +26,6 @@ There are two basic difference from the **Core Module**. First, it does not have
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-cloony/)
+* [**Documentation**](about-cloony.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-cloony)
 

@@ -2,7 +2,7 @@
 
 Our [Smart LED Strips](https://shop.bigclown.com/search/?string=strips) provides you easy way to show values like temperature as a color range, blinking etc.
 
-You need to use a [Power Module](https://www.bigclown.com/doc/hardware/about-power-module/) which takes care of power and communication between Core module and the LED strip.
+You need to use a [Power Module](how-to-power-module.md) which takes care of power and communication between Core module and the LED strip.
 
 {% hint style="info" %}
 **If you need cool white light only**  

@@ -28,7 +28,7 @@ The spectral response of the sensor tightly matches the photopic response of the
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-lux-meter-tag/)
+* [**Documentation**](about-lux-meter-tag.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-tag-lux-meter)
 
 ### Firmware Projects <a id="firmware-projects"></a>

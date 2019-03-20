@@ -8,14 +8,14 @@ In our integration with BigClown we will be using Realtime Database and sends da
 
 Dependencies:
 
-* Installed Playground or our Raspbian \([Raspbian](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)\)
+* Installed Playground or our Raspbian \([Raspbian](../tutorials/raspberry-pi-installation.md)\)
 * Installed nodejs \(on our Raspbian preinstalled, other operating systems [download website](https://nodejs.org/en/download/)\)
 
 ## Install firebase plugin
 
 ### Step 1: Open command line
 
-* Windows – cmd, Linux and macOS – Terminal, on our Raspbian login with user pi and password raspberry \([more about logging on our Raspbian](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/)\)
+* Windows – cmd, Linux and macOS – Terminal, on our Raspbian login with user pi and password raspberry \([more about logging on our Raspbian](../tutorials/raspberry-pi-login.md)\)
 
 ### Step 2: Install firebase plugin to Node-RED via
 

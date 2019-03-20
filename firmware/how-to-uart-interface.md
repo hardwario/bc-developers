@@ -1,6 +1,6 @@
 # How to: UART interface
 
-Core Module has 3 UARTs you can use. The signal for each channel is named TXD**x**, RXD**x**where **x** is **0**, **1** or **2**. Please refer to the [module drawing pinout](https://www.bigclown.com/doc/hardware/header-pinout/#module-drawing-standard) where you find the signals positions.
+Core Module has 3 UARTs you can use. The signal for each channel is named TXD**x**, RXD**x**where **x** is **0**, **1** or **2**. Please refer to the [module drawing pinout](../hardware/header-pinout.md) where you find the signals positions.
 
 Also check the [UART API on the SDK site](http://sdk.bigclown.com/group__bc__uart.html).
 

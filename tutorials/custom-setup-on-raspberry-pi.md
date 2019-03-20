@@ -40,7 +40,7 @@ This is a brief list of differences:
 Apply the following procedure only if you are using Raspberry Pi, on which the original Raspbian distribution is running. This is an alternative way of installing `bc-raspbian` in \[\]\(/doc/tutorials/raspberry-pi-installation/\).
 {% endhint %}
 
-### Step 1: Log in to the Raspberry Pi using SSH. Detailed procedure is provided in the document [**Raspberry Pi Login**](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/)
+### Step 1: Log in to the Raspberry Pi using SSH. Detailed procedure is provided in the document [**Raspberry Pi Login**](raspberry-pi-login.md)
 
 ### Step 2: Upgrade all packages
 

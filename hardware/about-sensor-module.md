@@ -38,7 +38,7 @@ Examples interfaces:
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-sensor-module/)
+* [**Documentation**](about-sensor-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-sensor)
 
 ### Firmware Projects <a id="firmware-projects"></a>

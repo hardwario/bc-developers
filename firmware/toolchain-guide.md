@@ -1,7 +1,7 @@
 # Toolchain Guide
 
 {% hint style="danger" %}
-This document assumes that you have necessary tools installed according to the document [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/).
+This document assumes that you have necessary tools installed according to the document [**Toolchain Setup**](toolchain-setup.md).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -130,12 +130,12 @@ There are two bootloaders in MCU ROM:
 * UART - in case of USB-UART chip device is used \(e.g. for Radio Dongle or Core Module R2.x\)
 
 {% hint style="warning" %}
-In case you need to upload the firmware into the Core Module R1, you must first [**put it in the DFU mode**](https://www.bigclown.com/doc/firmware/toolchain-guide/#switching-core-module-into-dfu-mode). Moreover, the flash command must be in the `bcf flash --device dfu` format.
+In case you need to upload the firmware into the Core Module R1, you must first [**put it in the DFU mode**](toolchain-guide.md#switching-core-module-into-dfu-mode). Moreover, the flash command must be in the `bcf flash --device dfu` format.
 {% endhint %}
 
 {% hint style="warning" %}
 **Flashing Core Module R1 & R2**  
-For differences of flashing older **Core Module 1** and newer **Core Module 2**please read **Core Module R1 and R2 comparison** in the **Hardware section**
+For differences of flashing older **Core Module 1** and newer **Core Module 2** please read **Core Module R1 and R2 comparison** in the **Hardware section**
 {% endhint %}
 
 Firmware upload can be done using the `bcf flash` command. The firmware can be obtained from 3 different sources:
@@ -359,5 +359,5 @@ Follow the instructions in the chapter [**Switching Core Module into DFU Mode**]
 
 ## Related Documents
 
-* [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/)
+* [**Toolchain Setup**](toolchain-setup.md)
 

@@ -27,7 +27,7 @@ The **Temperature Tag** uses a high-accuracy **temperature sensor** TMP112 with 
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-temperature-tag/)
+* [**Documentation**](about-temperature-tag.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-tag-temperature)
 
 ### Firmware Projects <a id="firmware-projects"></a>

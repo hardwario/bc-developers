@@ -71,8 +71,8 @@ Table below explains mapping between pin numbers and real [STM32L083CZ](http://w
 
 ### Resources <a id="resources"></a>
 
-* [**Pinout signals**](https://www.bigclown.com/doc/hardware/header-pinout)
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-core-module/)
+* [**Pinout signals**](header-pinout.md)
+* [**Documentation**](about-core-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-core)
 
 ### Firmware Projects <a id="firmware-projects"></a>

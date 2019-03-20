@@ -2,7 +2,7 @@
 
 This multi-platform Python tool can flash [Radio Dongle](https://shop.bigclown.com/radio-dongle) and [Core Module](https://shop.bigclown.com/core-module) with local binary or latest released firmwares from GitHub.
 
-The installation and usage instructions are in the [**Quick Tutorial**](https://www.bigclown.com/doc/tutorials/raspberry-pi-tutorial/) and **Projects** section.
+The installation and usage instructions are in the [**Quick Tutorial**](../tutorials/quick-tutorial.md) and **Projects** section.
 
 ## Install & Upgrade
 

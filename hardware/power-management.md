@@ -63,5 +63,5 @@ Whether it is a battery power or a external power source, the two P-channel MOSF
 
 ## Related Documents
 
-* [**Header and Signals**](https://www.bigclown.com/doc/hardware/header-pinout/)
+* [**Header and Signals**](header-pinout.md)
 

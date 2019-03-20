@@ -1,6 +1,6 @@
 # How to: Temperature sensor
 
-Core module comes with integrated temperature sensor TMP112. It is high accuracy and low power sensor connected via I2C bus \(see [address space](https://www.bigclown.com/doc/hardware/i2c-address-space/)\). If you want to take a look how TMP112 is connected, please take a look at [schematic](https://github.com/bigclownlabs/bc-hardware/blob/master/out/bc-module-core/bc-module-core-rev-1-3-sch.pdf).
+Core module comes with integrated temperature sensor TMP112. It is high accuracy and low power sensor connected via I2C bus \(see [address space](../hardware/i-c-address-space.md)\). If you want to take a look how TMP112 is connected, please take a look at [schematic](https://github.com/bigclownlabs/bc-hardware/blob/master/out/bc-module-core/bc-module-core-rev-1-3-sch.pdf).
 
 {% hint style="info" %}
 **As always...**  
@@ -22,7 +22,7 @@ Core module comes with integrated temperature sensor TMP112. It is high accuracy
 
 **Manual** - we can make manual measurement whenever we want to. This is achieved by calling the `bc_tmp112_measure(bc_tmp112_t *self)` function from SDK.
 
-**With Scheduler, repeatedly** - thanks to the [Scheduler](https://www.bigclown.com/doc/firmware/timing-and-scheduler/) you can define, when the periodic measurement should happen. For this, we have the `bc_tmp112_set_update_interval(bc_tmp112_t *self, bc_tick_t interval)`function.
+**With Scheduler, repeatedly** - thanks to the [Scheduler](timing-and-scheduler.md#scheduler) you can define, when the periodic measurement should happen. For this, we have the `bc_tmp112_set_update_interval(bc_tmp112_t *self, bc_tick_t interval)`function.
 
 * `*self` is an address to an TMP112 instance
 * `interval` is number of milliseconds, defining time between measurements

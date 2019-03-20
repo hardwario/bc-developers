@@ -27,7 +27,7 @@ The load disconnect circuit can disconnect the batteries if any other power supp
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-mini-battery-module/)
+* [**Documentation**](about-mini-battery-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-battery-mini)
 
 ### Firmware Projects <a id="firmware-projects"></a>

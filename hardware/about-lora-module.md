@@ -26,7 +26,7 @@ This network has a wide range of applications. Its use is particularly useful in
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-lora-module/)
+* [**Documentation**](about-lora-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-lora)
 
 ### Firmware Projects <a id="firmware-projects"></a>

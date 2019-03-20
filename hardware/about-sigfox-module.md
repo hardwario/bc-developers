@@ -33,7 +33,7 @@ The Sigfox network is data-agnostic. That means it is up to you to define the st
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-sigfox-module/)
+* [**Documentation**](about-sigfox-module.md)
 * [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-sigfox)
 
 ### Firmware Projects <a id="firmware-projects"></a>

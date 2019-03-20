@@ -17,5 +17,5 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](https://www.bigclown.com/doc/hardware/about-cover-module/)
+* [**Documentation**](about-cover-module.md)
 

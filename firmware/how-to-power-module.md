@@ -1,6 +1,6 @@
 # How to: Power Module
 
-[Power module](https://www.bigclown.com/doc/hardware/about-power-module/) provides two features - you can control high power device with robust relay \(230 V / 16 A\) and you can also connect 5V addressable LEDs \(_WS2812B_\) and control them.
+[Power module](../hardware/about-power-module.md) provides two features - you can control high power device with robust relay \(230 V / 16 A\) and you can also connect 5V addressable LEDs \(_WS2812B_\) and control them.
 
 {% hint style="info" %}
 **As always...**  
@@ -45,5 +45,5 @@ void application_init(void)
 
 ## LED / LED Strip Control
 
-We have [separate tutorial](https://www.bigclown.com/doc/firmware/how-to-smart-led-strip/) how to control our LED strip.
+We have [separate tutorial](how-to-led-control.md) how to control our LED strip.
 

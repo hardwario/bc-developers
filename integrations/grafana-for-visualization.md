@@ -127,7 +127,7 @@ sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
 ```
 
-Continue in the section [**Connect Mosquitto and InfluxDB**](https://www.bigclown.com/doc/integrations/grafana-for-visualization/#connect-mosquitto-and-influxdb).
+Continue in the section [**Connect Mosquitto and InfluxDB**](grafana-for-visualization.md#connect-mosquitto-and-influxdb).
 
 ## Installing InfluxDB on macOS
 
@@ -330,6 +330,6 @@ Finish by clicking on the **Add** button. At this moment **Grafana** will try to
 
 ## Related Documents
 
-* [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)
-* [**MQTT Protocol**](https://www.bigclown.com/doc/interfaces/mqtt-protocol/)
+* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**MQTT Protocol**](../interfaces/mqtt-protocol.md)
 
