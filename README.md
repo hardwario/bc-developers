@@ -16,13 +16,7 @@
 
 ### BigClown kits
 
-![](.gitbook/assets/_kits_climate.png)
-
-![](.gitbook/assets/_kits_lcd.png)
-
-![](.gitbook/assets/_kits_pir.png)
-
-|  |  |  |
+| <a href="https://www.bigclown.com/kits/motion-detector/">![](.gitbook/assets/_kits_pir.png)</a> | <a href="https://www.bigclown.com/kits/lcd-thermostat/">![](.gitbook/assets/_kits_lcd.png)</a> | <a href="https://www.bigclown.com/kits/climate-monitor/">![](.gitbook/assets/_kits_pir.png)</a> |
 | :--- | :--- | :--- |
 
 
