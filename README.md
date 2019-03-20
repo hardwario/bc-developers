@@ -14,7 +14,3 @@
 
 {% page-ref page="basics/quick-start-guide.md" %}
 
-### BigClown kits
-
-| [![](.gitbook/assets/_kits_climate.png)] { width: 200px; } (https://google.com) | [![](.gitbook/assets/_kits_climate.png)](https://google.com) | [![](.gitbook/assets/_kits_climate.png)](https://google.com) |
-|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
