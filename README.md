@@ -16,3 +16,13 @@
 
 ### BigClown kits
 
+![](.gitbook/assets/_kits_climate.png)
+
+![](.gitbook/assets/_kits_lcd.png)
+
+![](.gitbook/assets/_kits_pir.png)
+
+|  |  |  |
+| :--- | :--- | :--- |
+
+
