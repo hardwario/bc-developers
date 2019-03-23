@@ -104,5 +104,19 @@ The final step is to connect Node-RED and Blynk together, so you can get the not
 
 The time has come to **PUSH THE BUTTON**
 
-| ![](../.gitbook/assets/_projects_push-the-button_push-the-button.png) | ![](../.gitbook/assets/_projects_push-the-button_push-the-button.png) |
+| ![](../.gitbook/assets/_projects_push-the-button_push-the-button.png) | ![](../.gitbook/assets/_projects_push-the-button_button-pressed.png) |
 | :--- | :--- |
+
+
+## Learn More
+
+The goal of this **Push Button Project** is to show the basics in a few simple steps. Now you can learn more by browsing the **documentation** or by visiting the **links below**.
+
+* Check out other BigClown [**projects**](projects-overview.md).
+* Take a look at the [**Module Overview**](../basics/module-overview.md).
+* Learn about [**MQTT**](../interfaces/mqtt-protocol.md) and [**BigClown MQTT topics**](../interfaces/mqtt-topics.md) to control LEDs and relays.
+* Try other [**integrations**](../integrations/grafana-for-visualization.md) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
+* Use your [**Raspberry PI**](../tutorials/raspberry-pi-installation.md) or other [**single board computer \(SBC\)**](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian) as a server.
+* [**Flash other firmware**](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware.en.md) or [**write your own firmware**](../firmware/basic-overview.md) for the **Core Module**.
+* Check the [**Core Module pinouts**](../hardware/header-pinout.md) and add your own buttons, relays and sensors.
+
