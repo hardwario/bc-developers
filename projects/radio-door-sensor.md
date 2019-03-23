@@ -4,15 +4,5 @@
 
 It can be equiped with magnet for easy attach enclosure and works for many years on batteries. Really easy installation!
 
-|  |  |
-| :--- | :--- |
-|  |  |
-
-![](../.gitbook/assets/_projects_radio-door-sensor_preview.jpg)
-
-![](../.gitbook/assets/_projects_radio-door-sensor_overview.jpg)
-
-![](../.gitbook/assets/_projects_radio-door-sensor_phone-notification.jpg)
-
-![](../.gitbook/assets/_projects_radio-door-sensor_block-diagram.svg)
-
+| ![](../.gitbook/assets/_projects_radio-door-sensor_preview.jpg) | ![](../.gitbook/assets/_projects_radio-door-sensor_overview.jpg) |
+| ![](../.gitbook/assets/_projects_radio-door-sensor_phone-notification.jpg) | ![](../.gitbook/assets/_projects_radio-door-sensor_block-diagram.svg) |
