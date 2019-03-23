@@ -104,11 +104,5 @@ The final step is to connect Node-RED and Blynk together, so you can get the not
 
 The time has come to **PUSH THE BUTTON**
 
-|  |  |
+| ![](../.gitbook/assets/_projects_push-the-button_push-the-button.png) | ![](../.gitbook/assets/_projects_push-the-button_push-the-button.png) |
 | :--- | :--- |
-|  |  |
-
-![](../.gitbook/assets/_projects_push-the-button_push-the-button.png)
-
-![](../.gitbook/assets/_projects_push-the-button_button-pressed.png)
-
