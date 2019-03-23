@@ -23,6 +23,11 @@
 * [LoRa AT Commands Configuration](tutorials/lora-at-commands-configuration.md)
 * [GitHub Repositories](tutorials/github-repositories.md)
 
+## Projects
+
+* [Projects Overview](projects/projects-overview.md)
+* [Push The Button](projects/push-the-button.md)
+
 ## Interfaces
 
 * [MQTT Protocol](interfaces/mqtt-protocol.md)
