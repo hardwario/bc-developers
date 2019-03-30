@@ -29,6 +29,7 @@
 * [Push The Button](projects/push-the-button.md)
 * [Radio Door Sensor](projects/radio-door-sensor.md)
 * [Radio CO2 Monitor](projects/radio-co2-monitor.md)
+* [Radio Climate Monitor](projects/radio-climate-monitor.md)
 
 ## Interfaces
 
