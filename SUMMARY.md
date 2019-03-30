@@ -31,6 +31,8 @@
 * [Radio CO2 Monitor](projects/radio-co2-monitor.md)
 * [Radio Climate Monitor](projects/radio-climate-monitor.md)
 * [Radio Flood Detector](projects/radio-flood-detector.md)
+* [Radio LCD Thermostat](projects/radio-lcd-thermostat.md)
+* [Radio Motion Detector](projects/radio-motion-detector.md)
 
 ## Interfaces
 
