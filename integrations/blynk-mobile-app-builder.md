@@ -14,11 +14,11 @@ You are done and you can start integrations with Blynk.
 
 ## Blynk example projects with BigClown <a id="blynk-example-projects-with-bigclown"></a>
 
-* [Push The Button](https://www.bigclown.com/doc/projects/push-the-button/)
-* [Radio Climate Monitor](https://www.bigclown.com/doc/projects/radio-climate-monitor/)
-* [Radio LCD Thermostat](https://www.bigclown.com/doc/projects/radio-lcd-thermostat/)
-* [Radio CO2 Monitor](https://www.bigclown.com/doc/projects/radio-co2-monitor/)
-* [Radio Smart LED Strip](https://www.bigclown.com/doc/projects/radio-smart-led-strip/)
+* [Push The Button](../projects/push-the-button.md)
+* [Radio Climate Monitor](../projects/radio-climate-monitor.md)
+* [Radio LCD Thermostat](../projects/radio-lcd-thermostat.md)
+* [Radio CO2 Monitor](../projects/radio-co2-monitor.md)
+* [Radio Smart LED Strip](../projects/radio-smart-led-strip.md)
 
 ## Blynk app <a id="blynk-app"></a>
 
@@ -37,7 +37,7 @@ If you do not want to share your email, which I would consider quite safe in thi
 ### Step 2: After starting the app you have to create account. No email confirmation is needed, it is up to you to be careful when filling in the email address, typos might lead to unrecoverable account. The email address is used for token distribution, thus pretty important.
 
 {% hint style="info" %}
-Blynk also offers the off-line version of the server called [Local blynk server](http://docs.blynk.cc/#blynk-server)with [Github sources](https://github.com/blynkkk/blynk-server). The off-line here stands for **no-Internet** setup.
+Blynk also offers the off-line version of the server called [Local blynk server](http://docs.blynk.cc/#blynk-server) with [Github sources](https://github.com/blynkkk/blynk-server). The off-line here stands for **no-Internet** setup.
 {% endhint %}
 
 ## Create Blynk project <a id="create-blynk-project"></a>

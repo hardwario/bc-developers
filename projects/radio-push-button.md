@@ -16,15 +16,15 @@ This document will guide you through the **Radio Push Button** project. You will
 * One of these options:
   * **BigClown Playground** installed \(recommended\)
 
-    You can find more information in the [**Quick Start Guide**](https://www.bigclown.com/doc/basics/quick-start-guide/) document.
+    You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
 
   * **Raspberry Pi** with the **BigClown Raspbian** distribution
 
-    You can find more information in the document [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/).
+    You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
 
   * **BigClown Toolchain** installed
 
-    You can find more information in the document [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/).
+    You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
 
 ## Firmware Upload
 
@@ -138,7 +138,7 @@ At this point, you've got verified radio communication.
 Optionally put the assembly into the appropriate enclosure, if you have one.
 
 {% hint style="info" %}
-You can find more information about the enclosures in the document [**Enclosures**](https://www.bigclown.com/doc/basics/enclosures/).
+You can find more information about the enclosures in the document [**Enclosures**](../basics/enclosures.md).
 {% endhint %}
 
 ## Integration with IFTTT
@@ -261,7 +261,7 @@ At this point, you should get a push notification when you press the button.
 
 ## Related Documents
 
-* [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)
-* [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/)
-* [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/)
+* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**Toolchain Setup**](../firmware/toolchain-setup.md)
+* [**Toolchain Guide**](../firmware/toolchain-guide.md)
 

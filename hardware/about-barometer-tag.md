@@ -33,5 +33,5 @@ Monitoring of absolute pressure is useful for weather forecast and it is also an
 ### Firmware Projects <a id="firmware-projects"></a>
 
 * [**Generic firmware**](https://github.com/bigclownlabs/bcf-generic-node/releases)
-* [**Radio CO2 Monitor**](https://github.com/bigclownlabs/bcf-radio-co2-monitor/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-co2-monitor/)
+* [**Radio CO2 Monitor**](https://github.com/bigclownlabs/bcf-radio-co2-monitor/releases) [**\(documentation\)**](../projects/radio-co2-monitor.md)
 

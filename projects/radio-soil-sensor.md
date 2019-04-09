@@ -1,6 +1,6 @@
 # Radio Soil Sensor
 
-This document will guide you through the **Radio Soil Sensor** project. You will be able to see, save and analyze moisture level and temperature in **Node-RED** and **Grafana**visualization tool.
+This document will guide you through the **Radio Soil Sensor** project. You will be able to see, save and analyze moisture level and temperature in **Node-RED** and **Grafana** visualization tool.
 
 ![](../.gitbook/assets/_projects_radio-soil-sensor_project-image.png)
 
@@ -20,15 +20,15 @@ This document will guide you through the **Radio Soil Sensor** project. You will
   * 1x **BigClown** [**Core Module**](https://shop.bigclown.com/core-module)
   * 1x **BigClown** [**Battery Module**](https://shop.bigclown.com/battery-module)
   * 1x **BigClown** [**Radio Dongle**](https://shop.bigclown.com/radio-dongle)
-* You will need **Raspberry Pi** with the **BigClown Raspbian** distribution installed. Please see [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/) document.
+* You will need **Raspberry Pi** with the **BigClown Raspbian** distribution installed. Please see [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md) document.
 
-Measured data will be saved and visualized in Grafana on [**Raspberry Pi**](https://shop.bigclown.com/raspberry-pi-3-set). It is also possible to use your computer. Just follow [**Quick Start Guide**](https://www.bigclown.com/doc/basics/quick-start-guide/) document.
+Measured data will be saved and visualized in Grafana on [**Raspberry Pi**](https://shop.bigclown.com/raspberry-pi-3-set). It is also possible to use your computer. Just follow [**Quick Start Guide**](../basics/quick-start-guide.md) document.
 
 ## Connecting to Raspberry Pi
 
 All the configuration, services and flashing firmware will be done on the **Raspberry Pi**. You use your computer only to connect to the **Raspberry Pi SSH** server and **Grafana** web page.
 
-Please follow the [**Raspberry Pi Login**](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/) document where you find how to discover **Raspberry Pi IP address** on your network and connect to the **SSH server**.
+Please follow the [**Raspberry Pi Login**](../tutorials/raspberry-pi-login.md) document where you find how to discover **Raspberry Pi IP address** on your network and connect to the **SSH server**.
 
 ## Firmware Upload
 
@@ -124,7 +124,7 @@ At this point, you've got verified radio communication.
 Optionally put the assembly into the appropriate enclosure, if you have one.
 
 {% hint style="info" %}
-You can find more information about the enclosures in the document [**Enclosures**](https://www.bigclown.com/doc/basics/enclosures/).
+You can find more information about the enclosures in the document [**Enclosures**](../basics/enclosures.md).
 {% endhint %}
 
 ## Integration Grafana
@@ -133,7 +133,7 @@ Now we have assembled our kit and let's start with some basic integration with *
 
 ### Step 1: Install dependencies
 
-Install **Grafana** and **InfluxDB** database to your **Raspberry Pi**. This is explained in [**Grafana for Visualization** ](https://www.bigclown.com/doc/integrations/grafana-for-visualization/)document
+Install **Grafana** and **InfluxDB** database to your **Raspberry Pi**. This is explained in [**Grafana for Visualization** ](../integrations/grafana-for-visualization.md)document
 
 ### Step 2: Edit config
 
@@ -211,6 +211,6 @@ Now click on the **Save** button in the **Grafana** so all your configuration st
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)
-* [**Raspberry Pi Login**](https://www.bigclown.com/doc/tutorials/raspberry-pi-login/)
+* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**Raspberry Pi Login**](../tutorials/raspberry-pi-login.md)
 

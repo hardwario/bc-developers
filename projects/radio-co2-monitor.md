@@ -19,15 +19,15 @@ This document will guide you through the **Radio CO2 Monitor** project. You will
 * One of these options:
   * **BigClown Playground** installed \(recommended\)
 
-    You can find more information in the [**Quick Start Guide**](https://www.bigclown.com/doc/basics/quick-start-guide/) document.
+    You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
 
   * **Raspberry Pi** with the **BigClown Raspbian** distribution
 
-    You can find more information in the document [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/).
+    You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
 
   * **BigClown Firmware Tool** installed
 
-    You can find more information in the document [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/).
+    You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
 
 ## Firmware Upload
 
@@ -220,7 +220,7 @@ Now deploy your **Node-RED** app and hit play button in your **Blynk** project a
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)
-* [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/)
-* [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/)
+* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**Toolchain Setup**](../firmware/toolchain-setup.md)
+* [**Toolchain Guide**](../firmware/toolchain-guide.md)
 

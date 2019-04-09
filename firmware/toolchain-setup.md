@@ -242,7 +242,7 @@ sudo pip3 install --upgrade --no-cache-dir bcf
 
 If you have other Linux distribution or unsupported Ubuntu version, we recommend to use official _GNU Embedded Toolchain for ARM_ from [developer.arm.com](https://developer.arm.com/) pages. This package is validated by ARM and tested by us.
 
-### Step 1: Go to [https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads)and download **Linux 64-bit** package
+### Step 1: Go to [https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) and download **Linux 64-bit** package
 
 ### Step 2: Extract package to filesystem, e.g. into `/opt` folder \(_available for all users, you will need root privileges_\) or into `~/.local/opt` folder \(_available only for you_\)
 

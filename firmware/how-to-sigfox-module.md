@@ -13,7 +13,7 @@ _This applies to users who bought Sigfox connectivity from our e-shop_. Because 
 * Backend sends the message to MySigfox.com
 * MySigfox.com resends the message to your server
 
-It is pretty easy to set it all up. For more information, there is a [different article](https://www.bigclown.com/doc/tutorials/mysigfox-com-service/).
+It is pretty easy to set it all up. For more information, there is a [different article](../tutorials/mysigfox.com-service.md).
 
 ### Example 1 - "Hello World" <a id="example-1-hello-world"></a>
 

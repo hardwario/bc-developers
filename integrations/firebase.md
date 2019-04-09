@@ -113,9 +113,9 @@ Click deploy. After deploying. Click on “Set 1 to Firebase”. Open your Fireb
 
 Dependencies:
 
-* Had working [Wireless Motion Detector](https://www.bigclown.com/doc/projects/radio-motion-detector/) \(not IFTTT part\)
+* Had working [Wireless Motion Detector](../projects/radio-motion-detector.md) \(not IFTTT part\)
 
-### Step 1: Had flow from [Wireless Motion Detector](https://www.bigclown.com/doc/projects/radio-motion-detector/) and check if it sends data.
+### Step 1: Had flow from [Radio Motion Detector](../projects/radio-motion-detector.md) and check if it sends data.
 
 ![](../.gitbook/assets/_integrations_firebase_11.PNG)
 

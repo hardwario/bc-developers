@@ -7,7 +7,7 @@ If you want to have your recorded values easily accessible online, Google Sheets
 Google Sheets have limit of up to 5 milions cells, but that will take a while to fill up.
 {% endhint %}
 
-We will use the [CO2 Monitor Kit](https://www.bigclown.com/kits/co2-monitor/) as an example, but you can easily modify the code to any module, from which you want to save data.
+We will use the [CO2 Monitor Kit](../projects/radio-co2-monitor.md) as an example, but you can easily modify the code to any module, from which you want to save data.
 
 ## Google Sheets setup
 

@@ -79,11 +79,11 @@ Table below explains mapping between pin numbers and real [STM32L083CZ](http://w
 
 * [**Generic firmware**](https://github.com/bigclownlabs/bcf-generic-node/releases)
 * [**BigClown gateway**](https://github.com/bigclownlabs/bcf-gateway/releases) [**\(readme\)**](https://github.com/bigclownlabs/bcf-gateway/blob/master/README.md)
-* [**Radio Push Button**](https://github.com/bigclownlabs/bcf-radio-push-button/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-push-button/)
-* [**Radio Climate Monitor**](https://github.com/bigclownlabs/bcf-radio-climate-monitor/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-climate-monitor/)
-* [**Radio Motion Detector**](https://github.com/bigclownlabs/bcf-radio-motion-detector/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-motion-detector/)
-* [**Radio Flood Detector**](https://github.com/bigclownlabs/bcf-radio-flood-detector/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-flood-detector/)
+* [**Radio Push Button**](https://github.com/bigclownlabs/bcf-radio-push-button/releases) [**\(documentation\)**](../projects/push-the-button.md)
+* [**Radio Climate Monitor**](https://github.com/bigclownlabs/bcf-radio-climate-monitor/releases) [**\(documentation\)**](../projects/radio-climate-monitor.md)
+* [**Radio Motion Detector**](https://github.com/bigclownlabs/bcf-radio-motion-detector/releases) [**\(documentation\)**](../projects/radio-motion-detector.md)
+* [**Radio Flood Detector**](https://github.com/bigclownlabs/bcf-radio-flood-detector/releases) [**\(documentation\)**](../projects/radio-flood-detector.md)
 * [**Radio LCD Thermostat**](https://github.com/bigclownlabs/bcf-radio-lcd-thermostat/releases)
-* [**Radio CO2 Monitor**](https://github.com/bigclownlabs/bcf-radio-co2-monitor/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-co2-monitor/)
-* [**Radio Power Controller and LED strip**](https://github.com/bigclownlabs/bcf-radio-power-controller/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-smart-led-strip/)
+* [**Radio CO2 Monitor**](https://github.com/bigclownlabs/bcf-radio-co2-monitor/releases) [**\(documentation\)**](../projects/radio-co2-monitor.md)
+* [**Radio Power Controller and LED strip**](https://github.com/bigclownlabs/bcf-radio-power-controller/releases) [**\(documentation\)**](../projects/radio-smart-led-strip.md)
 

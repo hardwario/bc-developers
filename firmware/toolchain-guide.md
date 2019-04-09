@@ -345,7 +345,7 @@ There can be various reasons:
 
 #### **Step 1:** DFU mode is not activated on the **Core Module**
 
-Follow the instructions in the chapter [**Switching Core Module into DFU Mode**](https://www.bigclown.com/doc/firmware/toolchain-guide/#switching-core-module-into-dfu-mode).
+Follow the instructions in the chapter [**Switching Core Module into DFU Mode**](toolchain-guide.md#switching-core-module-into-dfu-mode).
 
 #### Step 2: Defective USB cable, USB hub, USB port or **Core Module**
 

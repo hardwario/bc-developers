@@ -43,7 +43,7 @@ Examples interfaces:
 
 ### Firmware Projects <a id="firmware-projects"></a>
 
-* [**Radio Flood Detector**](https://github.com/bigclownlabs/bcf-radio-flood-detector/releases) [**\(documentation\)**](https://www.bigclown.com/doc/projects/radio-flood-detector/)
+* [**Radio Flood Detector**](https://github.com/bigclownlabs/bcf-radio-flood-detector/releases) [**\(documentation\)**](../projects/radio-flood-detector.md)
 * [**Radio Pool Sensor**](https://github.com/hubmartin/bcf-kit-wireless-pool-sensor)
 
 ### 1-Wire Connection <a id="1-wire-connection"></a>

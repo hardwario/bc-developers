@@ -102,5 +102,5 @@ bcf flash --device /dev/ttyUSB0 bigclownlabs/bcf-radio-motion-detector:latest
 ## References
 
 * \*\*\*\*[**bcf tool**](../firmware/toolchain-guide.md)\*\*\*\*
-* [**About Core Module**](https://www.bigclown.com/doc/hardware/about-core-module/)
+* [**About Core Module**](about-core-module.md)
 

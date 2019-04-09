@@ -25,9 +25,9 @@ Setup will be containing three steps:
 
 ## Kit and Blynk setup
 
-Please setup at least one of supported modules using [Projects guides](https://www.bigclown.com/doc/projects/push-the-button/) and make sure you have [Blynk](https://www.bigclown.com/doc/projects/push-the-button/#blynk-mobile-app-set-up) installed on your device. Google Assistant will use Blynk to communicate with your Hub in the background and fulfill your commands.
+Please setup at least one of supported modules using [Projects guides](../projects/push-the-button.md) and make sure you have [Blynk](../projects/push-the-button.md#blynk-mobile-app-set-up) installed on your device. Google Assistant will use Blynk to communicate with your Hub in the background and fulfill your commands.
 
-Here is [list of projects with Blynk integrations](https://www.bigclown.com/doc/integrations/blynk-for-mobile-applications/#blynk-example-projects-with-bigclown).
+Here is [list of projects with Blynk integrations](blynk-mobile-app-builder.md#blynk-example-projects-with-bigclown).
 
 **Make sure you have your kit sucesfully running with Blynk before you move to next steps.**
 

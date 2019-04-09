@@ -4,9 +4,9 @@
 
 ## IFTTT example projects with BigClown <a id="ifttt-example-projects-with-bigclown"></a>
 
-* [Radio Push Button](https://www.bigclown.com/doc/projects/radio-push-button/)
-* [Radio Motion Detector](https://www.bigclown.com/doc/projects/radio-motion-detector/)
-* [Radio Flood Detector](https://www.bigclown.com/doc/projects/radio-flood-detector/)
+* [Radio Push Button](../projects/radio-push-button.md)
+* [Radio Motion Detector](../projects/radio-motion-detector.md)
+* [Radio Flood Detector](../projects/radio-flood-detector.md)
 
 ## Mobile App <a id="mobile-app"></a>
 

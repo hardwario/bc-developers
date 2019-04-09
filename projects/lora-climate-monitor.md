@@ -23,7 +23,7 @@ You can use community The Things Network to receive the data.
 
 ## LoRa Configuration
 
-For configuring the LoRa keys please follow [LoRa AT Commands Configuration](https://www.bigclown.com/doc/tutorials/lora-at-commands-configuration/) tutorial.
+For configuring the LoRa keys please follow [LoRa AT Commands Configuration](../tutorials/lora-at-commands-configuration.md) tutorial.
 
 ## Transmitting the data
 

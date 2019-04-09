@@ -23,15 +23,15 @@ This document will guide you through the **Radio VOC sensor** project. You will 
   * One of these options:
     * **BigClown Playground** installed \(recommended\)
 
-      You can find more information in the [**Quick Start Guide**](https://www.bigclown.com/doc/basics/quick-start-guide/) document.
+      You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
 
     * **Raspberry Pi** with the **BigClown Raspbian** distribution
 
-      You can find more information in the document [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/).
+      You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
 
     * **BigClown Toolchain** installed
 
-      You can find more information in the document [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/).
+      You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
 
 ### Firmware Upload <a id="firmware-upload"></a>
 
@@ -216,7 +216,7 @@ Your project is finished, congratulation!
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](https://www.bigclown.com/doc/tutorials/raspberry-pi-installation/)
-* [**Toolchain Setup**](https://www.bigclown.com/doc/firmware/toolchain-setup/)
-* [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/)
+* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**Toolchain Setup**](../firmware/toolchain-setup.md)
+* [**Toolchain Guide**](../firmware/toolchain-guide.md)
 
