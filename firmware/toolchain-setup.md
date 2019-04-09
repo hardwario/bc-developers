@@ -95,7 +95,11 @@ Homebrew is the package management system and the ecosystem of packages for macO
 ### Step 3: Install **GCC ARM Embedded**
 
 ```text
-brew cask install gcc-arm-embedded
+brew tap armmbed/formulae
+```
+
+```text
+brew install armmbed/formulae/arm-none-eabi-gcc
 ```
 
 ### **Step 4:** Install **Git**
