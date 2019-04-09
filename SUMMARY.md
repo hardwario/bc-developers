@@ -33,6 +33,12 @@
 * [Radio Flood Detector](projects/radio-flood-detector.md)
 * [Radio LCD Thermostat](projects/radio-lcd-thermostat.md)
 * [Radio Motion Detector](projects/radio-motion-detector.md)
+* [Radio Push Button](projects/radio-push-button.md)
+* [Radio Smart LED Strip](projects/radio-smart-led-strip.md)
+* [Radio Soil Sensor](projects/radio-soil-sensor.md)
+* [Radio VOC sensor](projects/radio-voc-sensor.md)
+* [LoRa Climate Monitor](projects/lora-climate-monitor.md)
+* [LoRa 1-Wire Thermometer](projects/lora-1-wire-thermometer.md)
 
 ## Interfaces
 
