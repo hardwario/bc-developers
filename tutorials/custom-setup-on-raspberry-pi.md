@@ -138,13 +138,3 @@ pm2 start /usr/bin/python3 --name "bcg-ud" -- /usr/local/bin/bcg --device /dev/b
 pm2 save
 ```
 
-### Step 14: Bash autocomplete for bcf
-
-```text
-register-python-argcomplete bcf >> ~/.bashrc
-```
-
-```text
-source ~/.bashrc
-```
-
