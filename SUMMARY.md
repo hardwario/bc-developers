@@ -133,6 +133,7 @@
 * [How to: Servo motor](firmware/how-to-servo-motor.md)
 * [How to: Sigfox module](firmware/how-to-sigfox-module.md)
 * [How to: Smart LED Strip](firmware/how-to-smart-led-strip.md)
+* [How to: Soil Moisture Sensor](firmware/how-to-soil-moisture-sensor.md)
 * [How to: Temperature sensor](firmware/how-to-temperature-sensor.md)
 * [How to: UART interface](firmware/how-to-uart-interface.md)
 * [How to: USB Console](firmware/how-to-usb-console.md)
