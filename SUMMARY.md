@@ -96,6 +96,7 @@
 * [About Relay Module](hardware/about-relay-module.md)
 * [About Sensor Module](hardware/about-sensor-module.md)
 * [About Sigfox Module](hardware/about-sigfox-module.md)
+* [About Soil Moisture Sensor](hardware/about-soil-moisture-sensor.md)
 * [About Tag Module](hardware/about-tag-module.md)
 * [About Temperature Tag](hardware/about-temperature-tag.md)
 * [About VOC Tag](hardware/about-voc-tag.md)
@@ -141,4 +142,8 @@
 * [BigClown firmware flashing tool](tools/bigclown-firmware-flashing-tool.md)
 * [BigClown gateway](tools/bigclown-gateway.md)
 * [BigClown Host Tool](tools/bigclown-host-tool.md)
+
+## Documentation
+
+* [GitBook Documentation](documentation/gitbook-documentation.md)
 
