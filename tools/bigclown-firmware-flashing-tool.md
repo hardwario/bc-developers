@@ -12,6 +12,22 @@ You can install tools with `pip3` python tool. Always make sure that you are usi
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
+### Autocomplete
+
+For Ubuntu/Linux you can enable autocomplete. Add this line to `~/.bashrc`
+
+```text
+eval "$(_BCF_COMPLETE=source bcf)"
+```
+
+Then run this command to reload .bashrc
+
+```text
+source ~/.bashrc
+```
+
+Now you can for example write `bcf --de`, press TAB key and `--device` text is automatically completed.
+
 ## Usage examples
 
 Update and dowload list of all firmwares from GitHub
