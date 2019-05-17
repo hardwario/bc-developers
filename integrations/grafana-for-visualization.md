@@ -40,7 +40,7 @@ curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
 {% tabs %}
 {% tab title="Debian / Raspbian" %}
 ```text
-echo "deb https://repos.influxdata.com/debian jessie stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 ```
 {% endtab %}
 
@@ -92,13 +92,13 @@ sudo dpkg -i grafana.deb
 #### Step 1: Add repository key
 
 ```text
-curl -sL https://packagecloud.io/gpg.key | sudo apt-key add -
+curl -sL https://packages.grafana.com/gpg.key | sudo apt-key add -
 ```
 
 #### Step 2: Add repository to source list
 
 ```text
-echo "deb https://packagecloud.io/grafana/stable/debian/ jessie main" | sudo tee /etc/apt/sources.list.d/grafana.list
+echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
 ```
 
 #### Step 3: Then update the package list and install the package
