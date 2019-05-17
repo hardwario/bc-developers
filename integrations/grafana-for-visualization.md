@@ -12,14 +12,12 @@ You will need these components to make it work:
 * **Mosquitto** - MQTT broker
 
 {% hint style="warning" %}
+
 This setup has been tested on:
 
 * **Raspberry Pi 3** + **Raspbian Jessie**
 * **Turris Omnia** + **Ubuntu 16.04** \(via LXC container\)
 * **macOS 10.13**
-{% endhint %}
-
-
 
 ## Installing InfluxDB on Linux
 
