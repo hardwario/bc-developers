@@ -38,16 +38,13 @@ You will need to search for `connection`, `address` and `topic` directives in th
 
 There are two types of devices in the **BigClown** radio network:
 
-* **Gateway Device**
+* **Radio Dongle**
 
-  There can be only one gateway device per network. The gateway device can be either:
+  You can pair up to 32 devices.
 
-  * BigClown **Radio Dongle** \(it can handle up to **32 devices**\)
-  * BigClown **Core Module** \(it can handle up to **16 devices**\)
+* **Radio Node**
 
-* **Node Device**
-
-  There can be one to several node devices in the network. Every node has to be paired to the gateway. A node device can be some sensor \(e.g. temperature, humidity, CO2\) or actuator \(power relay, LCD display, LED strip controller\).
+  Every node has to be paired to the gateway. A node device can be some sensor \(e.g. temperature, humidity, CO2\) or actuator \(power relay, LCD display, LED strip controller\).
 
 ## Radio Pairing
 
@@ -68,6 +65,28 @@ This is done by cycling the power on the **node device**. On battery-operated no
 {% hint style="info" %}
 The MQTT command for this operation is described in the document [**MQTT Topics**](mqtt-topics.md).
 {% endhint %}
+
+## Low Power Radio Communication
+
+All battery operated radio nodes have turned off the radio receiver when they are sleeping. The gateway is listening all the time. This way it is very easy to send data anytime from battery operated node to the gateway.
+
+The other way - communication from gateway to the remote node is a bit tricky. Let's say you would like battery operated node with Relay Module which is bistable and needs energy only when changing its state. There is few solutions for this functionality:
+
+#### Using power adapter
+
+By using Power Module or micro USB cable to power Core Module constantly you can enable in your firmware radion in listening mode [BC\_RADIO\_MODE\_NODE\_LISTENING](http://sdk.bigclown.com/group__bc__radio.html#gga8ea10987b9de5621bcf560019dd6f2b7a068d480094dcb86276069ed743c968a2).
+
+#### Set listening timeout for sleeping node
+
+In the firmware you can set the time that the sleeping node will listen after every send message from Node to the Gateway. You set it by calling [bc\_radio\_set\_rx\_timeout\_for\_sleeping\_node](http://sdk.bigclown.com/group__bc__radio.html#gga8ea10987b9de5621bcf560019dd6f2b7a068d480094dcb86276069ed743c968a2) API.
+
+This way let's say you send the measured temperature every 10 minutes and in your Node-RED or server code you will react to this MQTT temperature message and immediatelly response with MQTT message to toggle the relay. We did some tests and 400 ms is more then enought timeout for Node-RED to send the response MQTT message.
+
+This solution adds to the power consumption and you have to find right ballance between battery life and response time the relay can be switched.
+
+#### Synchronized clock of nodes
+
+With [RTC support in SDK](http://sdk.bigclown.com/group__bc__rtc.html) it is possible to synchronize the clock of the nodes and create a firmware that will for example listen for 1 second in every 10 minutes. This way the node does not need to send packet like in previous solution, but it needs to be perfectly time-synchronized with the gateway and Node-RED.
 
 ## Radio Parameters
 
