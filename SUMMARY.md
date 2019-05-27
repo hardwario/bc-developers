@@ -120,6 +120,7 @@
 * [How to: D/A Converter](firmware/how-to-d-a-converter.md)
 * [How to: EEPROM](firmware/how-to-eeprom.md)
 * [How to: EEPROM bc\_config](firmware/how-to-eeprom-bc_config.md)
+* [How to: GFX Graphics Library](firmware/how-to-gfx-graphics-library.md)
 * [How to: GPIO pins](firmware/how-to-gpio-pins.md)
 * [How to: I²C Bus](firmware/how-to-i-c-bus.md)
 * [How to: LCD Module](firmware/how-to-lcd-module.md)
