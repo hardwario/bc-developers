@@ -30,12 +30,12 @@ In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB 
 
 {% tabs %}
 {% tab title="Windows" %}
-* 32-bit:
-  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-32bit.exe)
-  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-32bit.exe)
 * 64-bit:
-  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-64bit.exe)
   * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-64bit.exe)
+  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-64bit.exe)
+* 32-bit:
+  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-32bit.exe)
+  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-32bit.exe)
 {% endtab %}
 
 {% tab title="macOS" %}
@@ -43,12 +43,12 @@ In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB 
 {% endtab %}
 
 {% tab title="Linux" %}
+* AppImage:
+  * [x86\x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
 * DEB:
   * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-amd64.deb)
   * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-i386.deb)
   * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x64.tar.gz)
-* AppImage:
-  * [x86\\_64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
 {% endtab %}
 {% endtabs %}
 
@@ -74,11 +74,9 @@ In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https
 
 By building devices we mean putting modules and enclosure together, optionally flashing a new firmware and pairing devices with a Radio Dongle.
 
-**QUICK START GUIDE** recommends to follow this steps:
-
 Build delivered kits or build devices from modules \(check the [video guides](https://www.youtube.com/playlist?list=PLfRfhTxkuiVyc9P1TWw_DnAeh2INXwpFK) how to do so\). Do not put batteries to the battery modules yet and be careful how to connect [Mini Battery](https://shop.bigclown.com/mini-battery-module) Module from the right side.  
 
-![](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
+![Core Module&apos;s pin headers goes through Mini Battery Module&apos;s yellow PCB](../.gitbook/assets/_basics_quick-start-guide_mini-battery-module-orientation.png)
 
 As mentioned, delivered kits are already programmed with a right firmware. If you would like to change it to another firmware in the Core Module, please follow this [firmware flash chapter](../integrations/homekit-and-siri.md#step-1-flash-firmware).
 
@@ -110,7 +108,7 @@ Switch to the **Messages**, you should see incoming messages from the previous s
 
 ### 2. Function
 
-Switch to the **Function** tab and from the color blocks on the left side drag and drop **mqtt** block and **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**. You can use the `filter nodes` text box to find the right block. Connect the two created nodes together.
+Switch to the **Function** tab and from the color blocks on the left side drag and drop **mqtt input** block and **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**. You can use the `filter nodes` text box to find the right block. Connect the two created nodes together.
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks%20%281%29.png)
 
@@ -128,7 +126,7 @@ Go to Playground's **Dashboard** tab and you should see a gauge with the tempera
 
 ## Share
 
-Don't be shy and share your projects with others. We will reward you by a **100 EUR**discount coupon if your project will be displayed on our web.
+Don't be shy and share your projects with others. We will reward you by a **100 EUR** discount coupon if your project will be displayed on our web.
 
 Or just put the red nose on, make a selfie and share it on Facebook or Twitter with a hashtag **\#Clownfie** and you will get a **10 EUR** discount coupon.
 
