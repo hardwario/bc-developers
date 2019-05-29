@@ -103,6 +103,7 @@
 
 ## Firmware
 
+* [Firmware Quick Start](firmware/firmware-quick-start.md)
 * [Basic Overview](firmware/basic-overview.md)
 * [Toolchain Setup](firmware/toolchain-setup.md)
 * [Toolchain Guide](firmware/toolchain-guide.md)
