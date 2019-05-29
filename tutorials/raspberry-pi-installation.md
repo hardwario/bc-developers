@@ -27,11 +27,7 @@ In the following procedure, we will install the **BigClown Raspbian** Linux dist
   * macOS \(tested on version 10.12.x\)
   * Ubuntu \(tested on version 18.04.2 LTS\)
 
-## SD Card Preparation
-
-In the following steps, we will prepare a MicroSD card for Raspberry Pi. Go to one of the supported platforms:
-
-## Instructions for installing
+## Instructions for Installing
 
 ### Download
 
@@ -47,7 +43,9 @@ In the following steps, we will prepare a MicroSD card for Raspberry Pi. Go to o
 5. Click flash
 6. After flash insert microSD card to Raspberry Pi, connect microUSB power adapter and Ethernet cable or use Wifi setup in next chapter
 
-## Wifi setup
+## WiFi Setup \(optional\)
+
+If you would not like to use ethernet cable, you can connect Raspberry Pi over your WiFi
 
 1. Connect microSD card with BigClown Raspbian to computer
 2. Open boot section in your file explorer or Finder

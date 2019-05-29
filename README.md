@@ -1,16 +1,10 @@
 # Introduction
 
-## Start!
-
 {% page-ref page="basics/quick-start-guide.md" %}
 
-## Check out
+[BigClown Playground](basics/quick-start-guide.md#2-download-the-latest-playground)
 
-### BigClown Gateway
+[BigClown Gateway on Raspberry Pi](tutorials/raspberry-pi-installation.md) 
 
-{% page-ref page="tutorials/raspberry-pi-installation.md" %}
-
-### BigClown Playground
-
-{% page-ref page="basics/quick-start-guide.md" %}
+[Firmware Quick Start](firmware/firmware-quick-start.md)
 
