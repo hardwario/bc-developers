@@ -3,7 +3,7 @@
 You can easily edit or create your own custom firmware for BigClown Core Module on Windows, [Linux](toolchain-setup.md#setup-on-ubuntu) or [macOS](toolchain-setup.md#setup-on-macos). 
 
 {% hint style="info" %}
-In the [next chapters in Firmware group](basic-overview.md) you can find more details to each step explained here.
+In the [next chapters in Firmware group](basic-overview.md) you can find more details for each step explained here.
 {% endhint %}
 
 ## Windows
@@ -26,11 +26,11 @@ The Core Module is flashed. The red LED will turn on, when you press the button 
 
 ### Detailed explanation
 
-If you install BigClown Toolchain with **default options**, then the compiler and make tool will not install system-wide, but only in the BigClown Toolchain Console. That's why you have to run VSCode from the Toolchain command line so the VSCode will know where to look for `make` and `bcf` tool.
+If you install BigClown Toolchain with **default options**, then the compiler and make tool will not be added to the `PATH` environment variable, but only in the BigClown Toolchain Console. That's why you have to run VSCode from the Toolchain command line so the VSCode will know where to look for `make` and `bcf` tool.
 
 You can upgrade any Windows command line to BigClown Toolchain command line by typing `bct`.
 
-If you install BigClown Toolchain tools **system-wide** \(you check all the options during install\) then you can open the VSCode from start menu and it will know how to compile and flash because `make` and `bcf` will be also in the default Windows command line.
+If you you check all the options during installation of the BigClown Toolchain, then the paths of the installed tools is added to `PATH` environment variable. Then you can open the VSCode from start menu and it will know how to compile and flash because `make` and `bcf` will be also available in the default Windows command line.
 
 VSCode now uses PowerShell, that's why you have to confirm that you would like to use normal Windows command line.
 
