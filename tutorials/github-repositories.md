@@ -4,6 +4,12 @@ The BigClown system is open-source and is developed through the **GitHub** platf
 
 The GitHub organization name is **bigclownlabs** and you can find its page at [**https://github.com/bigclownlabs**](https://github.com/bigclownlabs).
 
+More projects can be found on BigClown Projects GitHub organization [**https://github.com/bigclownprojects**](https://github.com/bigclownprojects)\*\*\*\*
+
+{% hint style="info" %}
+**The list on this page is not always up-to date. We recommend to take a look at GitHub links above to see all the projects.**
+{% endhint %}
+
 For better clarity, each repository has its prefix name that determines what it has for the content.
 
 ## Kit Firmware Repositories
