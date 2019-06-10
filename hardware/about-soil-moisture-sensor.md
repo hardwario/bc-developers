@@ -42,7 +42,53 @@ The sensor is using 1-Wire to I2C converter chip. Behind this converter all the 
 
 We calibrate each sensor. The calibration saves data to to internal Soil Sensor EEPROM and ensured that every sensor returns the same value when its dry \(0%\) and submerged to the water \(100%\).
 
+The calibration values are used when the raw values has to be converter to 0% - 100% range. If you use raw data from capacitance sensor only \(or you use your own hardware/firmware reading the data\) you can ignore the EEPROM data.
+
 User can recalibrate its sensor by using the same [calibration firmware](https://github.com/blavka/bcf-soil-sensor-calibration) we use.
+
+Calibration has 11 points \(0, 10, 20, 30, 50, 60, 70, 80, 90, 100%\) and it is saved in the sensors' internal EEPROM. The structure is explained below and it is saved in three locations \(banks\) for redundancy.
+
+In the [Soil Moisture Sensor SDK](http://sdk.bigclown.com/group__bc__soil__sensor.html) there are functions to store the calibration points. You can also set text label to each sensor to name the sensor or the plant it is located.
+
+#### Header
+
+| **Type** | **Name** |
+| :--- | :--- |
+| uint32\_t | Signature 0xdeadbeef |
+| uint8\_t | Data Version |
+| uint8\_t | Data Length |
+| uint16\_t | Data CRC |
+
+Length = 8 B
+
+#### Data
+
+| **Type** | **Name** |
+| :--- | :--- |
+| uint8\_t | Product Number |
+| uint16\_t | Hardware Revision |
+| char \[16+1\] | Custom Label |
+| uint16\_t | Calibration Point 0% |
+| uint16\_t | Calibration Point 10% |
+| uint16\_t | Calibration Point 20% |
+| uint16\_t | Calibration Point 30% |
+| uint16\_t | Calibration Point 40% |
+| uint16\_t | Calibration Point 50% |
+| uint16\_t | Calibration Point 60% |
+| uint16\_t | Calibration Point 70% |
+| uint16\_t | Calibration Point 80% |
+| uint16\_t | Calibration Point 90% |
+| uint16\_t | Calibration Point 100% |
+
+Length = 64 B
+
+#### Bank
+
+| **Name** | **Address** |
+| :--- | :--- |
+| A | 0x000 |
+| B | 0x080 |
+| C | 0x100 |
 
 ### Soil Sensor Configuration
 
