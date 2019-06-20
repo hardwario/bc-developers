@@ -10,9 +10,9 @@ Once again **THANK YOU** for being our supporter, we really appreciate this.
 
 BigClown is not just about the hardware but it comes with full documentation, tutorials, software tools and most importantly - it comes with the extensive **technical support**. So don't hesitate to use one of these channels In case you run in troubles or if anything is not clear to you:
 
-* Use the online chat icon in the bottom right corner
 * Write us an email to [support@bigclown.com](mailto:support@bigclown.com)
 * Use forum at [https://forum.bigclown.com/](https://forum.bigclown.com/)
+* Use the online chat icon in the bottom right corner
 
 ## Be Inspired
 
@@ -24,33 +24,11 @@ In our world it means to prepare a center of your IoT system - the Hub. In QUICK
 
 ### 1. Delivery
 
-In delivered box or suitcase find a \*\*Radio Dongle\*\* and plug it to any USB port of your notebook or PC.
+In delivered box or suitcase find a **Radio Dongle** and plug it to any USB port of your computer.
 
 ### 2. Download the latest Playground
 
-{% tabs %}
-{% tab title="Windows" %}
-* 64-bit:
-  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-64bit.exe)
-  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-64bit.exe)
-* 32-bit:
-  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-win-setup-32bit.exe)
-  * [non-installable](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-windows-32bit.exe)
-{% endtab %}
-
-{% tab title="macOS" %}
-* [DMG](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-macos.dmg)
-{% endtab %}
-
-{% tab title="Linux" %}
-* AppImage:
-  * [x86\x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
-* DEB:
-  * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-amd64.deb)
-  * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-i386.deb)
-  * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x64.tar.gz)
-{% endtab %}
-{% endtabs %}
+Go to the [BigClown Playground Download page](bigclown-playground.md#download-bigclown-playground).
 
 ### 3. Run the **BigClown Playground**
 
@@ -59,7 +37,7 @@ Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Co
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-blocks.png)
 
 {% hint style="info" %}
-If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](quick-start-guide.md#troubleshooting) chapter.
+If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](bigclown-playground.md#troubleshooting) chapter.
 {% endhint %}
 
 Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com/radio-dongle) are already programmed and paired, please check that out in the image below.
@@ -82,7 +60,7 @@ As mentioned, delivered kits are already programmed with a right firmware. If yo
 
 ### 1. Radio Pairing
 
-As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](../integrations/homekit-and-siri.md#step-2-pair-hardware).
+As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Device** tab. In case you need to pair new devices, please follow these [radio pairing instructions](bigclown-playground.md#pairing-new-modules).
 
 ### 2. Playground's Messages
 
@@ -102,7 +80,7 @@ In **QUICK START GUIDE** we will create a simple dashboard with a temperature ga
 
 ### 1. Messages
 
-Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](../interfaces/mqtt-topics.md).
+Switch to the **Messages**, you should see incoming messages from the previous step. Copy the **bold** text \(called **topic**\) that ends with _temperature_ **to the clipboard**. You can use the copy icon in each message. Make sure you copy just text and no space before or after the text. Your **topic** could be different based on your kit name. You can also copy any other topic that your module supports from the [MQTT topics list](../interfaces/mqtt-topics.md).
 
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-messages%20%281%29.png)
 

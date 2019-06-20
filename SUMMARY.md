@@ -5,6 +5,7 @@
 ## Basics
 
 * [Quick Start Guide](basics/quick-start-guide.md)
+* [BigClown Playground](basics/bigclown-playground.md)
 * [About BigClown](basics/about-bigclown.md)
 * [Module Overview](basics/module-overview.md)
 * [Enclosures](basics/enclosures.md)
