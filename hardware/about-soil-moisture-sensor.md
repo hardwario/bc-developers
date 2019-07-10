@@ -4,17 +4,25 @@
 
 The **Soil Moisture Sensor** is a modern, completely sealed capacitive moisture sensor with temperature sensor and calibration saved in its internal EEPROM. It is using 1-Wire communication protocol and has 3 wire cable that is 2 meters long. Many sensors can be connected to a single 1-Wire Master. The temperature sensor is located in the top part above the soil. The electronics is completely potted in a sealing compound to withstand all kind of weather.
 
+{% hint style="danger" %}
+Measured soil must be electricly isolated from the electronics ground!
+
+If you connect Soil Sensor to the battery operated radio module like Core Module then you are ok. However if you connect Core Module or Arduino over USB to your computer which is also grounded over EARTH wire, then the capacitive measurement will be affected.
+{% endhint %}
+
 The sensor returns soil moisture humidity values from 0 to 100%. Measuring is done by two copper strips inside the inner layers of the 4 layer PCB. This way the contacts are not exposed to direct humidity and do not oxidize.
 
 The sensor comes already calibrated. Calibration is done in the water. It is also possible to use sensor to measure water level. 
 
 Sensor is already supported in BigClown SDK with examples and projects. Arduino Library is also [available](https://github.com/podija/SoilSensor). 
 
-| [**E-shop**](https://shop.bigclown.com/soil-moisture-sensor/)\*\*\*\* | [**Schematic Drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-soil-sensor) | [**SDK Library**](https://sdk.bigclown.com/group__bc__soil__sensor.html) | [**Header File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h) | [**Source File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c) |
+| [**E-shop**](https://shop.bigclown.com/soil-moisture-sensor/)\*\*\*\* | [**Schematic Drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-soil-sensor) | [**SDK Library**](https://sdk.bigclown.com/group__bc__soil__sensor.html) | [**Header File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h) | [**Source File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c)T |
 | :---: | :---: | :---: | :---: | :---: |
 
 
-The sensor is using 1-Wire to I2C converter chip. Behind this converter all the chips are using I2C.
+{% hint style="info" %}
+Do not put the top part of the sensor under the ground. Ground planes in thsi area could affect the measurement electrodes and precision.
+{% endhint %}
 
 ![Connection of the Soil Moisture Sensor to the Sensor Module](../.gitbook/assets/_hardware_abou-sensor-module_1-wire.png)
 
