@@ -18,7 +18,7 @@ It can be equiped with magnet for easy attach enclosure and works for many years
 * [**Core Module**](https://shop.bigclown.com/core-module)
 * [**Battery Module**](https://shop.bigclown.com/battery-module)
 * [**Sensor Module**](https://shop.bigclown.com/sensor-module)
-* **Magnetic Switch** \(for screw SA-201A, self-adhesive SA-203A\)
+* **Magnetic Switch** \(for screw SA-201-A, self-adhesive SA-203\)
 * You will need **Windows**, **Linux** or **macOS** computer.
 
 {% hint style="info" %}
