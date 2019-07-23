@@ -20,7 +20,7 @@ typedef struct
 	uint16_t subseconds; //!< Subsecond downcounter. When it reaches zero, it's reload value is the same as @ref RTC_SYNC_PREDIV
 	uint8_t minutes;     //!< Minutes parameter, from 00 to 59
 	uint8_t hours;       //!< Hours parameter, 24Hour mode, 00 to 23
-	uint8_t day;         //!< Day in a week, from 1 to 7
+	uint8_t week_day;    //!< Day in a week, from 1 to 7
 	uint8_t date;        //!< Date in a month, 1 to 31
 	uint8_t month;       //!< Month in a year, 1 to 12
 	uint8_t year;        //!< Year parameter, 00 to 99, 00 is 2000 and 99 is 2099
@@ -34,7 +34,7 @@ Initialization of RTC is automatic. The RTC is initialized everytime the YEAR re
 
 ## Year register
 
-Year register can hold values **00** to **99**. So before writing current year to this register you have to subtract 2000 and when you print the date you have to add 2000.
+Year register can hold values **2000** to **2099**.
 
 ## Set date and time
 
@@ -45,9 +45,9 @@ rtc.hours = 11;
 rtc.minutes = 26;
 rtc.seconds = 00;
 
-rtc.year = 19; // You have to subtract 2000
+rtc.year = 2019;
 rtc.month = 5;
-rtd.date = 16;
+rtc.date = 16;
 
 bc_rtc_set_date_time(&rtc);
 ```
@@ -57,7 +57,7 @@ bc_rtc_set_date_time(&rtc);
 ```c
 bc_rtc_t datetime;
 bc_rtc_get_date_time(&datetime);
-bc_log_debug("$DATE: \"%d-%02d-%02dT%02d:%02d:%02dZ\"", 2000 + datetime.year, datetime.month, datetime.date, datetime.hours, datetime.minutes, datetime.seconds);
+bc_log_debug("$DATE: \"%d-%02d-%02dT%02d:%02d:%02dZ\"", datetime.year, datetime.month, datetime.date, datetime.hours, datetime.minutes, datetime.seconds);
 ```
 
 ## Example projects
