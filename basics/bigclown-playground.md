@@ -35,6 +35,12 @@ BigClown Playground is free **Windows**, **macOS** and **Linux** software that e
 {% endtab %}
 {% endtabs %}
 
+## Videotutorial
+
+If you like videotutorials, you can watch quick guide to the BigClown Playground in 5 videos. [Link to the playlist](https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF).
+
+{% embed url="https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF" %}
+
 ## Using BigClown Playground
 
 ### Home
