@@ -63,6 +63,7 @@
 * [Google Assistant](integrations/google-assistant.md)
 * [Firebase](integrations/firebase.md)
 * [Google Sheets](integrations/google-sheets.md)
+* [Azure IoT Central](integrations/azure-iot-central.md)
 
 ## Hardware
 
