@@ -14,7 +14,9 @@ The sensor returns soil moisture humidity values from 0 to 100%. Measuring is do
 
 The sensor comes already calibrated. Calibration is done in the water. It is also possible to use sensor to measure water level. 
 
-Sensor is already supported in BigClown SDK with examples and projects. Arduino Library is also [available](https://github.com/podija/SoilSensor). 
+Sensor is already supported in BigClown SDK with examples and projects.
+
+[Arduino Library for Soil Sensor](https://github.com/bigclownlabs/arduino-soil-sensor) is also available \(you will also need [DS28E17 library](https://github.com/bigclownlabs/arduino-DS28E17)\). 
 
 | [**E-shop**](https://shop.bigclown.com/soil-moisture-sensor/)\*\*\*\* | [**Schematic Drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-soil-sensor) | [**SDK Library**](https://sdk.bigclown.com/group__bc__soil__sensor.html) | [**Header File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h) | [**Source File**](https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c)T |
 | :---: | :---: | :---: | :---: | :---: |
