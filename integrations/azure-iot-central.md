@@ -1,10 +1,12 @@
 # Azure IoT Central
 
-This guide will help you to publish data from BigClown sensors to Microsoft IoT Central and IoT Hub.
+This guide will help you to publish data from BigClown sensors to Microsoft IoT Central and IoT Hub. This guide is based on this [Azure and Node-RED official article](https://azure.microsoft.com/es-es/blog/connecting-node-red-to-azure-iot-central/).
+
+In [this official Azure documentation section](https://docs.microsoft.com/cs-cz/azure/iot-central/howto-generate-connection-string) you can find how to connect to IoT Central over C\#, Python, Node.js.
 
 ## Create new Device Template
 
-Create a new **Application** and **Device Template** in IoT Central. You can name your device `push-button:0` so it corresponds with devices' MQTT topic alias.
+Create a new [**Application** and **Device Template** in IoT Central](https://docs.microsoft.com/cs-cz/azure/iot-central/tutorial-define-device-type). You can name your device `push-button:0` so it corresponds with devices' MQTT topic alias.
 
 In the Measurements tab add these telemetry items:
 
@@ -28,6 +30,8 @@ In the Devices tab [add a new device](https://docs.microsoft.com/en-us/azure/iot
 ## Connection string generation
 
 Install nodejs tool to generate connection string. Detailed information can be found in official [Azure IoT Central documentation](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-add-device#generate-the-connection-string).
+
+You can also [download compiled binaries](https://github.com/Azure/dps-keygen/tree/master/bin) for your platform of the DPS tool.
 
 ```text
 npm i -g dps-keygen
