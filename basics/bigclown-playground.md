@@ -27,11 +27,11 @@ BigClown Playground is free **Windows**, **macOS** and **Linux** software that e
 
 {% tab title="Linux" %}
 * AppImage:
-  * [x86\x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x86_64.AppImage)
+  * [x86\x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-linux-x86_64.AppImage)
 * DEB:
-  * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-amd64.deb)
-  * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-i386.deb)
-  * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.10.1/bigclown-playground-0.10.1-linux-x64.tar.gz)
+  * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-linux-amd64.deb)
+  * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-linux-i386.deb)
+  * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v0.11.0/bigclown-playground-0.11.0-linux-x64.tar.gz)
 {% endtab %}
 {% endtabs %}
 
