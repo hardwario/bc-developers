@@ -39,7 +39,7 @@ BigClown Playground is free **Windows**, **macOS** and **Linux** software that e
 
 If you like videotutorials, you can watch quick guide to the BigClown Playground in 5 videos. They explain flashing, pairing, Dasboard, Node-RED and Blynk phone integration.
 
-{% embed url="https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF" %}
+{% embed url="https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF" caption="" %}
 
 ## Using BigClown Playground
 
@@ -92,13 +92,11 @@ Always make sure you are flashing the right Device, usually `bc-core-module`. If
 
 ![](../.gitbook/assets/_basics_bigclown-playground_firmware.png)
 
-## Troubleshooting     <a id="troubleshooting"></a>
+## Troubleshooting <a id="troubleshooting"></a>
 
 Cannot find the Radio Dongle or Core Module in the device list
 
 * On Windows 7 and macOS please install the [FTDI VCP drivers](https://www.ftdichip.com/Drivers/VCP.htm)
 * On Ubuntu you need to be in `dialout` user group. Please use command `sudo usermod -a -G dialout $USER` and restart computer
 * BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
-
-
 
