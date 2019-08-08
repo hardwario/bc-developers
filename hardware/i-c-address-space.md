@@ -32,6 +32,7 @@ All addresses are provided in a 7-bit format.
 | 0x48 | TMP112 | [Temperature Tag](https://shop.bigclown.com/temperature-tag), [Climate Module](https://shop.bigclown.com/climate-module) | Default address |
 | 0x49 | TMP112 | [Temperature Tag](https://shop.bigclown.com/temperature-tag) | Alternate address |
 | 0x49 | TMP112 | [Core Module](https://shop.bigclown.com/core-module), [Cloony](https://shop.bigclown.com/cloony/) | Channel I2C0 |
+| 0x4b | TLA2021 | RS-485 Module ADC | Channel I2C0 |
 | 0x4d | SC16IS740 | [CO2 Module](https://shop.bigclown.com/co2-module) I2C to UART bridge | Channel I2C0 |
 | 0x4e | SC16IS750 | RS-485 Module I2C to UART bridge | Channel I2C0 |
 | 0x4f | SC16IS750 | RS-232 Module I2C to UART bridge | Channel I2C0 |
