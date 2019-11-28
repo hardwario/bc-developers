@@ -20,3 +20,8 @@ The **GPS Module** allows you to know the exact position of your device. It is u
 * Operating voltage range: 2.7 V to 3.6 V
 * Operating temperature range: -40 to 85 °C
 
+### Resources <a id="resources"></a>
+
+* [**Documentation**](about-gps-module.md)
+* [**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-gps)
+
