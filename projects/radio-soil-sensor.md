@@ -151,8 +151,7 @@ sudo nano /etc/bigclown/mqtt2influxdb.yml
 
 And append these lines at the end of the existing file:
 
-{% code-tabs %}
-{% code-tabs-item title="mqtt2influxdb.yml" %}
+{% code title="mqtt2influxdb.yml" %}
 ```text
 - measurement: moisture
     topic: node/+/soil-sensor/+/moisture
@@ -170,8 +169,7 @@ And append these lines at the end of the existing file:
         id: $.topic[1]
         channel: $.topic[3]
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Step 1: Test that the configuration is valid. Otherwise there is some formating error in the YAML file
 

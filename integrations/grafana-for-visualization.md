@@ -189,8 +189,7 @@ sudo nano /etc/bigclown/mqtt2influxdb.yml
 
 ### Step 4: Paste this snippet to the configuration file
 
-{% code-tabs %}
-{% code-tabs-item title="/etc/bigclown/mqtt2influxdb.yml" %}
+{% code title="/etc/bigclown/mqtt2influxdb.yml" %}
 ```yaml
 mqtt:
   host: 127.0.0.1
@@ -253,8 +252,7 @@ points:
       id: $.topic[1]
       channel: $.topic[3]
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 {% hint style="info" %}
 In the section **tags** you can your identifiers, e.g.: `tags: room: bedroom`

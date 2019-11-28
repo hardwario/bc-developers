@@ -143,6 +143,7 @@
 * [How to: Temperature sensor](firmware/how-to-temperature-sensor.md)
 * [How to: UART interface](firmware/how-to-uart-interface.md)
 * [How to: USB Console](firmware/how-to-usb-console.md)
+* [How to: GPS Module](firmware/how-to-gps-module.md)
 
 ## tools
 
