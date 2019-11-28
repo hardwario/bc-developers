@@ -102,6 +102,7 @@
 * [About Tag Module](hardware/about-tag-module.md)
 * [About Temperature Tag](hardware/about-temperature-tag.md)
 * [About VOC Tag](hardware/about-voc-tag.md)
+* [About GPS Module](hardware/about-gps-module.md)
 
 ## Firmware
 
