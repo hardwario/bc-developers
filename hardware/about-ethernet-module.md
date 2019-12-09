@@ -23,7 +23,7 @@ The Ethernet Module connects your node to the local 100 Base-T network and Inter
 
 ### Resources <a id="resources"></a>
 
-* [**Documentation**](about-humidity-tag.md)
+* [**Documentation**](about-ethernet-module.md)
 * \*\*\*\*[**Schematic drawing**](https://github.com/bigclownlabs/bc-hardware/tree/master/out/bc-module-ethernet)
 
 ### Firmware Projects <a id="firmware-projects"></a>
