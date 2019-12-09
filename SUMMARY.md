@@ -97,6 +97,7 @@
 * [About Probe Module](hardware/about-probe-module.md)
 * [About Radio Dongle](hardware/about-radio-dongle.md)
 * [About Relay Module](hardware/about-relay-module.md)
+* [About RS-485 Module](hardware/about-rs-485-module.md)
 * [About Sensor Module](hardware/about-sensor-module.md)
 * [About Sigfox Module](hardware/about-sigfox-module.md)
 * [About Soil Moisture Sensor](hardware/about-soil-moisture-sensor.md)
