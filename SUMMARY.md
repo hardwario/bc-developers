@@ -84,6 +84,7 @@
 * [About Core Module](hardware/about-core-module.md)
 * [About Cover Module](hardware/about-cover-module.md)
 * [About Encoder Module](hardware/about-encoder-module.md)
+* [About Ethernet Module](hardware/about-ethernet-module.md)
 * [About Humidity Tag](hardware/about-humidity-tag.md)
 * [About LCD Module](hardware/about-lcd-module.md)
 * [About LoRa Module](hardware/about-lora-module.md)
