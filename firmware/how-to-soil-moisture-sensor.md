@@ -1,6 +1,6 @@
 # How to: Soil Moisture Sensor
 
-Soil Moisture sensor measures moisture and temperature. It has also calibration EEPROM that the SDK reads and calibrates the output values automatically. See also [About Soil Moisture Sensor](../hardware/about-soil-moisture-sensor.md) article.
+Soil Moisture sensor measures moisture and temperature. See also [About Soil Moisture Sensor](../hardware/about-soil-moisture-sensor.md) article.
 
 {% hint style="info" %}
 **As always...**  
@@ -21,10 +21,10 @@ void soil_sensor_event_handler(bc_soil_sensor_t *self, uint64_t device_address, 
 {
     if (event == BC_SOIL_SENSOR_EVENT_UPDATE)
     {
-        int moisture;
+        uint16_t moisture;
         float temperature;
 
-        bc_soil_sensor_get_moisture(self, device_address, &moisture);
+        bc_soil_sensor_get_cap_raw(self, device_address, &moisture);
         bc_soil_sensor_get_temperature_celsius(self, device_address, &temperature);
         bc_log_debug("Moisture: %d\tTemperature %.2f", moisture, temperature);
    }
@@ -45,9 +45,7 @@ void application_init(void)
 When you run `bcf flash --log` then the firmware is flashed and you immediatelly see the log output:
 
 ```c
-112.47 <D> Moisture: 38 Temperature 34.44
-113.47 <D> Moisture: 38 Temperature 34.12
-114.47 <D> Moisture: 38 Temperature 33.81
+112.47 <D> Moisture: 7250 Temperature 34.44
 ```
 
 ### Multiple connected sensors
