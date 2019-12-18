@@ -137,6 +137,7 @@
 * [How to: Power Module](firmware/how-to-power-module.md)
 * [How to: Push Button](firmware/how-to-push-button.md)
 * [How to: Relay Module](firmware/how-to-relay-module.md)
+* [How to: RS-485 Module](firmware/how-to-rs-485-module.md)
 * [How to: RTC clock](firmware/how-to-rtc-clock.md)
 * [How to: SPI bus](firmware/how-to-spi-bus.md)
 * [How to: Servo motor](firmware/how-to-servo-motor.md)
