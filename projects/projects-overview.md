@@ -4,7 +4,7 @@ In this category you will find prepared BigClown projects you can create. Each p
 
 ## Hackster.io External Projects <a id="hackster-io-external-projects"></a>
 
-Many other projects are published on [Hackster.io BigClown Platform Page](https://www.hackster.io/bigclown/projects).
+Many other projects are published on [Hackster.io HARDWARIO Platform Page](https://www.hackster.io/hardwario/projects).
 
 * [Use Android to Flash STM32 BigClown Modules](https://www.hackster.io/hubmartin/use-android-to-flash-stm32-bigclown-modules-3e03ee)
 * [Easy Mail Box Notification to Your Phone](https://www.hackster.io/hubmartin/easy-mail-box-notification-to-your-phone-fe6169)
