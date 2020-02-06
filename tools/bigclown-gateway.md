@@ -1,4 +1,4 @@
-# BigClown gateway
+# HARDWARIO gateway
 
 This multi-platform Python tool connects USB gateway to the MQTT. USB gateway is communicating over virtual USB serial port with JSONs.
 

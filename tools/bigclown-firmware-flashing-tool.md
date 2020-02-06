@@ -1,4 +1,4 @@
-# BigClown firmware flashing tool
+# HARDWARIO firmware flashing tool
 
 This multi-platform Python tool can flash [Radio Dongle](https://shop.bigclown.com/radio-dongle) and [Core Module](https://shop.bigclown.com/core-module) with local binary or latest released firmwares from GitHub.
 

@@ -1,4 +1,4 @@
-# BigClown Host Tool
+# HARDWARIO Host Tool
 
 This multi-platform Python tool is a "Swiss knife" to control the radio and nodes.
 

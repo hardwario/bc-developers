@@ -1,12 +1,12 @@
-# About BigClown
+# About HARDWARIO
 
-BigClown is a device platform, specifically designed for the Internet-of-Things. With BigClown, you can quickly build your own electronics devices. Thanks to its open approach, you will have a total control about your devices, the way they communicate or integrate with 3rd party components. That will give you a freedom for the future customization and extensibility. With BigClown, you will not encounter things like black box magic or vendor lock-in.
+HARDWARIO is a device platform, specifically designed for the Internet-of-Things. With HARDWARIO, you can quickly build your own electronics devices. Thanks to its open approach, you will have a total control about your devices, the way they communicate or integrate with 3rd party components. That will give you a freedom for the future customization and extensibility. With HARDWARIO, you will not encounter things like black box magic or vendor lock-in.
 
 ## Basic Features
 
-BigClown offers a unique set of features that makes it different from other platforms...
+HARDWARIO offers a unique set of features that makes it different from other platforms...
 
-### Feature \#1: BigClown is open-source
+### Feature \#1: HARDWARIO is open-source
 
 Open-source is our passion, so we share everything what we do. We have an organization at GitHub. More information can be found in the document \[**GitHub Repositories**\]\(\).
 
@@ -14,13 +14,13 @@ In general, we don't like hidden catches nor hiding the implementation under the
 
 As we grow and build the community, we sincerely appreciate every single contribution from it. Why wouldn't you join us today?
 
-### Feature \#2: BigClown is wireless
+### Feature \#2: HARDWARIO is wireless
 
-With BigClown, you can build a radio network for your devices. The radio network uses a sub-GHz communication technology \(868/915 MHz\), which is a great choice for home automation applications, security alarms, smart metering, etc.
+With HARDWARIO, you can build a radio network for your devices. The radio network uses a sub-GHz communication technology \(868/915 MHz\), which is a great choice for home automation applications, security alarms, smart metering, etc.
 
 The devices in your network will be able to communicate up to 500 meters line-of-sight distance. Speaking the indoor range, in most cases you will be able to achieve a full house coverage from a single point.
 
-### Feature \#3: BigClown is modular
+### Feature \#3: HARDWARIO is modular
 
 Why would you constantly reinvent the wheel? We take no shortcomings when it comes down to **modularity and reusability**.
 
@@ -28,17 +28,17 @@ You will be able to assemble your hardware similar like you do with the LEGO® b
 
 The equal level of modularity has been also taken on the software level. Either on a device side, anyone can master creating the firmware with the properly documented APIs and examples, or - the distributed system approach of **MQTT messages** on the side of hub.
 
-### Feature \#4: BigClown is low-power
+### Feature \#4: HARDWARIO is low-power
 
-From the very beginning, BigClown has been been optimized for **long service time from batteries**. Most devices can operate without a need for battery replacement for **more than 2 years**.
+From the very beginning, HARDWARIO has been been optimized for **long service time from batteries**. Most devices can operate without a need for battery replacement for **more than 2 years**.
 
 We have achieved that thanks to our long-time experience designing ultra-low-power devices and utilizing modern hardware components that offer very low standby and/or operation currents.
 
-### Feature \#5: BigClown is secure
+### Feature \#5: HARDWARIO is secure
 
-BigClown uses simple, yet proven security mechanisms for data **encryption and authentication** in the radio communication.
+HARDWARIO uses simple, yet proven security mechanisms for data **encryption and authentication** in the radio communication.
 
-In every BigClown device, you will also find a special hardware security element - the so-called **cryptochip**. This special tiny memory allows to store your security keys used in message authentication in a secure manner. You cannot rip the keys from the memory even if you get a physical access to the device.
+In every HARDWARIO device, you will also find a special hardware security element - the so-called **cryptochip**. This special tiny memory allows to store your security keys used in message authentication in a secure manner. You cannot rip the keys from the memory even if you get a physical access to the device.
 
 We all know that the "security by obscurity" approach does not work in long-term and still you will find it in so many proprietary products.
 
@@ -72,7 +72,7 @@ Also on the hub side, the MQTT follow asynchronous concepts as well. That's a gr
 
 ### Decision \#4: CLI-First Approach
 
-Command Line Interface \(CLI\) is the first class citizen in the BigClown system. This is where we differ from most other embedded IoT platforms. We emphasize CLI approach in the very first place. It has plenty of advantages - first of all you can do all the operations on the so-called "headless" machines - like servers, embedded computers, etc. Secondly, you can easily hook up continuous integration services that can automate your workflow.
+Command Line Interface \(CLI\) is the first class citizen in the HARDWARIO system. This is where we differ from most other embedded IoT platforms. We emphasize CLI approach in the very first place. It has plenty of advantages - first of all you can do all the operations on the so-called "headless" machines - like servers, embedded computers, etc. Secondly, you can easily hook up continuous integration services that can automate your workflow.
 
 Moreover, tied with Git, MQTT client tools, logging mechanism, etc. you will quickly see that your workflow is rather smooth and efficient.
 
@@ -80,5 +80,5 @@ Moreover, tied with Git, MQTT client tools, logging mechanism, etc. you will qui
 
 It is important to start somewhere and our aim is to start with simple things. That's why we have prepared several reference IoT projects. Following them will get you on track quickly. You can always explore the parts you are most interested about, tweak them or write your own firmware applications, automation flows or cloud integrations from scratch.
 
-For the very first time, we recommend to walk through the [About BigClown](about-bigclown.md) and [Quick Tutorial](../tutorials/quick-tutorial.md).
+For the very first time, we recommend to walk through the [About HARDWARIO](about-bigclown.md) and [Quick Tutorial](../tutorials/quick-tutorial.md).
 
