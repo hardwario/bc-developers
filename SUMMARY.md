@@ -5,8 +5,8 @@
 ## Basics
 
 * [Quick Start Guide](basics/quick-start-guide.md)
-* [BigClown Playground](basics/bigclown-playground.md)
-* [About BigClown](basics/about-bigclown.md)
+* [HARDWARIO Playground](basics/bigclown-playground.md)
+* [About HARDWARIO](basics/about-bigclown.md)
 * [Module Overview](basics/module-overview.md)
 * [Enclosures](basics/enclosures.md)
 
@@ -151,9 +151,9 @@
 
 ## tools
 
-* [BigClown firmware flashing tool](tools/bigclown-firmware-flashing-tool.md)
-* [BigClown gateway](tools/bigclown-gateway.md)
-* [BigClown Host Tool](tools/bigclown-host-tool.md)
+* [HARDWARIO firmware flashing tool](tools/bigclown-firmware-flashing-tool.md)
+* [HARDWARIO gateway](tools/bigclown-gateway.md)
+* [HARDWARIO Host Tool](tools/bigclown-host-tool.md)
 
 ## Documentation
 
