@@ -37,7 +37,7 @@ HARDWARIO Playground is free **Windows**, **macOS** and **Linux** software that 
 
 ## Videotutorials
 
-If you like videotutorials, you can watch quick guide to the BigClown Playground in 5 videos. They explain flashing, pairing, Dasboard, Node-RED and Blynk phone integration.
+If you like videotutorials, you can watch quick guide to the HARDWARIO Playground in 5 videos. They explain flashing, pairing, Dasboard, Node-RED and Blynk phone integration.
 
 {% embed url="https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF" caption="" %}
 
@@ -86,7 +86,7 @@ Here you can see all the messages from wireless nodes. You can copy the topics t
 
 ### Firmware
 
-This tab allows you to flash pre-compiled firmwares for all BigClown projects from out GitHub. List of firmwares is downloaded automatically. Choose the firmware or start typing to find project you like to try. You can also flash binary or HEX file from your computer.
+This tab allows you to flash pre-compiled firmwares for all HARDWARIO projects from out GitHub. List of firmwares is downloaded automatically. Choose the firmware or start typing to find project you like to try. You can also flash binary or HEX file from your computer.
 
 Always make sure you are flashing the right Device, usually `bc-core-module`. If you would like to update Radio Dongle, disconnect it first in the Devices tab.
 

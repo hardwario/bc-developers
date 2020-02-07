@@ -3,10 +3,10 @@
 ## Basics
 
 {% hint style="info" %}
-You can follow this tutorial even without Raspberry Pi. You just have to install [**BigClown Playground**](../basics/quick-start-guide.md) on your desktop. The Raspberry Pi approach is the easiest because you can download bc-rasbian image with pre-installed tools.
+You can follow this tutorial even without Raspberry Pi. You just have to install [**HARDWARIO**](../basics/quick-start-guide.md)[ **Playground**](../basics/quick-start-guide.md) on your desktop. The Raspberry Pi approach is the easiest because you can download bc-rasbian image with pre-installed tools.
 {% endhint %}
 
-This document is a practical guide of using the **BigClown IoT Kit**. It will guide you how **Raspberry Pi** can read the temperature from **Core Module**, control the LED, measure the relative air humidity from **Humidity Tag**, control small electronic devices using **Relay Module**.
+This document is a practical guide of using the **HARDWARIO IoT Kit**. It will guide you how **Raspberry Pi** can read the temperature from **Core Module**, control the LED, measure the relative air humidity from **Humidity Tag**, control small electronic devices using **Relay Module**.
 
 You will also be able to create a wireless network using **Radio Dongle**. Data acqusition and control process is demonstrated using **Node-RED**, a web application that will run inside the **Raspberry Pi**. This application allows intuitive graphical automation flow editing directly in your web browser.
 
@@ -40,7 +40,7 @@ What will we need at minimum:
 Detailed instructions can be found in the document [**Raspberry Pi Installation**](raspberry-pi-installation.md).
 {% endhint %}
 
-The easiest way to start is to download the [**BigClown Raspbian**](https://github.com/bigclownlabs/bc-raspbian/releases) image. This image has already pre-installed necessary components. It contains [**BigClown Gateway**](../tools/bigclown-gateway.md) `bcg`, **Mosquitto** MQTT broker, **Node-RED** and [**BigClown Firmware Tool**](../tools/bigclown-firmware-flashing-tool.md) `bcf`.
+The easiest way to start is to download the [**HARDWARIO Raspbian**](https://github.com/bigclownlabs/bc-raspbian/releases) image. This image has already pre-installed necessary components. It contains [**HARDWARIO Gateway**](../tools/bigclown-gateway.md) `bcg`, **Mosquitto** MQTT broker, **Node-RED** and [**HARDWARIO Firmware Tool**](../tools/bigclown-firmware-flashing-tool.md) `bcf`.
 
 The downloaded **Raspberry Pi** image has to be written to a MicroSD card using the multi-platform **GUI tool** [**balenaEtcher**](https://www.balena.io/etcher/), [**Win32DiskImager**](https://sourceforge.net/projects/win32diskimager/) or command line `dd` tool.
 
@@ -67,9 +67,9 @@ If the Raspberry Pi is not visible on the network, there's something wrong with 
 
 ## Firmware upload via:
 
-### BigClown Playground
+### HARDWARIO Playground
 
-Download the latest BigClown Playground from [Quick Start Guide](../basics/quick-start-guide.md#2-download-the-latest-playground) and open it. Navigate to Firmware, connect Core Module via USB to computer and choose firmware to flash.
+Download the latest HARDWARIO Playground from [Quick Start Guide](../basics/quick-start-guide.md#2-download-the-latest-playground) and open it. Navigate to Firmware, connect Core Module via USB to computer and choose firmware to flash.
 
 ![](../.gitbook/assets/_tutorials_quick-tutorial_flash-via-playground.png)
 
@@ -154,7 +154,7 @@ mosquitto_pub -t "node/core-module:0/led/-/state/set" -m true
 
 ## **Node-RED**
 
-**Node-RED** is a web application pre-installed in **BigClown Raspbian** which runs on **Raspberry Pi**. You can run it in your web browser and display, process measured values and then send commands to other modules like **Relay Module**, **Power Module**, **LCD Module**.
+**Node-RED** is a web application pre-installed in **HARDWARIO Raspbian** which runs on **Raspberry Pi**. You can run it in your web browser and display, process measured values and then send commands to other modules like **Relay Module**, **Power Module**, **LCD Module**.
 
 Please type the `hub.local:1880` address to your web browser.
 
@@ -170,7 +170,7 @@ More information is in the Node-RED for Automation.
 
 ### Subscribing MQTT messages
 
-First we will output all the incoming MQTT messages to the **debug** output. The following procedure will explain how to create basic flow printing all MQTT messages to the **debug**tab. You can follow this instructions or import the flow below by the **Import** option in the top right menu.
+First we will output all the incoming MQTT messages to the **debug** output. The following procedure will explain how to create basic flow printing all MQTT messages to the **debug** tab. You can follow this instructions or import the flow below by the **Import** option in the top right menu.
 
 ```text
 [{"id":"2c3b9c0.ff19564","type":"tab","label":"Flow 0","disabled":false,"info":""},{"id":"fda6ba0.64ecb48","type":"mqtt in","z":"2c3b9c0.ff19564","name":"","topic":"#","qos":"2","broker":"ba3b2e25.7c8b7","x":170,"y":100,"wires":[["2dbd1aa6.284476"]]},{"id":"2dbd1aa6.284476","type":"debug","z":"2c3b9c0.ff19564","name":"","active":true,"console":"false","complete":"false","x":390,"y":100,"wires":[]},{"id":"ba3b2e25.7c8b7","type":"mqtt-broker","z":"","broker":"127.0.0.1","port":"1883","clientid":"","usetls":false,"compatmode":true,"keepalive":"60","cleansession":true,"willTopic":"","willQos":"0","willPayload":"","birthTopic":"","birthQos":"0","birthPayload":""}]
@@ -377,5 +377,5 @@ Remote nodes which has **power module** in the firmware name are powered by powe
 
 ## Conclusion and further steps
 
-This tutorial explained how to lean BigClown basics with single a module connected to the Raspberry Pi. The principle is the same with other nodes which you can connect wirelessly. Now you can extend your home automation and create new rules thanks to **Node-RED**.
+This tutorial explained how to lean HARDWARIO basics with single a module connected to the Raspberry Pi. The principle is the same with other nodes which you can connect wirelessly. Now you can extend your home automation and create new rules thanks to **Node-RED**.
 

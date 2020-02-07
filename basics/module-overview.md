@@ -10,7 +10,7 @@ description: Here is a list of modules and tags.
 
 ![](../.gitbook/assets/_basics_module-overview_usb-dongle.png)
 
-The **Radio Dongle** is the main element of the BigClown radio network. This product works as a **gateway for the BigClown nodes**. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for **up to 32 BigClown nodes**.
+The **Radio Dongle** is the main element of the HARDWARIO radio network. This product works as a **gateway for the HARDWARIO nodes**. It looks like a USB stick. You can plug it to your desktop, Raspberry Pi, or Turris Omnia. Also, you can look at it as an access point for **up to 32 HARDWARIO nodes**.
 
 | [E-shop](https://shop.bigclown.com/radio-dongle/) | [Documentation](../hardware/about-radio-dongle.md) |
 | :---: | :---: |
@@ -20,7 +20,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
 
 ![](../.gitbook/assets/_basics_module-overview_core-module-2-1.png)
 
- The **Core Module** is the key element of every **BigClown** node. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip.
+ The **Core Module** is the key element of every **HARDWARIO** node. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM. Besides the **integrated sub-GHz radio**for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip.
 
 | [E-shop](https://shop.bigclown.com/core-module/) | [Documentation](../hardware/about-core-module.md) |
 | :---: | :---: |
@@ -50,7 +50,7 @@ The **Radio Dongle** is the main element of the BigClown radio network. This pro
 
 ![](../.gitbook/assets/_basics_module-overview_battery-module.png)
 
- The **Battery Module** is designed as a power supply source for the battery-operated units. The integrated low-power buck converter provides an excellent efficiency from the **four AAA 1.5 V Alkaline** cells. It also features an extra 5-pin socket where you can connect a BigClown tag.
+ The **Battery Module** is designed as a power supply source for the battery-operated units. The integrated low-power buck converter provides an excellent efficiency from the **four AAA 1.5 V Alkaline** cells. It also features an extra 5-pin socket where you can connect a HARDWARIO tag.
 
 | [E-shop](https://shop.bigclown.com/battery-module/) | [Documentation](../hardware/about-battery-module.md) |
 | :---: | :---: |
@@ -160,7 +160,7 @@ The **1-Wire Module** allow you to connect I²C devices over a distance of sever
 
 ![](../.gitbook/assets/_basics_module-overview_cover-module.png)
 
-The **Cover Module** is a simple mechanical part that helps to cover the front face of the BigClown electronics \(larger format 88 x 55 mm\). It looks great when combined with one of our 3D-printed enclosure. You simple snap it in the BigClown socket header using the bottom pins.
+The **Cover Module** is a simple mechanical part that helps to cover the front face of the HARDWARIO electronics \(larger format 88 x 55 mm\). It looks great when combined with one of our 3D-printed enclosure. You simple snap it in the HARDWARIO socket header using the bottom pins.
 
 | [E-shop](https://shop.bigclown.com/cover-module/) | [Documentation](../hardware/about-cover-module.md) |
 | :---: | :---: |
@@ -170,7 +170,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 
 ![](../.gitbook/assets/_basics_module-overview_tag-module.png)
 
- The **Tag Module** makes it possible to **connect up to six BigClow tags**. There are two independent I²C buses \(I2C0 and I2C1\) - one on each side. This allows to connect two tags of the same I²C address to a single BigClown node. It also features pull-up resistors on SDA/SCL signals of I2C1 bus.
+ The **Tag Module** makes it possible to **connect up to six HARDWARIO tags**. There are two independent I²C buses \(I2C0 and I2C1\) - one on each side. This allows to connect two tags of the same I²C address to a single HARDWARIO node. It also features pull-up resistors on SDA/SCL signals of I2C1 bus.
 
 | [E-shop](https://shop.bigclown.com/tag-module/) | [Documentation](../hardware/about-tag-module.md) |
 | :---: | :---: |
@@ -180,7 +180,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 
 ![](../.gitbook/assets/_basics_module-overview_base-module.png)
 
- The **Base Module** works as a mechanical stand for the BigClown units. With the exception of the **Battery Module**, you can plug any other BigClown module into a standardized socket available on the **Base Module**. It also features a **prototyping area** for soldering your own circuits.
+ The **Base Module** works as a mechanical stand for the HARDWARIO units. With the exception of the **Battery Module**, you can plug any other HARDWARIO module into a standardized socket available on the **Base Module**. It also features a **prototyping area** for soldering your own circuits.
 
 | [E-shop](https://shop.bigclown.com/base-module/) | [Documentation](../hardware/about-base-module.md) |
 | :---: | :---: |
@@ -190,7 +190,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 
 ![](../.gitbook/assets/_basics_module-overview_breadboard-module.png)
 
- The **Breadboard Module** offers an easy way to connect any BigClown module to your breadboard. The narrowed breakout provides more space for wiring and prototyping. The precision pin headers from the bottom side allow smooth insertion to your breadboard and do not stress the breadboard's sockets.
+ The **Breadboard Module** offers an easy way to connect any HARDWARIO module to your breadboard. The narrowed breakout provides more space for wiring and prototyping. The precision pin headers from the bottom side allow smooth insertion to your breadboard and do not stress the breadboard's sockets.
 
 | [E-shop](https://shop.bigclown.com/breadboard-module/) | [Documentation](../hardware/about-breadboard-module.md) |
 | :---: | :---: |
@@ -200,7 +200,7 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 
 ![](../.gitbook/assets/_basics_module-overview_probe-module.png)
 
- The **Probe Module** allows you to easily hook up an **oscilloscope** or **logic analyzer** on any signal of the BigClown header. Sometimes during the development you need to analyze the signals and see what's going on. And this module makes the task fast and convenient.
+ The **Probe Module** allows you to easily hook up an **oscilloscope** or **logic analyzer** on any signal of the HARDWARIO header. Sometimes during the development you need to analyze the signals and see what's going on. And this module makes the task fast and convenient.
 
 | [E-shop](https://shop.bigclown.com/probe-module/) | [Documentation](../hardware/about-probe-module.md) |
 | :---: | :---: |

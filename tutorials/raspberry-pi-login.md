@@ -30,7 +30,7 @@ On your Android or iOS phone you can use [**Fing**](https://www.fing.io/) utilit
 
 ### DNS name
 
-* For our BigClown Raspbian we are using `hub.local`
+* For our HARDWARIO Raspbian we are using `hub.local`
 * Original Raspbian using `raspberry.local`
 
 ## Connect

@@ -2,15 +2,15 @@
 
 ## Thank You, Dear Maker!
 
-If you are reading this QUICK START GUIDE you have probably purchased our BigClown IoT Kit. If not, go [shopping](https://shop.bigclown.com/) to do so :\)
+If you are reading this QUICK START GUIDE you have probably purchased our HARDWARIO IoT Kit. If not, go [shopping](https://shop.bigclown.com/) to do so :\)
 
 ![](../.gitbook/assets/_basics_quick-starter-kit.png)
 
 Once again **THANK YOU** for being our supporter, we really appreciate this.
 
-BigClown is not just about the hardware but it comes with full documentation, tutorials, software tools and most importantly - it comes with the extensive **technical support**. So don't hesitate to use one of these channels In case you run in troubles or if anything is not clear to you:
+HARDWARIO is not just about the hardware but it comes with full documentation, tutorials, software tools and most importantly - it comes with the extensive **technical support**. SHARDWARIOo don't hesitate to use one of these channels In case you run in troubles or if anything is not clear to you:
 
-* Write us an email to [support@bigclown.com](mailto:support@bigclown.com)
+* Write us an email to [ask@hardwario.com](mailto:ask@hardwario.com)
 * Use forum at [https://forum.bigclown.com/](https://forum.bigclown.com/)
 * Use the online chat icon in the bottom right corner
 
@@ -28,9 +28,9 @@ In delivered box or suitcase find a **Radio Dongle** and plug it to any USB port
 
 ### 2. Download the latest Playground
 
-Go to the [BigClown Playground Download page](bigclown-playground.md#download-bigclown-playground).
+Go to the [HARDWARIO Playground Download page](bigclown-playground.md#download-bigclown-playground).
 
-### 3. Run the **BigClown Playground**
+### 3. Run the **HARDWARIO Playground**
 
 Go to the **Device** tab, choose the **Radio Dongle** serial port and click **Connect**
 
@@ -45,7 +45,7 @@ Radio kits delivered together with your [Radio Dongle](https://shop.bigclown.com
 ![](../.gitbook/assets/_basics_quick-start-guide_playground-devices-connected.png)
 
 {% hint style="info" %}
-In the future we recommend to use as a Hub our ready-to-use [BigClown Hub](https://shop.bigclown.com/bigclown-hub) or just plug our Radio Dongle to [Raspberry Pi](../tutorials/raspberry-pi-installation.md) or [any server](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian).
+In the future we recommend to use as a Hub our ready-to-use [Raspberry Pi](../tutorials/raspberry-pi-installation.md) or [any server](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian) with our Radio Dongle.
 {% endhint %}
 
 ## Build devices
@@ -113,7 +113,7 @@ Or just put the red nose on, make a selfie and share it on Facebook or Twitter w
 The goal of this **QUICK START GUIDE** is to show the basics in a few simple steps. Now you can learn more by browsing the **documentation** or by visiting the **links below**.
 
 * Take a look at the [Module Overview](module-overview.md).
-* Learn about [MQTT](../interfaces/mqtt-topics.md) and [BigClown MQTT topics](../interfaces/mqtt-topics.md) to control LEDs and relays.
+* Learn about [MQTT](../interfaces/mqtt-topics.md) and [HARDWARIO MQTT topics](../interfaces/mqtt-topics.md) to control LEDs and relays.
 * Try other [integrations](../integrations/grafana-for-visualization.md) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
 * Use your [Raspberry PI](../tutorials/raspberry-pi-installation.md) or other [single board computer \(SBC\)](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian) as a server.
 * [Flash other firmware](../integrations/homekit-and-siri.md#step-1-flash-firmware) or [write your own firmware](../firmware/basic-overview.md) for the **Core Module**.
@@ -125,5 +125,5 @@ Cannot find the Radio Dongle or Core Module in the device list
 
 * On Windows 7 and macOS please install the [FTDI VCP drivers](https://www.ftdichip.com/Drivers/VCP.htm)
 * On Ubuntu you need to be in `dialout` user group. Please use command `sudo usermod -a -G dialout $USER` and restart computer
-* BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
+* HARDWARIO Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
 

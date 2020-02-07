@@ -1,10 +1,10 @@
 # GitHub Repositories
 
-The BigClown system is open-source and is developed through the **GitHub** platform, where you can find source data in individual repositories or download the pre-compiled packages from the section **Releases**.
+The HARDWARIO system is open-source and is developed through the **GitHub** platform, where you can find source data in individual repositories or download the pre-compiled packages from the section **Releases**.
 
 The GitHub organization name is **bigclownlabs** and you can find its page at [**https://github.com/bigclownlabs**](https://github.com/bigclownlabs).
 
-More projects can be found on BigClown Projects GitHub organization [**https://github.com/bigclownprojects**](https://github.com/bigclownprojects)\*\*\*\*
+More projects can be found on HARDWARIO Projects GitHub organization [**https://github.com/bigclownprojects**](https://github.com/bigclownprojects)\*\*\*\*
 
 {% hint style="info" %}
 **The list on this page is not always up-to date. We recommend to take a look at GitHub links above to see all the projects.**

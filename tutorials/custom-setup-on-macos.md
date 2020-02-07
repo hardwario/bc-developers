@@ -2,11 +2,11 @@
 
 ## Introduction
 
-If you need more permanent solution than **BigClown Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
+If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
 
-* BigClown Gateway `bcg`
-* BigClown Firmware Tool `bcf`
-* BigClown Host Tool `bch`
+* HARDWARIO Gateway `bcg`
+* HARDWARIO BigClown Firmware Tool `bcf`
+* HARDWARIO Host Tool `bch`
 * Mosquitto MQTT broker
 * Node-RED
 * The process manager `pm2`
@@ -15,7 +15,7 @@ If you need more permanent solution than **BigClown Playground** you can install
 
 * open **Terminal** application
 
-### **Step 1:**  Install the driver for the **BigClown Radio Dongle**
+### **Step 1:**  Install the driver for the HARDWARIO **Radio Dongle**
 
 * [Download & Install drivers from FTDI](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_4_2.dmg)
 
@@ -95,7 +95,7 @@ pm2 startup
 Now you must follow the instructions provided by the command `pm2 startup systemd`.
 {% endhint %}
 
-###  **Step 8:** Install **Python 3** \(required by the **BigClown Firmware Tool** and **BigClown Gateway**\)
+###  **Step 8:** Install **Python 3** \(required by the HARDWARIO **Firmware Tool** and HARDWARIO **Gateway**\)
 
 ```text
 brew install python3
@@ -107,19 +107,19 @@ brew install python3
 sudo pip3 install --upgrade --no-cache-dir pip
 ```
 
-###  **Step 10:** Install the **BigClown Firmware Tool**
+###  **Step 10:** Install the HARDWARIO **Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-###  **Step 11:** Install the **BigClown Gateway**
+###  **Step 11:** Install the HARDWARIO **Gateway**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcg
 ```
 
-###  **Step 12:** Plug the **BigClown Radio Dongle** into a USB port
+###  **Step 12:** Plug the HARDWARIO **Radio Dongle** into a USB port
 
 ###  **Step 13:** List the available devices
 
@@ -131,7 +131,7 @@ bcf devices
 You can use `-v` parameter to see verbose information about the connected devices \(possibly helping you to identify them\).
 {% endhint %}
 
-###  Step 15: Upload the latest firmware into the **BigClown Radio Dongle**:
+###  Step 15: Upload the latest firmware into the HARDWARIO **Radio Dongle**:
 
 ```text
 bcf update
@@ -141,7 +141,7 @@ bcf update
 bcf flash bigclownlabs/bcf-gateway-usb-dongle:latest
 ```
 
-### Step 16:  Start the **BigClown Gateway** as **PM2** service:
+### Step 16:  Start the HARDWARIO **Gateway** as **PM2** service:
 
 ```text
 pm2 start `which python3` --name "bcg-ud" -- `which bcg` --device ...
@@ -179,13 +179,13 @@ sudo npm update -g node-red
 sudo npm update -g pm2
 ```
 
-###  Upgrade the **BigClown Firmware Tool**
+###  Upgrade the HARDWARIO **Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-###  Upgrade the **BigClown Gateway**
+###  Upgrade the HARDWARIO **Gateway**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcg

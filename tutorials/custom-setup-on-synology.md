@@ -1,23 +1,23 @@
 # Custom Setup on Synology
 
-You can have BigClown Gateway running on Raspberry Pi, but if you have any kind of NAS already running 24/7 in your newtwork, why not take advantage of it? You will save a tiny bit on electricity bill and also get more durable system.
+You can have HARDWARIO Gateway running on Raspberry Pi, but if you have any kind of NAS already running 24/7 in your newtwork, why not take advantage of it? You will save a tiny bit on electricity bill and also get more durable system.
 
 ![](../.gitbook/assets/_tutorials_custom-setup-on-synology_synology-bigclown.jpg)
 
 
 
-If you need more permanent solution than **BigClown Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
+If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
 
-* BigClown Gateway `bcg`
-* BigClown Firmware Tool `bcf`
-* BigClown Host Tool `bch`
+* HARDWARIO Gateway `bcg`
+* HARDWARIO Firmware Tool `bcf`
+* HARDWARIO Host Tool `bch`
 * Mosquitto MQTT broker
 * Node-RED
 * The process manager `pm2`
 
 ## About project <a id="about-project"></a>
 
-Synology NAS is a very versatile device. You can install many services with a single click of your mouse. You can also SSH to the internal Linux OS and change anything you like. If you connect [Radio Dongle](https://shop.bigclown.com/radio-dongle) it appears as `/dev/ttyUSB0` so it's easy to use Synology NAS as a BigClown gateway. You can install `Python`, BigClown gateway `bcg` and `mosquitto`very easily. You can also use **Docker** to run different services separately from the host OS.
+Synology NAS is a very versatile device. You can install many services with a single click of your mouse. You can also SSH to the internal Linux OS and change anything you like. If you connect [Radio Dongle](https://shop.bigclown.com/radio-dongle) it appears as `/dev/ttyUSB0` so it's easy to use Synology NAS as a HARDWARIO gateway. You can install `Python`, HARDWARIO gateway `bcg` and `mosquitto`very easily. You can also use **Docker** to run different services separately from the host OS.
 
 {% hint style="info" %}
 **Virtalization which is used in this tutorial is not necessary**. You can install MQTT broker, Python 3 and `bcg` gateway directly on Linux which already runs on your NAS of any brand. The virtualization step is optional and it was choosed because my NAS supported it and has plenty of resources. On Synology just SSH to the NAS IP and use your name and password which you use to login to the web management.

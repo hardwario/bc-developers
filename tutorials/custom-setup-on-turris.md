@@ -1,10 +1,10 @@
 # Custom Setup on Turris
 
-If you need more permanent solution than **BigClown Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
+If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
 
-* BigClown Gateway `bcg`
-* BigClown Firmware Tool `bcf`
-* BigClown Host Tool `bch`
+* HARDWARIO Gateway `bcg`
+* HARDWARIO Firmware Tool `bcf`
+* HARDWARIO Host Tool `bch`
 * Mosquitto MQTT broker
 * Node-RED
 * The process manager `pm2`
@@ -17,7 +17,7 @@ If you need more permanent solution than **BigClown Playground** you can install
 opkg update
 ```
 
-### Step 2: Install the driver for the **BigClown Radio Dongle** and **BigClown Core module**:
+### Step 2: Install the driver for the HARDWARIO **Radio Dongle** and HARDWARIO **Core module**:
 
 ```text
 opkg install kmod-usb-serial-ftdi kmod-usb-acm
@@ -43,13 +43,13 @@ opkg install mosquitto mosquitto-client
 /etc/init.d/mosquitto start
 ```
 
-### Step 6: Install **Python 3** \(required by the **BigClown Gateway** and **BigClown Firmware Tool**\)
+### Step 6: Install **Python 3** \(required by the HARDWARIO **Gateway** and HARDWARIO **Firmware Tool**\)
 
 ```text
 opkg install python3 python3-pip
 ```
 
-### Step 7: Install the **BigClown Gateway**, **BigClown Flash Tool** and **BigClown Host Tool**
+### Step 7: Install the HARDWARIO **Gateway**, HARDWARIO **Flash Tool** and HARDWARIO **Host Tool**
 
 ```text
 pip3 install --upgrade --no-cache-dir bcg

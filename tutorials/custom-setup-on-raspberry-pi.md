@@ -1,10 +1,10 @@
 # Custom Setup on Raspberry Pi
 
-If you need more permanent solution than **BigClown Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
+If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system. This guide will help you to install and configure these services:
 
-* BigClown Gateway `bcg`
-* BigClown Firmware Tool `bcf`
-* BigClown Host Tool `bch`
+* HARDWARIO Gateway `bcg`
+* HARDWARIO Firmware Tool `bcf`
+* HARDWARIO Host Tool `bch`
 * Mosquitto MQTT broker
 * Node-RED
 * The process manager `pm2`
@@ -98,7 +98,7 @@ sudo -H PM2_HOME=/home/$(whoami)/.pm2 pm2 startup systemd -u $(whoami)
 sudo -H chmod 644 /etc/systemd/system/pm2-$(whoami).service
 ```
 
-### Step 9: Install **Python 3** \(required by the **BigClown Firmware Tool** and **BigClown Gateway**\)
+### Step 9: Install **Python 3** \(required by the HARDWARIO **Firmware Tool** and HARDWARIO **Gateway**\)
 
 ```text
 sudo apt install python3 python3-pip python3-setuptools
@@ -110,9 +110,9 @@ sudo apt install python3 python3-pip python3-setuptools
 sudo pip3 install --upgrade pip
 ```
 
-### Step 11: Install the **BigClown Firmware Tools**
+### Step 11: Install the HARDWARIO **Firmware Tools**
 
-BigClown Firmware Tool `bcf`, BigClown Gateway `bcg` and BigClown Host Tool `bch`.
+BigClown Firmware Tool `bcf`, HARDWARIO Gateway `bcg` and HARDWARIO Host Tool `bch`.
 
 ```text
 sudo pip3 install --upgrade bcf bcg bch

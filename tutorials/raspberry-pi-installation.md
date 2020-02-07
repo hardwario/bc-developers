@@ -12,7 +12,7 @@ This document will guide you through installing Raspberry Pi. The tutorial is te
 Raspberry Pi is a small, affordable, single-board computer that is able to run Linux operating system. BigClown uses this system to process sensor information, actuator control, decision logic for automation, data storage, or serve as a gateway to connect cloud services.
 {% endhint %}
 
-In the following procedure, we will install the **BigClown Raspbian** Linux distribution. Raspbian is the official and most widely distributed Linux distribution for Raspberry Pi. BigClown maintains a modified version of this distribution that facilitates some steps and includes pre-installed packages that are key to BigClown.
+In the following procedure, we will install the **HARDWARIO Raspbian** Linux distribution. Raspbian is the official and most widely distributed Linux distribution for Raspberry Pi. BigClown maintains a modified version of this distribution that facilitates some steps and includes pre-installed packages that are key to HARDWARIO.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ In the following procedure, we will install the **BigClown Raspbian** Linux dist
 
 ### Download
 
-* [BigClown Raspian](https://github.com/bigclownlabs/bc-raspbian/releases)
+* [HARDWARIO Raspian](https://github.com/bigclownlabs/bc-raspbian/releases)
 * [balenaEtcher](https://www.balena.io/etcher/)
 
 ### Flash
@@ -47,7 +47,7 @@ In the following procedure, we will install the **BigClown Raspbian** Linux dist
 
 If you would not like to use ethernet cable, you can connect Raspberry Pi over your WiFi
 
-1. Connect microSD card with BigClown Raspbian to computer
+1. Connect microSD card with HARDWARIO Raspbian to computer
 2. Open boot section in your file explorer or Finder
 3. Create file **wpa\_supplicant.conf**
 4. Edit file with next text, then save and insert microSD card back to Raspberry Pi:

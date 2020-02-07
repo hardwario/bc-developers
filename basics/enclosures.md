@@ -1,6 +1,6 @@
 # Enclosures
 
-BigClown comes with variety of 3D printed enclosures that slides together on the module stack-up and holds using the rubber bands. 
+HARDWARIO comes with variety of 3D printed enclosures that slides together on the module stack-up and holds using the rubber bands. 
 
 You can browse [**Enclosures in e-shop**](https://shop.bigclown.com/enclosures/).
 
