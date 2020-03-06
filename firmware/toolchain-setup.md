@@ -170,58 +170,28 @@ sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
 sudo apt update
 ```
 
-### Step 4: Install **GCC ARM Embedded**
+### Step 4: Install compiler & necessary tools
 
 ```text
-sudo apt install gcc-arm-embedded
+sudo apt install gcc-arm-embedded git dfu-util python3.5 python3-pip python3-setuptools
 ```
 
-### **Step 5:** Install **Git**
-
-```text
-sudo apt install git
-```
-
-### **Step 6:** Install **dfu-util**
-
-```text
-sudo apt install dfu-util
-```
-
-### **Step 7:** Install **Python 3** \(required by the **BigClown Firmware Tool**\)
-
-```text
-sudo apt install python3.5 python3-pip python3-setuptools
-```
-
-### Step 8: Update **pip** \(Python Package Manager\) to the latest version
+### Step 5: Update **pip** \(Python Package Manager\) to the latest version
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir pip
 ```
 
-### Step 9: Install **BigClown Firmware Tool**
+### Step 6: Install **BigClown Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-### Step 10: Add user to **dialout** group
+### Step 7: Add user to **dialout** group
 
 ```text
-sudo adduser [user] dialout
-```
-
-Instead of \[user\] use your user name. For example my user name is peter:
-
-```text
-sudo adduser peter dialout
-```
-
-If you don't know your user name. Use following command:
-
-```text
-whoami
+sudo adduser $USER dialout
 ```
 
 ### Step 11: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try:
