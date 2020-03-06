@@ -185,7 +185,7 @@ sudo pip3 install --upgrade --no-cache-dir pip
 ### Step 6: Install **BigClown Firmware Tool**
 
 ```text
-sudo pip3 install --upgrade --no-cache-dir bcf
+sudo pip3 install --upgrade --no-cache-dir --ignore-installed bcf
 ```
 
 ### Step 7: Add user to **dialout** group
