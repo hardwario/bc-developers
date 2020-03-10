@@ -17,7 +17,7 @@ In the Measurements tab add these telemetry items:
 
 We suggest to use **exactly these names**, because in Node-RED the MQTT topics will directly transform into these names.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ## Create new device in Azure IoT Central
 
@@ -65,7 +65,7 @@ First, create the flow in Node-RED for your device. This example is prepared for
 
 You should see this flow after import
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ## Configure nodes
 
@@ -77,5 +77,5 @@ Press the red **Deploy** button in the top right corner.
 
 Now you are sending data to the Azure IoT Central. This is a simple demonstration. For better scalability the orange **function** node should also search for device name \(alias `push-button:0`\) in the MQTT topic and assign correct device ID and key. It is possible to name your device in IoT Central the same way it is named in MQTT topic so it's possible to map them 1:1.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 

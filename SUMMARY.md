@@ -6,7 +6,7 @@
 
 * [Quick Start Guide](basics/quick-start-guide.md)
 * [HARDWARIO Playground](basics/bigclown-playground.md)
-* [About HARDWARIO](basics/about-bigclown.md)
+* [About HARDWARIO IoT Kit](basics/about-bigclown.md)
 * [Module Overview](basics/module-overview.md)
 * [Enclosures](basics/enclosures.md)
 

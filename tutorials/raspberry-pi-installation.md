@@ -14,6 +14,8 @@ Raspberry Pi is a small, affordable, single-board computer that is able to run L
 
 In the following procedure, we will install the **HARDWARIO Raspbian** Linux distribution. Raspbian is the official and most widely distributed Linux distribution for Raspberry Pi. BigClown maintains a modified version of this distribution that facilitates some steps and includes pre-installed packages that are key to HARDWARIO.
 
+After you flash SD card, connect Ethernet, **Radio Dongle and only after that apply the power** to Raspberry Pi.
+
 ## Requirements
 
 * Raspberry Pi 3 \(Model B\)
@@ -41,7 +43,7 @@ In the following procedure, we will install the **HARDWARIO Raspbian** Linux dis
 3. Select Bigclown Raspian which you also downloaded
 4. Select insered SD card
 5. Click flash
-6. After flash insert microSD card to Raspberry Pi, connect microUSB power adapter and Ethernet cable or use Wifi setup in next chapter
+6. After flash insert microSD card to Raspberry Pi, **you have to connect Radio Dongle before applying power**. Then connect microUSB power adapter and Ethernet cable or use Wifi setup in next chapter
 
 ## WiFi Setup \(optional\)
 
@@ -62,5 +64,15 @@ network={
 }
 ```
 
+## Connecting to HARDWARIO HUB
 
+After Raspberry Pi boots up, use your computer's web browser and enter the Raspberry Pi `IP` address to open the HARDWARIO HUB webpage. On Linux/macOS you can use `hub.local` address.
+
+To find out Raspberry Pi IP you can [follow these instructions](raspberry-pi-login.md#log-in-via).
+
+{% hint style="warning" %}
+**If Start pairing button is disabled and you cannot press it. Please make sure you first connect Radio Dongle and then apply the power to Rasberry Pi.**
+{% endhint %}
+
+![](../.gitbook/assets/image%20%281%29.png)
 

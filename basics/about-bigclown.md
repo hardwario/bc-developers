@@ -1,4 +1,4 @@
-# About HARDWARIO
+# About HARDWARIO IoT Kit
 
 HARDWARIO is a device platform, specifically designed for the Internet-of-Things. With HARDWARIO, you can quickly build your own electronics devices. Thanks to its open approach, you will have a total control about your devices, the way they communicate or integrate with 3rd party components. That will give you a freedom for the future customization and extensibility. With HARDWARIO, you will not encounter things like black box magic or vendor lock-in.
 
