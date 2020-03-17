@@ -11,29 +11,9 @@ HARDWARIO Playground is free **Windows**, **macOS** and **Linux** software that 
 
 ## Download HARDWARIO Playground
 
-{% tabs %}
-{% tab title="Windows" %}
-* 64-bit:
-  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-win-setup-64bit.exe)
-  * [portable](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-windows-64bit.exe)
-* 32-bit:
-  * [installable](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-win-setup-32bit.exe)
-  * [portable](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-windows-32bit.exe)
-{% endtab %}
+Use [HARDWARIO Playground download page](https://www.hardwario.com/download/) which always have the links of the latest version.
 
-{% tab title="macOS" %}
-* [DMG](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-macos.dmg)
-{% endtab %}
-
-{% tab title="Linux" %}
-* AppImage:
-  * [x86\x64](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-linux-x86_64.AppImage)
-* DEB:
-  * [amd64](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-linux-amd64.deb)
-  * [i386](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-linux-i386.deb)
-  * [x64](https://github.com/bigclownlabs/bch-playground/releases/download/v1.1.0/bigclown-playground-1.1.0-linux-x64.tar.gz)
-{% endtab %}
-{% endtabs %}
+Builds are also in github [releases](https://github.com/bigclownlabs/bch-playground/releases).
 
 ## Videotutorials
 
