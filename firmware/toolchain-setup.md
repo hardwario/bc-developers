@@ -170,31 +170,37 @@ sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
 sudo apt update
 ```
 
-### Step 4: Install compiler & necessary tools
+### Step 4: Install common software properties
 
 ```text
-sudo apt install gcc-arm-embedded git dfu-util python3.5 python3-pip python3-setuptools
+sudo apt-get install software-properties-common
 ```
 
-### Step 5: Update **pip** \(Python Package Manager\) to the latest version
+### Step 5: Install compiler & necessary tools
+
+```text
+sudo apt install gcc-arm-embedded git dfu-util python3 python3-pip python3-setuptools
+```
+
+### Step 6: Update **pip** \(Python Package Manager\) to the latest version
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir pip
 ```
 
-### Step 6: Install **BigClown Firmware Tool**
+### Step 7: Install **BigClown Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir --ignore-installed bcf
 ```
 
-### Step 7: Add user to **dialout** group
+### Step 8: Add user to **dialout** group
 
 ```text
 sudo adduser $USER dialout
 ```
 
-### Step 11: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try:
+### Step 9: Continue on the document [**Toolchain Guide**](https://www.bigclown.com/doc/firmware/toolchain-guide/). You may also try:
 
 * [**Integration with Visual Studio Code**](toolchain-setup.md#integration-with-visual-studio-code)
 
