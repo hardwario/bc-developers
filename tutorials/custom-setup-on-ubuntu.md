@@ -42,7 +42,7 @@ sudo npm install -g --unsafe-perm node-red
 ###  **Step 5:** Install **node-red-dashboard** for graphs, gauges, buttons
 
 ```text
-sudo npm install -g pm2
+sudo npm install -g node-red-dashboard
 ```
 
 ### Step 6:   Install **PM2**
