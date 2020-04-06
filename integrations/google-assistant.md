@@ -24,7 +24,7 @@ For now, you can control:
 
 {% hint style="info" %}
 **What is Google Assistant?**  
-Google Assistant is a voice assistant, made by Google. Available on bilions of devices, you can use it to do many things. Now, even control your HARDWARIO IoT Kits.
+Google Assistant is a voice assistant, made by Google. Available on billions of devices, you can use it to do many things. Now, even control your HARDWARIO IoT Kits.
 {% endhint %}
 
 ## Setup
@@ -78,13 +78,13 @@ This snippet prepares Node-RED to fulfill commands from Google Assistant while u
 
 ### Step 3: Get your Auth token
 
-Go to [HARDWARIO Auth page](http://gauth.hardwario.com/) and sign in using a Google Account which you are using with Google Assistant. In your email, you will receive an Auth token.
+Go to [HARDWARIO Auth page](http://ga.hardwario.com/) and sign in using a Google Account which you are using with Google Assistant. In your email, you will receive an Auth token.
 
 ![](../.gitbook/assets/_integrations_hardwario_auth.PNG)
 
+
 Check your email address associated with the Google account you used to sign in.
 
-[email here]
 
 ### Step 4: Configure
 
@@ -129,7 +129,7 @@ Hey Google:
 - Turn on the Power Controller
 - Turn off relay on Power Controller
 - Set the color to red
-- What is Push Button battery level?
+- What is the Push Button battery level?
 - Set the brightness to 50%
 - Lower the brightness
 - What is the temperature of Push Button
@@ -140,9 +140,9 @@ Hey Google:
 
 ## Scenes
 
-Use scene node to create custom commands that you can activate using Google Assistant.
+Use a scene node to create custom commands that you can activate using Google Assistant.
 
-Set up the Scene node with Scene config and connect it to either MQTT node or as an input to to Voice node.
+Set up the Scene node with Scene config and connect it to either MQTT node or as an input to Voice node.
 
 ![](../.gitbook/assets/_integrations_google_assistant_scene_setup.PNG)
 
@@ -156,11 +156,11 @@ Now you can use the button left to the Scene node to send the update.
 
 ![](../.gitbook/assets/_integrations_google_assistant_scene_setup_updated.PNG)
 
-Your node is node updated and you can activate it by saying *"Hey Google, activate {scene name}"*, if you choose to make it reversible, different commands will be sent by saying *"Hey Google, deactivate {scene name}"*
+Your node is node updated and you can activate it by saying *"Hey Google, activate {scene name}"* if you choose to make it reversible, different commands will be sent by saying *"Hey Google, deactivate {scene name}"*
 
 ### Dynamic scenes
 
-You can setup dynamic scenes, which are set based on some confitions in real-time. You can do this by importing following nodes as an example. 
+You can set up dynamic scenes, which are set based on some conditions in real-time. You can do this by importing the following nodes as an example. 
 
 ![](../.gitbook/assets/_integrations_google_assistant_scene_dynamic.PNG)
 
@@ -181,7 +181,7 @@ Fill out all the message topics that you don't want to be sent.
 
 ### Change the number of batteries
 
-As default we use the number of batteries that was provided in the Kit, if you have changed for example the [Mini Battery Module](https://shop.hardwario.com/battery-module/) (2x AAA) to [Battery Module](https://shop.hardwario.com/battery-module/), you can update Google Assistant with following MQTT message, this will ensure that you get correct responses.
+As default we use the number of batteries that were provided in the Kit, if you have changed for example the [Mini Battery Module](https://shop.hardwario.com/battery-module/) (2x AAA) to [Battery Module](https://shop.hardwario.com/battery-module/), you can update Google Assistant with following MQTT message, this will ensure that you get correct responses.
 
 ```javascript
 {
@@ -194,7 +194,7 @@ As default we use the number of batteries that was provided in the Kit, if you h
 
 Use the Google Home app to change the default names to something you like.
 
-Or you can use custom MQTT message to rename the module usign Node-RED:
+Or you can use custom MQTT message to rename the module using Node-RED:
 
 ```javascript
 {
