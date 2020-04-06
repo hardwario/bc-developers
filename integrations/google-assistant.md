@@ -42,11 +42,11 @@ Please set up at least one of the supported modules using [Projects guides](../p
 
 ## Node-RED setup
 
-### **Step 1: Open Node-RED**
+### **Step 0: Open Node-RED**
 
 Open **Node-RED** in [**HARDWARIO Playground**](https://developers.bigclown.com/basics/bigclown-playground) in the **Functions** tab or in your web browser [**http://localhost:1880/**](http://localhost:1880/)
 
-### **Step 2: Install Node-RED package**
+### **Step 1: Install Node-RED package**
 
 Select _Manage pallete_ from the right menu
 
@@ -82,9 +82,7 @@ Go to [HARDWARIO Auth page](http://ga.hardwario.com/) and sign in using a Google
 
 ![](../.gitbook/assets/_integrations_hardwario_auth.PNG)
 
-
 Check your email address associated with the Google account you used to sign in.
-
 
 ### Step 4: Configure
 
@@ -116,9 +114,32 @@ To complete Google Assistant setup, **you need a mobile device**.
 
 Open the Google Home app ([Android](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app&hl=en), [iOS](https://apps.apple.com/us/app/google-home/id680819774))
 
+Create a new home if needed to complete the initial setup.
+
 ### Step 2: Add service
 
+**Make sure to have some devices connected (paired to the Dongle), before continuing.**
+
 Press the + button in the top left corner to add a new service.
+
+![](../.gitbook/assets/_integrations_google_assistant_home_main.jpg)
+
+Tap on _Setup device_, then select _Have something already setup?_
+
+![](../.gitbook/assets/_integrations_google_assistant_home_add.jpg)
+![](../.gitbook/assets/_integrations_google_assistant_home_existing.jpg)
+
+Search for **HARDWARIO** a pick it from the list. You will see a website, use it to Sign in with either your Google account or token. This has to be a same account/token as you used before.
+
+![](../.gitbook/assets/_integrations_google_assistant_home_search.jpg)
+
+### Step 3: Test your devices
+
+After the previous step, you will see your paired modules at the end of the main screen as _Linked to you_.
+
+Tap on each device to assign a room or change it's name.
+
+Integration is ready to be used now.
 
 ## Example commands
 
@@ -156,11 +177,11 @@ Now you can use the button left to the Scene node to send the update.
 
 ![](../.gitbook/assets/_integrations_google_assistant_scene_setup_updated.PNG)
 
-Your node is node updated and you can activate it by saying *"Hey Google, activate {scene name}"* if you choose to make it reversible, different commands will be sent by saying *"Hey Google, deactivate {scene name}"*
+Your node is node updated and you can activate it by saying _"Hey Google, activate {scene name}"_ if you choose to make it reversible, different commands will be sent by saying _"Hey Google, deactivate {scene name}"_
 
 ### Dynamic scenes
 
-You can set up dynamic scenes, which are set based on some conditions in real-time. You can do this by importing the following nodes as an example. 
+You can set up dynamic scenes, which are set based on some conditions in real-time. You can do this by importing the following nodes as an example.
 
 ![](../.gitbook/assets/_integrations_google_assistant_scene_dynamic.PNG)
 
