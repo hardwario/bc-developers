@@ -21,25 +21,25 @@ If you need more permanent solution than **BigClown Playground** you can install
 sudo apt update && sudo apt upgrade
 ```
 
-###  **Step 2:** Install **Mosquitto** server and clients
+### **Step 2:** Install **Mosquitto** server and clients
 
 ```text
 sudo apt install mosquitto mosquitto-clients
 ```
 
-###  **Step 3:** Install **Node.js** version 6 \(required **by** **Node-RED**\)
+### **Step 3:** Install **Node.js** version 6 \(required **by** **Node-RED**\)
 
 ```text
 sudo apt install nodejs nodejs-legacy npm
 ```
 
-###  **Step 4:** Install **Node-RED**
+### **Step 4:** Install **Node-RED**
 
 ```text
 sudo npm install -g --unsafe-perm node-red
 ```
 
-###  **Step 5:** Install **node-red-dashboard** for graphs, gauges, buttons
+### **Step 5:** Install **node-red-dashboard** for graphs, gauges, buttons
 
 ```text
 sudo npm install -g node-red-dashboard
@@ -57,7 +57,7 @@ sudo npm install -g pm2
 pm2 start `which node-red`
 ```
 
-###  **Step 8:** Tell **PM2** to run on boot
+### **Step 8:** Tell **PM2** to run on boot
 
 ```text
 pm2 save
@@ -71,39 +71,39 @@ pm2 startup systemd
 Now you must follow the instructions provided by the command `pm2 startup systemd`.
 {% endhint %}
 
-###  **Step 9:** Install **Python 3** \(required by the HARDWARIO **Firmware Tool** and HARDWARIO **Gateway**\)
+### **Step 9:** Install **Python 3** \(required by the HARDWARIO **Firmware Tool** and HARDWARIO **Gateway**\)
 
 ```text
 sudo apt install python3.5 python3-pip
 ```
 
-###  **Step 10:** Update **pip** \(Python Package Manager\) to the latest version
+### **Step 10:** Update **pip** \(Python Package Manager\) to the latest version
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir pip
 ```
 
-###  **Step 11:** Install the HARDWARIO **Firmware Tool**
+### **Step 11:** Install the HARDWARIO **Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-###  **Step 12:** Install the HARDWARIO **Gateway**
+### **Step 12:** Install the HARDWARIO **Gateway**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcg
 ```
 
-###  **Step 13:** Add yourself to the **dialout** user group
+### **Step 13:** Add yourself to the **dialout** user group
 
 ```text
 sudo usermod $USER -a -G dialout
 ```
 
-###  **Step 14:** Plug the HARDWARIO **Radio Dongle** into a USB port
+### **Step 14:** Plug the HARDWARIO **Radio Dongle** into a USB port
 
-###  **Step 15:** List the available devices
+### **Step 15:** List the available devices
 
 ```text
 bcf devices
@@ -113,7 +113,7 @@ bcf devices
 You can use `-v` parameter to see verbose information about the connected devices \(possibly helping you to identify them\).
 {% endhint %}
 
-###  Step 16: Upload the latest firmware into the HARDWARIO **Radio Dongle**:
+### Step 16: Upload the latest firmware into the HARDWARIO **Radio Dongle**:
 
 ```text
 bcf update
@@ -143,31 +143,31 @@ If you want to update firmware in the **Radio Dongle**, first you have to stop *
 
 ## Playground Upgrade on Ubuntu
 
-###  Upgrade all the packages
+### Upgrade all the packages
 
 ```text
 sudo apt update && sudo apt upgrade
 ```
 
-###  Upgrade **Node-RED**
+### Upgrade **Node-RED**
 
 ```text
 sudo npm update -g node-red
 ```
 
-###  Upgrade **PM2**
+### Upgrade **PM2**
 
 ```text
 sudo npm update -g pm2
 ```
 
-###  Upgrade the HARDWARIO **Firmware Tool**
+### Upgrade the HARDWARIO **Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcf
 ```
 
-###  Upgrade the HARDWARIO **Gateway**
+### Upgrade the HARDWARIO **Gateway**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir bcg

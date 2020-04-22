@@ -4,23 +4,23 @@ With the Google Assistant integration, you can control your HARDWARIO IoT Kits w
 
 For now, you can control:
 
-- [Power Controller](https://shop.hardwario.com/power-controller-kit/)
-  - Control brightness, color, on/off, relay, effects, modes
-  - Get temperature and battery status
-- [Radio Dongle](https://shop.hardwario.com/radio-dongle/)
-  - Turn on/off to start pairing
-- [Push Button](https://shop.hardwario.com/push-button-kit/)
-  - Turn on/off to simulate the button press
-  - Get temperature and battery status
-- [Motion Detector](https://shop.hardwario.com/motion-detector-kit/) (see the instructions at the end)
-  - Arm/Disarm - sends specific topic you can use
-  - Get temperature and battery status
-- [Climate Monitor](https://shop.hardwario.com/climate-monitor-kit/)
-  - Get humidity, temperature and battery status
-- [VOC Sensor](https://shop.hardwario.com/voc-lp-tag/)
-  - Get air quality, temperature and battery status
-- [Flood Detector](https://shop.hardwario.com/flood-detector-kit/)
-  - Get flood status, temperature and battery stats
+* [Power Controller](https://shop.hardwario.com/power-controller-kit/)
+  * Control brightness, color, on/off, relay, effects, modes
+  * Get temperature and battery status
+* [Radio Dongle](https://shop.hardwario.com/radio-dongle/)
+  * Turn on/off to start pairing
+* [Push Button](https://shop.hardwario.com/push-button-kit/)
+  * Turn on/off to simulate the button press
+  * Get temperature and battery status
+* [Motion Detector](https://shop.hardwario.com/motion-detector-kit/) \(see the instructions at the end\)
+  * Arm/Disarm - sends specific topic you can use
+  * Get temperature and battery status
+* [Climate Monitor](https://shop.hardwario.com/climate-monitor-kit/)
+  * Get humidity, temperature and battery status
+* [VOC Sensor](https://shop.hardwario.com/voc-lp-tag/)
+  * Get air quality, temperature and battery status
+* [Flood Detector](https://shop.hardwario.com/flood-detector-kit/)
+  * Get flood status, temperature and battery stats
 
 {% hint style="info" %}
 **What is Google Assistant?**  
@@ -54,13 +54,13 @@ Select _Manage pallete_ from the right menu
 
 Click on **install tab** and type _hardwario_ into the search field. Confirm _@hardwario/node-red-contrib-hardwario-voice_ by pressing install.
 
-![](../.gitbook/assets/_integrations_google_assistant_manage_pallete_install.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_home_existing.jpg)
 
 ### **Step 2: Import flow**
 
-Open the right menu -> Import -> Examples and select HARDWARIO Google Assistant from the package folder
+Open the right menu -&gt; Import -&gt; Examples and select HARDWARIO Google Assistant from the package folder
 
-![](../.gitbook/assets/_integrations_google_assistant_manage_pallete_examples.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_manage_pallete_examples.png)
 
 Or import following JSON:
 
@@ -70,7 +70,7 @@ Or import following JSON:
 
 It will look like this:
 
-![](../.gitbook/assets/_integrations_google_assistant_imported_flow.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_imported_flow%20%281%29.PNG)
 
 {% hint style="info" %}
 This snippet prepares Node-RED to fulfill commands from Google Assistant while updating the devices states
@@ -80,14 +80,13 @@ This snippet prepares Node-RED to fulfill commands from Google Assistant while u
 
 Go to [HARDWARIO Auth page](http://ga.hardwario.com/) and sign in using a Google Account which you are using with Google Assistant. In your email, you will receive an Auth token.
 
-![](../.gitbook/assets/_integrations_hardwario_auth.PNG)
+![](../.gitbook/assets/_integrations_hardwario_auth.png)
 
 Check your email address associated with the Google account you used to sign in.
 
 ### Step 4: Configure
 
-Configure the **Google Assistant node** with the correct Auth token.
-Use the pencil icon on the right to create a new token config with your token.
+Configure the **Google Assistant node** with the correct Auth token. Use the pencil icon on the right to create a new token config with your token.
 
 ### Step 5: Deploy
 
@@ -95,16 +94,16 @@ Deploy the flow using the **Deploy** button in the top-right corner.
 
 The nodes should after a few seconds show the _connected_ status like this:
 
-![](../.gitbook/assets/_integrations_google_assistant_imported_flow_deployed.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_imported_flow_deployed%20%281%29.PNG)
 
 ### Possible errors
 
-- _Missing token_
-  - Make sure that your Auth token is correctly filled out
-- _Pairing error_
-  - Verify that your Auth token and the token you have received in your email match
-- _Not receiving/sending any messages_
-  - Try to restart Node-RED/HARDWARIO Playground, if it doesn't resolve the issue, contact us in the chat
+* _Missing token_
+  * Make sure that your Auth token is correctly filled out
+* _Pairing error_
+  * Verify that your Auth token and the token you have received in your email match
+* _Not receiving/sending any messages_
+  * Try to restart Node-RED/HARDWARIO Playground, if it doesn't resolve the issue, contact us in the chat
 
 ## Google Assistant setup
 
@@ -112,22 +111,21 @@ To complete Google Assistant setup, **you need a mobile device**.
 
 ### Step 1: Google Home app
 
-Open the Google Home app ([Android](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app&hl=en), [iOS](https://apps.apple.com/us/app/google-home/id680819774))
+Open the Google Home app \([Android](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app&hl=en), [iOS](https://apps.apple.com/us/app/google-home/id680819774)\)
 
 Create a new home if needed to complete the initial setup.
 
 ### Step 2: Add service
 
-**Make sure to have some devices connected (paired to the Dongle), before continuing.**
+**Make sure to have some devices connected \(paired to the Dongle\), before continuing.**
 
 Press the + button in the top left corner to add a new service.
 
-![](../.gitbook/assets/_integrations_google_assistant_home_main.jpg)
+![](../.gitbook/assets/_integrations_google_assistant_home_main%20%281%29.jpg)
 
 Tap on _Setup device_, then select _Have something already setup?_
 
-![](../.gitbook/assets/_integrations_google_assistant_home_add.jpg)
-![](../.gitbook/assets/_integrations_google_assistant_home_existing.jpg)
+![](../.gitbook/assets/_integrations_google_assistant_home_add.jpg) ![](../.gitbook/assets/_integrations_google_assistant_home_existing%20%281%29.jpg)
 
 Search for **HARDWARIO** a pick it from the list. You will see a website, use it to Sign in with either your Google account or token. This has to be a same account/token as you used before.
 
@@ -147,17 +145,17 @@ Get some inspiration for things you can say!
 
 Hey Google:
 
-- Turn on the Power Controller
-- Turn off relay on Power Controller
-- Set the color to red
-- What is the Push Button battery level?
-- Set the brightness to 50%
-- Lower the brightness
-- What is the temperature of Push Button
-- What is the humidity of Climate Monitor
-- Turn on the Push Button
-- Disarm the Motion Detector
-- Turn on the Radio Dongle (starts pairing mode)
+* Turn on the Power Controller
+* Turn off relay on Power Controller
+* Set the color to red
+* What is the Push Button battery level?
+* Set the brightness to 50%
+* Lower the brightness
+* What is the temperature of Push Button
+* What is the humidity of Climate Monitor
+* Turn on the Push Button
+* Disarm the Motion Detector
+* Turn on the Radio Dongle \(starts pairing mode\)
 
 ## Scenes
 
@@ -165,17 +163,17 @@ Use a scene node to create custom commands that you can activate using Google As
 
 Set up the Scene node with Scene config and connect it to either MQTT node or as an input to Voice node.
 
-![](../.gitbook/assets/_integrations_google_assistant_scene_setup.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_scene_setup.png)
 
 Fill out the Scene node config:
 
-![](../.gitbook/assets/_integrations_google_assistant_scene_config.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_scene_config.png)
 
 Save the changes to the config and press **Deploy**
 
 Now you can use the button left to the Scene node to send the update.
 
-![](../.gitbook/assets/_integrations_google_assistant_scene_setup_updated.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_scene_setup_updated.png)
 
 Your node is node updated and you can activate it by saying _"Hey Google, activate {scene name}"_ if you choose to make it reversible, different commands will be sent by saying _"Hey Google, deactivate {scene name}"_
 
@@ -183,7 +181,7 @@ Your node is node updated and you can activate it by saying _"Hey Google, activa
 
 You can set up dynamic scenes, which are set based on some conditions in real-time. You can do this by importing the following nodes as an example.
 
-![](../.gitbook/assets/_integrations_google_assistant_scene_dynamic.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_scene_dynamic.png)
 
 ```text
 [{"id":"47e1ca7.8849d34","type":"inject","z":"8a5b93d7.0fff5","name":"Update scene","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":376,"y":217.00000667572021,"wires":[["c8b3c85d.965198"]]},{"id":"c8b3c85d.965198","type":"function","z":"8a5b93d7.0fff5","name":"Dynamic scene","func":"msg.topic = \"node/testScene/scene/-/set\";\nmsg.payload = {\n    name: \"Test scene\",\n    id: \"testScene\", //id must match id in topic\n    alias: \"testScene\",\n    nicknames: [\n        \"Test scene\",\n        \"Testing scene\"\n        ],\n    commands: [\n        {\n            topic: \"node/power-controller:0/led-strip/-/color/set\",\n            payload: '\"#ffffff(00)\"'\n        }\n        ],\n    reverseCommands: [\n        {\n            topic: \"node/power-controller:0/led-strip/-/color/set\",\n            payload: '\"#000000(00)\"'\n        }\n        ],\n    reversible: true\n}\nmsg.payload = JSON.stringify(msg.payload);\nreturn msg;","outputs":1,"noerr":0,"x":565.0000953674316,"y":217.0000467300415,"wires":[["c4a9ef46.d553"]]}]
@@ -197,12 +195,11 @@ Use the **Switch node** for any messages that you don't want to be sent to the G
 
 Fill out all the message topics that you don't want to be sent.
 
-![](../.gitbook/assets/_integrations_google_assistant_filter.PNG)
-![](../.gitbook/assets/_integrations_google_assistant_filter_setup.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_filter.PNG) ![](../.gitbook/assets/_integrations_google_assistant_filter_setup%20%281%29.PNG)
 
 ### Change the number of batteries
 
-As default we use the number of batteries that were provided in the Kit, if you have changed for example the [Mini Battery Module](https://shop.hardwario.com/battery-module/) (2x AAA) to [Battery Module](https://shop.hardwario.com/battery-module/), you can update Google Assistant with following MQTT message, this will ensure that you get correct responses.
+As default we use the number of batteries that were provided in the Kit, if you have changed for example the [Mini Battery Module](https://shop.hardwario.com/battery-module/) \(2x AAA\) to [Battery Module](https://shop.hardwario.com/battery-module/), you can update Google Assistant with following MQTT message, this will ensure that you get correct responses.
 
 ```javascript
 {
@@ -237,6 +234,7 @@ You can arm/disarm the [Motion Detector](https://shop.hardwario.com/motion-detec
 
 You can use this message to create conditions and flow to limit the Motion Detector.
 
-Feel free to modify the example you can get from _Menu -> Import -> Examples -> Package name -> Alarm example_
+Feel free to modify the example you can get from _Menu -&gt; Import -&gt; Examples -&gt; Package name -&gt; Alarm example_
 
-![](../.gitbook/assets/_integrations_google_assistant_alarm_setup.PNG)
+![](../.gitbook/assets/_integrations_google_assistant_alarm_setup%20%281%29.PNG)
+
