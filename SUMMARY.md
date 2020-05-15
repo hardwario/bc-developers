@@ -40,6 +40,7 @@
 * [Radio VOC sensor](projects/radio-voc-sensor.md)
 * [LoRa Climate Monitor](projects/lora-climate-monitor.md)
 * [LoRa 1-Wire Thermometer](projects/lora-1-wire-thermometer.md)
+* [Private LoRa network with Mikrotik & ChirpStack](projects/private-lora-network-with-mikrotik-and-chirpstack.md)
 
 ## Interfaces
 
