@@ -1,4 +1,4 @@
-# MQTT topics
+# MQTT Topics
 
 ## Generic Node Topics
 
