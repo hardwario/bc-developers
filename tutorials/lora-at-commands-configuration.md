@@ -74,6 +74,10 @@ To write the parameter:
 AT$APPSKEY=BF22C15EB89237A65DAABB05B2C91EB4
 ```
 
+{% hint style="info" %}
+You can use online key generators for testing purporses [https://www.loratools.nl/\#/keys](https://www.loratools.nl/#/keys)
+{% endhint %}
+
 ## OTAA - Over-the-Air Activation
 
 OTAA means that the session keys \(the ones with **S** in the name\) are generated on the server and transfered to your LoRa Module automatically after the **JOIN** command. If your backend does not support OTAA, follow the **ABP** chapter below. If you're not sure which activation type to use, start with `OTAA`.
