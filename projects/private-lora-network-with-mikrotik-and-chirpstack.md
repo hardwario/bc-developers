@@ -60,9 +60,13 @@ On your server you can run `sudo journalctl -f -n 100 -u chirpstack-gateway-brid
 
 Then follow [these steps in ChirpStack tutorial](https://www.chirpstack.io/guides/first-gateway-device/) to add your network-server, gateway, organization and profiles as explained
 
+## Useful links & Tutorials
 
+[HARDWARIO Kit LoRa AT commands configuration](../tutorials/lora-at-commands-configuration.md)
 
-|  |
-| :--- |
+[HARDWARIO LoRa Tester with LCD & GPS](https://www.hackster.io/160709/lora-tester-with-lcd-gps-open-configurable-low-power-4a5b61), more information also in our e-shop.
+
+[HARDWARIO LoRa Climate Kit](https://www.hackster.io/hubmartin/lora-climate-monitor-easy-open-low-power-and-with-graphs-7bacc2)
+
 
 
