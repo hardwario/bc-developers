@@ -158,43 +158,55 @@ The following procedure has been tested on **Ubuntu 18.04.1 LTS**.
 
 ### Step 1: Open the **Terminal** application
 
-### Step 2: Add the following PPA to the list of available repositories
+### Step 2: Download libisl15 library
 
 ```text
-sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
+wget http://mirrors.kernel.org/ubuntu/pool/main/i/isl/libisl15_0.16.1-1_amd64.deb
 ```
 
-### Step 3: Update the index of the available packages
+### Step 3: Install libisl15 library
+
+```text
+sudo dpkg -i libisl15_0.16.1-1_amd64.deb
+```
+
+### Step 4: Add team-gcc-arm-embedded-ubuntu repository to source list
+
+```text
+echo "deb http://ppa.launchpad.net/team-gcc-arm-embedded/ppa/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/team-gcc-arm-embedded-ubuntu-ppa-eoan.list
+```
+
+### Step 5: Update the index of the available packages
 
 ```text
 sudo apt update
 ```
 
-### Step 4: Install common software properties
+### Step 6: Install common software properties
 
 ```text
 sudo apt-get install software-properties-common
 ```
 
-### Step 5: Install compiler & necessary tools
+### Step 7: Install compiler & necessary tools
 
 ```text
 sudo apt install gcc-arm-embedded git dfu-util python3 python3-pip python3-setuptools
 ```
 
-### Step 6: Update **pip** \(Python Package Manager\) to the latest version
+### Step 8: Update **pip** \(Python Package Manager\) to the latest version
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir pip
 ```
 
-### Step 7: Install **BigClown Firmware Tool**
+### Step 9: Install **BigClown Firmware Tool**
 
 ```text
 sudo pip3 install --upgrade --no-cache-dir --ignore-installed bcf
 ```
 
-### Step 8: Add user to **dialout** group
+### Step 10: Add user to **dialout** group
 
 ```text
 sudo adduser $USER dialout
