@@ -153,7 +153,7 @@ sudo pip3 install --upgrade --no-cache-dir bcf
 ## Setup on Ubuntu
 
 {% hint style="warning" %}
-The following procedure has been tested on **Ubuntu 18.04.1 LTS**.
+The following procedure has been tested on **Ubuntu 20.04 LTS**.
 {% endhint %}
 
 ### Step 1: Open the **Terminal** application
