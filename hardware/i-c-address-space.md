@@ -13,7 +13,7 @@ All addresses are provided in a 7-bit format.
 | 0x22 | TCA9534 | RFID Module |  |
 | 0x23 | TCA9534 | Infragrid Module |  |
 | 0x24 | TCA9534 | Ethernet Module |  |
-| 0x25 | TCA9534 |  | Reserved |
+| 0x25 | TCA9534 |  | Audio Module |
 | 0x26 | TCA9534 |  | Reserved |
 | 0x27 | TCA9534 |  | Reserved |
 | 0x38 | TCA9534A | [CO2 Module](https://shop.bigclown.com/co2-module) |  |
