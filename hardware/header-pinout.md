@@ -114,6 +114,8 @@ Format **tag** defines:
 
 ## Tag Drawing & Pinout
 
+**Top view**
+
 ![](../.gitbook/assets/_hardware_header-pinout_tag.png)
 
 ## Tag Signals
