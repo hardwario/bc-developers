@@ -22,6 +22,7 @@
 * [Custom Setup on Turris](tutorials/custom-setup-on-turris.md)
 * [MySigfox.com Service](tutorials/mysigfox.com-service.md)
 * [LoRa AT Commands Configuration](tutorials/lora-at-commands-configuration.md)
+* [MQTT to InfluxDB](tutorials/mqtt-to-influxdb.md)
 * [GitHub Repositories](tutorials/github-repositories.md)
 
 ## Projects

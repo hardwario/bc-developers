@@ -1,4 +1,4 @@
-# MQTT Topics
+# MQTT topics
 
 ## Generic Node Topics
 
@@ -95,7 +95,7 @@ Allowed values for payload are `true`/`false`
 Detailed list of topics is in **README** in GitHub repository [**bch-gateway**](https://github.com/bigclownlabs/bch-gateway)
 
 {% hint style="info" %}
-Replace `{id}` with **id** or **name** of gateway, use "all" for request to all.   
+Replace `{id}` with **id** or **name** of gateway, use "all" for request to all.  
 Also to see the MQTT responses open the Node-RED debug tab or run this console command `mosquitto_sub -t gateway/#`.
 {% endhint %}
 

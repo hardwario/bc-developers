@@ -174,7 +174,7 @@ sudo pip3 install --upgrade mqtt2influxdb
 ### Step 2: Create the `/etc/bigclown` directory
 
 ```text
-sudo mkdir /etc/bigclown
+sudo mkdir /etc/hardwario
 ```
 
 ### Step 3: Open the configuration file
@@ -184,12 +184,14 @@ For text editing, we use **nano** editor. You can save changes by pressing key c
 {% endhint %}
 
 ```text
-sudo nano /etc/bigclown/mqtt2influxdb.yml
+sudo nano /etc/hardwario/mqtt2influxdb.yml
 ```
 
 ### Step 4: Paste this snippet to the configuration file
 
-{% code title="/etc/bigclown/mqtt2influxdb.yml" %}
+Configuration possibilities and structure are described at article about [`mqtt2influxdb`](../tutorials/mqtt-to-influxdb.md#configuration-file-structure-and-possibilities).
+
+{% code title="/etc/hardwario/mqtt2influxdb.yml" %}
 ```yaml
 mqtt:
   host: 127.0.0.1
@@ -261,13 +263,13 @@ In the section **tags** you can your identifiers, e.g.: `tags: room: bedroom`
 ### Step 5: Configuration file test
 
 ```text
-mqtt2influxdb -c /etc/bigclown/mqtt2influxdb.yml --test
+mqtt2influxdb -c /etc/hardwario/mqtt2influxdb.yml --test
 ```
 
 ### Step 6: Start the **MQTT to InfluxDB** service
 
 ```text
-pm2 start `which python3` --name "mqtt2influxdb" -- `which mqtt2influxdb` -c /etc/bigclown/mqtt2influxdb.yml
+pm2 start `which python3` --name "mqtt2influxdb" -- `which mqtt2influxdb` -c /etc/hardwario/mqtt2influxdb.yml
 ```
 
 ### Step 7: Save the **PM2 state** \(so it will start after reboot\)
