@@ -8,3 +8,7 @@
 
 [Firmware Quick Start](firmware/firmware-quick-start.md)
 
+{% hint style="info" %}
+For even more support and help also visit [https://forum.hardwario.com/](https://forum.hardwario.com/)
+{% endhint %}
+
