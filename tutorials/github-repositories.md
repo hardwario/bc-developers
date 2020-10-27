@@ -2,7 +2,7 @@
 
 The HARDWARIO system is open-source and is developed through the **GitHub** platform, where you can find source data in individual repositories or download the pre-compiled packages from the section **Releases**.
 
-The GitHub organization name is **hardwario-kit** and you can find its page at [**https://github.com/hardwario-kit**](https://github.com/hardwario-kit)\*\*\*\*
+The GitHub organization name is **hardwario** and you can find its page at [**https://github.com/hardwario**](https://github.com/hardwario)\*\*\*\*
 
 More projects can be found on HARDWARIO Projects GitHub organization [**https://github.com/hardwario-projects**](https://github.com/hardwario-projects)\*\*\*\*
 
