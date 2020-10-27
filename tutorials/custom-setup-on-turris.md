@@ -20,7 +20,7 @@ opkg update
 ### Step 2: Install the driver for the HARDWARIO **Radio Dongle** and HARDWARIO **Core module**:
 
 ```text
-opkg install kmod-usb-serial-ftdi kmod-usb-acm
+opkg install kmod-usb-serial-ftdi kmod-usb-acm kmod-usb-serial
 insmod ftdi_sio
 insmod cdc_acm
 ```
